@@ -1,19 +1,19 @@
 <?php
 /**
  * =======================================================================================
- *                           GemFramework (c) gempixel.com                                     
+ *                           GemFramework (c) Xsantana                                     
  * ---------------------------------------------------------------------------------------
  *  This software is packaged with an exclusive framework as such distribution
  *  or modification of this framework is not allowed before prior consent from
- *  gempixel.com. If you find that this framework is packaged in a software not distributed 
- *  by gempixel.com or authorized parties, you must not use this software and contact gempixel.com
- *  at https://gempixel.com/contact to inform them of this misuse.
+ *  Xsantana. If you find that this framework is packaged in a software not distributed 
+ *  by Xsantana or authorized parties, you must not use this software and contact Xsantana
+ *  at https://piliruma.co.id/contact to inform them of this misuse.
  * =======================================================================================
  *
- * @package gempixel.com\Premium-URL-Shortener
- * @author Xsantana 
- * @license https://gempixel.com/licenses
- * @link https://gempixel.com  
+ * @package Xsantana\Premium-URL-Shortener
+ * @author Xsantana (https://piliruma.co.id) 
+ * @license https://piliruma.co.id/licenses
+ * @link https://piliruma.co.id  
  */
 
 namespace Helpers\Payments;
@@ -31,7 +31,7 @@ class Stripe{
 	/**
 	 * Generate Payment Form
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @return void
 	 */
@@ -85,7 +85,7 @@ class Stripe{
 	/**
 	 * Checkout
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @return void
 	 */
@@ -153,7 +153,7 @@ class Stripe{
 	/**
 	 * Payment
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @param Request $request
 	 * @param integer $id
@@ -420,7 +420,7 @@ class Stripe{
 	/**
 	 * Webhook
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @return void
 	 */
@@ -570,7 +570,7 @@ class Stripe{
 	/**
 	 * Create Plan
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @return void
 	 */
@@ -622,7 +622,7 @@ class Stripe{
 	/**
 	 * Update Plan
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @return void
 	 */
@@ -678,7 +678,7 @@ class Stripe{
 	/**
 	 * Sync Plans
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @param [type] $plan
 	 * @return void
@@ -732,7 +732,7 @@ class Stripe{
 	/**
 	 * Cancel User Subscription
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @param [type] $user
 	 * @param [type] $subscription
@@ -793,7 +793,7 @@ class Stripe{
 	/**
 	 * Create coupon
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.1
 	 * @param $request
 	 * @return void
@@ -821,7 +821,7 @@ class Stripe{
 	/**
 	 * Create Tax
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.2
 	 * @param [type] $request
 	 * @return void

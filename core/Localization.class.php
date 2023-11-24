@@ -1,21 +1,21 @@
 <?php 
 /**
  * ====================================================================================
- *                           GemFramework (c) gempixel.com
+ *                           GemFramework (c) Xsantana
  * ----------------------------------------------------------------------------------
- *  This software is packaged with an exclusive framework owned by gempixel.com Inc as such
+ *  This software is packaged with an exclusive framework owned by Xsantana Inc as such
  *  distribution or modification of this framework is not allowed before prior consent
- *  from gempixel.com administrators. If you find that this framework is packaged in a 
- *  software not distributed by gempixel.com or authorized parties, you must not use this
- *  sofware and contact gempixel.com at https://gempixel.com/contact to inform them of this
+ *  from Xsantana administrators. If you find that this framework is packaged in a 
+ *  software not distributed by Xsantana or authorized parties, you must not use this
+ *  sofware and contact Xsantana at https://piliruma.co.id/contact to inform them of this
  *  misuse otherwise you risk of being prosecuted in courts.
  * ====================================================================================
  *
  * @package Core\Middleware 
- * @author gempixel.com (http://gempixel.com.com)
- * @copyright 2020 gempixel.com
- * @license http://gempixel.com.com/license
- * @link http://gempixel.com.com  
+ * @author Xsantana (http://Xsantana.com)
+ * @copyright 2020 Xsantana
+ * @license http://Xsantana.com/license
+ * @link http://Xsantana.com  
  * @since 1.0
  */
 namespace Core;
@@ -27,56 +27,56 @@ class Localization {
     /**
      * Current Locale
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 1.0
      */
     private static $locale = null;
     /**
      * Default File
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 1.0
      */
     private static $defaultFile = 'app';
     /**
      * Locale Name
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 1.0
      */
     private static $name = null;
     /**
      * Locale Code
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 1.0
      */
     private static $code = null;
     /**
      * Locale Region
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      */
     private static $region = "en_US";
     /**
      * RTL
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      */
     private static $rtl = null;
     /**
      * Locale Author
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 1.0
      */
     private static $author = null;
     /**
      * Language List
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 1.0
      */
     private static $list;
@@ -84,7 +84,7 @@ class Localization {
     /**
      * Set App Locale
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 1.0
      * @param [type] $name
      * @return void
@@ -95,7 +95,7 @@ class Localization {
     /**
      * Set Default File
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 1.0
      * @param [type] $name
      * @return void
@@ -106,7 +106,7 @@ class Localization {
     /**
      * Return current Locale
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 1.0
      * @return void
      */
@@ -119,7 +119,7 @@ class Localization {
     /**
      * Bootstrap
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 1.0
      */
     static function bootstrap(){
@@ -143,7 +143,7 @@ class Localization {
     /**
      * Return variable
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      * @param [type] $name
      * @return void
@@ -154,7 +154,7 @@ class Localization {
     /**
      * Update language
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 1.0
      * @return void
      */
@@ -173,7 +173,7 @@ class Localization {
     /**
      * Get Locale String
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 1.0
      * @param string $string
      * @param mixed $count
@@ -203,7 +203,7 @@ class Localization {
     /**
      * Get List of language files
      *
-     * @author Xsantana      
+     * @author Xsantana <https://piliruma.co.id>      
      * @version 1.0
      * @param $limit Number of language files
      * @return array list
@@ -224,7 +224,7 @@ class Localization {
     /**
      * Get List of languages with data
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 1.0
      * @return void
      */
@@ -241,7 +241,7 @@ class Localization {
     /**
      * Get Language String 
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 1.0
      * @param [type] $string
      * @return void
@@ -261,7 +261,7 @@ class Localization {
     /**
      * Does lang exists
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.2
      * @param [type] $lang
      * @return void

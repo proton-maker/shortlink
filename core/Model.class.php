@@ -151,7 +151,7 @@ class ORMWrapper extends ORM {
   }
   /**
    * Return
-   * @author Xsantana
+   * @author Xsantana <https://piliruma.co.id>
    * @version 1.0
    * @param   [type] $id [description]
    * @return  [type]     [description]
@@ -161,7 +161,7 @@ class ORMWrapper extends ORM {
   } 
   /**
    * Fetch and Map Data
-   * @author Xsantana
+   * @author Xsantana <https://piliruma.co.id>
    * @version 1.0
    * @param   Closure $fn [description]
    * @return  [type]      [description]
@@ -201,7 +201,7 @@ class ORMWrapper extends ORM {
   /**
    * Paginate
    *
-   * @author Xsantana 
+   * @author Xsantana <https://piliruma.co.id> 
    * @version 6.0
    * @param integer $count
    * @return void
@@ -282,7 +282,7 @@ class Model {
 
   /**
    * Constructor
-   * @author Xsantana
+   * @author Xsantana <https://piliruma.co.id>
    * @version 1.0
    */
   public function __construct(){
@@ -785,7 +785,7 @@ class Model {
   }
   /**
    * Map Data
-   * @author Xsantana
+   * @author Xsantana <https://piliruma.co.id>
    * @version 1.0
    * @param   \Closure $fn [description]
    * @return  [type]       [description]

@@ -1,19 +1,19 @@
 <?php
 /**
  * =======================================================================================
- *                           GemFramework (c) gempixel.com
+ *                           GemFramework (c) Xsantana                                     
  * ---------------------------------------------------------------------------------------
  *  This software is packaged with an exclusive framework as such distribution
  *  or modification of this framework is not allowed before prior consent from
- *  gempixel.com. If you find that this framework is packaged in a software not distributed
- *  by gempixel.com or authorized parties, you must not use this software and contact gempixel.com
- *  at https://gempixel.com/contact to inform them of this misuse.
+ *  Xsantana. If you find that this framework is packaged in a software not distributed 
+ *  by Xsantana or authorized parties, you must not use this software and contact Xsantana
+ *  at https://piliruma.co.id/contact to inform them of this misuse.
  * =======================================================================================
  *
- * @package gempixel.com\Premium-URL-Shortener
- * @author Xsantana
- * @license https://gempixel.com/licenses
- * @link https://gempixel.com
+ * @package Xsantana\Premium-URL-Shortener
+ * @author Xsantana (https://piliruma.co.id) 
+ * @license https://piliruma.co.id/licenses
+ * @link https://piliruma.co.id  
  */
 
 namespace Traits;
@@ -27,7 +27,7 @@ trait Pixels {
     /**
      * Pixels
      *
-     * @author Xsantana
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.1.8
      * @param [type] $type
      * @param [type] $action
@@ -37,78 +37,78 @@ trait Pixels {
         $list = [
             "gtmpixel" => [
                 'name' => 'Google Tag Manager',
-                'icon' => 'gtm.svg',
+                'icon' => 'gtm.svg',                
                 'validate' => [self::class, 'gtmRule'],
                 'display' => [self::class, 'gtmpixel']
             ],
             "gapixel" => [
                 'name' => 'Google Analytics',
-                'icon' => 'ga.svg',
+                'icon' => 'ga.svg',                
                 'validate' => [self::class, 'gaRule'],
                 'display' => [self::class, 'gapixel']
             ],
             "fbpixel" => [
                 'name' => 'Facebook',
-                'icon' => 'facebook.svg',
+                'icon' => 'facebook.svg',                
                 'validate' => [self::class, 'fbRule'],
                 'display' => [self::class, 'fbpixel']
             ],
             "adwordspixel" => [
                 'name' => 'Google Ads',
-                'icon' => 'adwords.svg',
+                'icon' => 'adwords.svg',                
                 'validate' => [self::class, 'adwordsRule'],
                 'display' => [self::class, 'adwordspixel']
             ],
             "linkedinpixel" => [
                 'name' => 'LinkedIn',
-                'icon' => 'linkedin.svg',
+                'icon' => 'linkedin.svg',                
                 'validate' => [self::class, 'linkedinRule'],
                 'display' => [self::class, 'linkedinpixel']
             ],
             "twitterpixel" => [
                 'name' => 'Twitter',
-                'icon' => 'twitter.svg',
+                'icon' => 'twitter.svg',                
                 'validate' => [self::class, 'twitterRule'],
                 'display' => [self::class, 'twitterpixel']
             ],
             "adrollpixel" => [
                 'name' => 'AdRoll',
-                'icon' => 'adroll.svg',
+                'icon' => 'adroll.svg',                
                 'validate' => [self::class, 'adrollRule'],
                 'display' => [self::class, 'adrollpixel']
             ],
             "quorapixel" => [
                 'name' => 'Quora',
-                'icon' => 'quora.svg',
+                'icon' => 'quora.svg',                
                 'validate' => [self::class, 'quoraRule'],
                 'display' => [self::class, 'quorapixel']
             ],
             "pinterest" => [
                 'name' => 'Pinterest',
-                'icon' => 'pinterest.svg',
+                'icon' => 'pinterest.svg',                
                 'validate' => [self::class, 'pinterestRule'],
                 'display' => [self::class, 'pinterest']
             ],
             "bing" => [
                 'name' => 'Bing',
-                'icon' => 'bing.svg',
+                'icon' => 'bing.svg',                
                 'validate' => [self::class, 'bingRule'],
                 'display' => [self::class, 'bing']
             ],
             "snapchat" => [
                 'name' => 'Snapchat',
-                'icon' => 'snapchat.svg',
+                'icon' => 'snapchat.svg',                
                 'validate' => [self::class, 'snapchatRule'],
                 'display' => [self::class, 'snapchat']
             ],
             "reddit" => [
                 'name' => 'Reddit',
-                'icon' => 'reddit.svg',
+                'icon' => 'reddit.svg',                
                 'validate' => [self::class, 'redditRule'],
                 'display' => [self::class, 'reddit']
             ],
-        ];
-
+        ];    
+        
         if($extended = \Core\Plugin::dispatch('pixels.extend')){
 			foreach($extended as $fn){
 				$list = array_merge($list, $fn);
@@ -124,150 +124,150 @@ trait Pixels {
     /**
      * Rule for facebook pixel
      *
-     * @author Xsantana
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.1.8
      * @return void
      */
-    public static function fbRule($tag){
+    public static function fbRule($tag){    
         if(!is_numeric($tag) || (strlen($tag) > 20)) throw new \Exception(("Facebook pixel ID is not correct. Please double check."));
         return true;
     }
     /**
      * Rule for adwords pixel
      *
-     * @author Xsantana
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.1.8
      * @return void
      */
-    public static function adwordsRule($tag){
+    public static function adwordsRule($tag){    
         if(strlen($tag) > 40) throw new \Exception(e("Google Ads pixel ID is not correct. Please double check."));
         return true;
     }
     /**
      * Rule for linkedin pixel
      *
-     * @author Xsantana
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.1.8
      * @return void
      */
-    public static function linkedinRule($tag){
+    public static function linkedinRule($tag){    
         if(strlen($tag) > 10) throw new \Exception(e("LinkedIn ID is not correct. Please double check."));
         return true;
     }
     /**
      * Rule for twitter pixel
      *
-     * @author Xsantana
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.1.8
      * @return void
      */
-    public static function twitterRule($tag){
+    public static function twitterRule($tag){    
         if(strlen($tag) > 15) throw new \Exception(e("Twitter ID is not correct. Please double check."));
         return true;
     }
     /**
      * Rule for adroll pixel
      *
-     * @author Xsantana
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.1.8
      * @return void
      */
-    public static function adrollRule($tag){
+    public static function adrollRule($tag){    
         if(strlen($tag) > 50) throw new \Exception(e("AdRoll ID is not correct. Please double check."));
         return true;
     }
     /**
      * Rule for quora pixel
      *
-     * @author Xsantana
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.1.8
      * @return void
      */
-    public static function quoraRule($tag){
+    public static function quoraRule($tag){    
         if(strlen($tag) < 30) throw new \Exception(e("Quora ID is not correct. Please double check."));
         return true;
     }
     /**
      * Rule for gtm pixel
      *
-     * @author Xsantana
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.1.8
      * @return void
      */
-    public static function gtmRule($tag){
+    public static function gtmRule($tag){            
         if(strlen($tag) < 5 || strpos($tag, "GTM") === false) throw new \Exception(e("GTM container ID is not correct. Please double check."));
         return true;
     }
     /**
      * Rule for ga pixel
      *
-     * @author Xsantana
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.1.8
      * @return void
      */
-    public static function gaRule($tag){
+    public static function gaRule($tag){    
         if(strlen($tag) < 5) throw new \Exception(e("Google Analytics ID is not correct. Please double check."));
         return true;
     }
     /**
      * Rule for snapchat pixel
      *
-     * @author Xsantana
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.1.8
      * @param [type] $tag
      * @return void
      */
-    public static function snapchatRule($tag){
+    public static function snapchatRule($tag){    
         if(strlen($tag) < 5) throw new \Exception(e("Snapchat ID is not correct. Please double check."));
         return true;
     }
     /**
      * Pixel rule
      *
-     * @author Xsantana
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.1.8
      * @param [type] $tag
      * @return void
-     */
-    public static function pinterestRule($tag){
+     */    
+    public static function pinterestRule($tag){    
         if(strlen($tag) < 5) throw new \Exception(e("Pinterest ID is not correct. Please double check."));
         return true;
     }
     /**
      * Pixel rule
      *
-     * @author Xsantana
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.1.8
      * @param [type] $tag
      * @return void
      */
-    public static function redditRule($tag){
+    public static function redditRule($tag){    
         if(strlen($tag) < 5) throw new \Exception(e("Reddit ID is not correct. Please double check."));
         return true;
     }
     /**
      * Pixel rule
      *
-     * @author Xsantana
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.1.8
      * @param [type] $tag
      * @return void
      */
-    public static function bingRule($tag){
+    public static function bingRule($tag){    
         if(strlen($tag) < 5) throw new \Exception(e("Bing ID is not correct. Please double check."));
         return true;
     }
     /**
      * Validate Pixel
      *
-     * @author Xsantana
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.1.8
      * @param [type] $type
      * @param [type] $tag
      * @return void
      */
     public static function validate($type, $tag){
-
+        
         $pixels = self::pixels();
 
         if(isset($pixels[$type])){
@@ -279,16 +279,16 @@ trait Pixels {
     /**
      * Display Pixel Code
      *
-     * @author Xsantana
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.1.8
      * @param [type] $type
      * @param [type] $tag
      * @return void
      */
     public static function display($type, $tag){
-
+        
         $pixels = self::pixels();
-
+    
         if(isset($pixels[$type])){
             return \call_user_func($pixels[$type]['display'], $tag);
         }
@@ -296,7 +296,7 @@ trait Pixels {
 
     /**
 	 * Facebook Pixel
-	 * @author KBRmedia <http://gempixel.com.com>
+	 * @author KBRmedia <http://Xsantana.com>
 	 * @version 6.0
 	 * @param  string $id
 	 */
@@ -307,7 +307,7 @@ trait Pixels {
 	}
 	/**
 	 * Adwords Pixel
-	 * @author KBRmedia <http://gempixel.com.com>
+	 * @author KBRmedia <http://Xsantana.com>
 	 * @version 1.0
 	 * @param  string $id
 	 */
@@ -317,10 +317,10 @@ trait Pixels {
 		$Eid = explode("/", $id);
 
 		return "<!--adwordspixel--><script async src='https://www.googletagmanager.com/gtag/js?id={$Eid[0]}'></script><script type='text/javascript'>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', '{$Eid[0]}');gtag('event', 'conversion', {'send_to': '{$id}'});</script>";
-	}
+	}	
 	/**
 	 * Lnkedin Pixel
-	 * @author KBRmedia <http://gempixel.com.com>
+	 * @author KBRmedia <http://Xsantana.com>
 	 * @version 6.0
 	 * @param  string $id
 	 */
@@ -328,10 +328,10 @@ trait Pixels {
 		if(empty($id) || strlen($id) < 6) return;
 
 		return '<!--linkedinpixel--><script type="text/javascript">_linkedin_data_partner_id = "'.$id.'";</script><script type="text/javascript">(function(){var s = document.getElementsByTagName("script")[0];var b = document.createElement("script");b.type = "text/javascript";b.async = true;b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";s.parentNode.insertBefore(b, s);})();</script>';
-	}
+	}	
 	/**
 	 * Adroll Pixel
-	 * @author KBRmedia <http://gempixel.com.com>
+	 * @author KBRmedia <http://Xsantana.com>
 	 * @version 5.1
 	 * @param  string $id
 	 */
@@ -346,7 +346,7 @@ trait Pixels {
 	}
 	/**
 	 * Twitter Pixel
-	 * @author KBRmedia <http://gempixel.com.com>
+	 * @author KBRmedia <http://Xsantana.com>
 	 * @version 5.1
 	 * @param  string $id
 	 */
@@ -355,17 +355,17 @@ trait Pixels {
 	}
 	/**
 	 * Quora Pixel
-	 * @author KBRmedia <https://gempixel.com>
+	 * @author KBRmedia <https://piliruma.co.id>
 	 * @version 5.6.3
 	 * @param  string $id
 	 */
 	public static function quorapixel($id){
 		return "<!--quorapixel--><script>!function(q,e,v,n,t,s){if(q.qp) return; n=q.qp=function(){n.qp?n.qp.apply(n,arguments):n.queue.push(arguments);}; n.queue=[];t=document.createElement(e);t.async=!0;t.src=v; s=document.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t,s);}(window, 'script', 'https://a.quora.com/qevents.js');qp('init', '$id');qp('track', 'ViewContent');</script>";
-	}
+	}	
     /**
      * Google Tag Manager
      *
-     * @author Xsantana
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      * @param string $id
      * @return void
@@ -376,7 +376,7 @@ trait Pixels {
     /**
      * Google Analytics
      *
-     * @author Xsantana
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      * @param [type] $id
      * @return void
@@ -387,7 +387,7 @@ trait Pixels {
     /**
      * Pinterest Pixel
      *
-     * @author Xsantana
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      * @param [type] $id
      * @return void
@@ -398,7 +398,7 @@ trait Pixels {
     /**
      * Snapchat pixels
      *
-     * @author Xsantana
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.1.6
      * @param [type] $id
      * @return void
@@ -409,7 +409,7 @@ trait Pixels {
     /**
      * Display pixel for reddit
      *
-     * @author Xsantana
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.1.8
      * @param [type] $id
      * @return void
@@ -422,7 +422,7 @@ trait Pixels {
     /**
      * Display pixel for bing
      *
-     * @author Xsantana
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.1.8
      * @param [type] $id
      * @return void

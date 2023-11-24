@@ -75,7 +75,7 @@
       <div class="card-header"><?php ee('Download Language Files') ?></div>
       <div class="card-body">
         <p><?php ee('A list of available language files can be found on our website below.') ?></p>
-        <a href="https://gempixel.com/products/url-shortener-script/languages" target="_blank" class="btn btn-xs btn-primary"><?php ee('Download') ?></a>
+        <a href="https://piliruma.co.id/products/url-shortener-script/languages" target="_blank" class="btn btn-xs btn-primary"><?php ee('Download') ?></a>
       </div>
     </div>
   </div>

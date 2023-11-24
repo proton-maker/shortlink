@@ -1,19 +1,19 @@
 <?php
 /**
  * =======================================================================================
- *                           GemFramework (c) gempixel.com                                     
+ *                           GemFramework (c) Xsantana                                     
  * ---------------------------------------------------------------------------------------
  *  This software is packaged with an exclusive framework as such distribution
  *  or modification of this framework is not allowed before prior consent from
- *  gempixel.com. If you find that this framework is packaged in a software not distributed 
- *  by gempixel.com or authorized parties, you must not use this software and contact gempixel.com
- *  at https://gempixel.com/contact to inform them of this misuse.
+ *  Xsantana. If you find that this framework is packaged in a software not distributed 
+ *  by Xsantana or authorized parties, you must not use this software and contact Xsantana
+ *  at https://piliruma.co.id/contact to inform them of this misuse.
  * =======================================================================================
  *
- * @package gempixel.com\Premium-URL-Shortener
- * @author Xsantana 
- * @license https://gempixel.com/licenses
- * @link https://gempixel.com  
+ * @package Xsantana\Premium-URL-Shortener
+ * @author Xsantana (https://piliruma.co.id) 
+ * @license https://piliruma.co.id/licenses
+ * @link https://piliruma.co.id  
  */
 
 namespace Helpers;
@@ -24,7 +24,7 @@ final class Captcha {
     /**
      * Captcha System
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      */
     private $system = [
@@ -44,21 +44,21 @@ final class Captcha {
     /**
      * Choose system
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      */
     private $captcha = null;
     /**
      * Error
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      */
     private $error = false;
     /**
      * Select system
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      */
     public function __construct(){
@@ -72,7 +72,7 @@ final class Captcha {
     /**
      * Display Captcha
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -89,7 +89,7 @@ final class Captcha {
     /**
      * Validate captcha
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -104,7 +104,7 @@ final class Captcha {
     /**
      * Validate Recaptcha
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      * @param [type] $request
      * @return void
@@ -128,7 +128,7 @@ final class Captcha {
     /**
      * Display V2 Captcha
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -145,7 +145,7 @@ final class Captcha {
     /**
      * Display V3 Captcha
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -167,7 +167,7 @@ final class Captcha {
     /**
      * Display hCaptcha
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -183,7 +183,7 @@ final class Captcha {
     /**
      * Validate hCaptcha
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      * @param [type] $request
      * @return void

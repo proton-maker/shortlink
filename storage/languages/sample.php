@@ -9,8 +9,8 @@ return [
     "code" => "en",
     "region" => "en_US",
     "name" => "Sample",
-    "author" => "gempixel.com",
-    "link" => "https://gempixel.com",
+    "author" => "Xsantana",
+    "link" => "https://piliruma.co.id",
     "date" => "17/03/2021",
     "rtl" => false,
     /**

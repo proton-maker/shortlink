@@ -5,8 +5,8 @@
  *  CodeCanyon. This will not work with any other URL shorteners and I will not 
  *  implement it to other scripts. This is distributed free of charge with the script.
  *
- *  Premium URL Shortener  - https://gempixel.com/buy/short
- *  Copyright (c) KBRmedia - https://gempixel.com
+ *  Premium URL Shortener  - https://piliruma.co.id/buy/short
+ *  Copyright (c) KBRmedia - https://piliruma.co.id
  *  @since v1.0
  * ----------------------------------------------------------------------------------
  * ====================================================================================
@@ -46,7 +46,7 @@ if(error == 0){
       if(typeof domain !== 'undefined'){
         url = url +'&domain='+domain;
       }
-      gempixel.com(url, function(response) {
+      Xsantana(url, function(response) {
         if(response.error=='0'){
           el.setAttribute('href',response.short);
         }else{
@@ -56,7 +56,7 @@ if(error == 0){
     }
   });
 }
-function gempixel.com(url, callback) {
+function Xsantana(url, callback) {
   var callbackName = 'PUS_' + Math.round(100000 * Math.random());
   window[callbackName] = function(data) {
       delete window[callbackName];

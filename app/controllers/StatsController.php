@@ -1,19 +1,19 @@
 <?php
 /**
  * =======================================================================================
- *                           GemFramework (c) gempixel.com                                     
+ *                           GemFramework (c) Xsantana                                     
  * ---------------------------------------------------------------------------------------
  *  This software is packaged with an exclusive framework as such distribution
  *  or modification of this framework is not allowed before prior consent from
- *  gempixel.com. If you find that this framework is packaged in a software not distributed 
- *  by gempixel.com or authorized parties, you must not use this software and contact gempixel.com
- *  at https://gempixel.com/contact to inform them of this misuse.
+ *  Xsantana. If you find that this framework is packaged in a software not distributed 
+ *  by Xsantana or authorized parties, you must not use this software and contact Xsantana
+ *  at https://piliruma.co.id/contact to inform them of this misuse.
  * =======================================================================================
  *
- * @package gempixel.com\Premium-URL-Shortener
- * @author Xsantana 
- * @license https://gempixel.com/licenses
- * @link https://gempixel.com  
+ * @package Xsantana\Premium-URL-Shortener
+ * @author Xsantana (https://piliruma.co.id) 
+ * @license https://piliruma.co.id/licenses
+ * @link https://piliruma.co.id  
  */
 
 use Core\DB;
@@ -30,7 +30,7 @@ class Stats {
     /**
      * Simple Redirect
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -47,7 +47,7 @@ class Stats {
     /**
      * Generate Statistics
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 1.0
      * @param int $id
      * @return void
@@ -142,7 +142,7 @@ class Stats {
    /**
     * Get Chart Data
     *
-    * @author Xsantana 
+    * @author Xsantana <https://piliruma.co.id> 
     * @version 6.0
     * @param integer $id
     * @return void
@@ -227,7 +227,7 @@ class Stats {
     /**
      * Generate Country Stats
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      * @param integer $id
      * @return void
@@ -319,7 +319,7 @@ class Stats {
      /**
      * Get Clicks Map
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -395,7 +395,7 @@ class Stats {
     /**
      * Get City Data
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      * @param \Core\Request $request
      * @return void
@@ -457,7 +457,7 @@ class Stats {
     /**
      * Get Platform Data
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -545,7 +545,7 @@ class Stats {
     /**
      * Get Platform Data
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      * @param integer $id
      * @return void
@@ -614,7 +614,7 @@ class Stats {
     /**
      * Get Browser Data
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -702,7 +702,7 @@ class Stats {
     /**
      * Get Browsers Data
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      * @param integer $id
      * @return void
@@ -769,7 +769,7 @@ class Stats {
     /**
      * Get Language Data
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -857,7 +857,7 @@ class Stats {
     /**
      * Get Language Data
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      * @param integer $id
      * @return void
@@ -924,7 +924,7 @@ class Stats {
     /**
      * Referrers Page
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      * @param integer $id
      * @return void

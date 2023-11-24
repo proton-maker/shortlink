@@ -1,19 +1,19 @@
 <?php
 /**
  * =======================================================================================
- *                           GemFramework (c) gempixel.com                                     
+ *                           GemFramework (c) Xsantana                                     
  * ---------------------------------------------------------------------------------------
  *  This software is packaged with an exclusive framework as such distribution
  *  or modification of this framework is not allowed before prior consent from
- *  gempixel.com. If you find that this framework is packaged in a software not distributed 
- *  by gempixel.com or authorized parties, you must not use this software and contact gempixel.com
- *  at https://gempixel.com/contact to inform them of this misuse.
+ *  Xsantana. If you find that this framework is packaged in a software not distributed 
+ *  by Xsantana or authorized parties, you must not use this software and contact Xsantana
+ *  at https://piliruma.co.id/contact to inform them of this misuse.
  * =======================================================================================
  *
- * @package gempixel.com\Premium-URL-Shortener
- * @author Xsantana 
- * @license https://gempixel.com/licenses
- * @link https://gempixel.com  
+ * @package Xsantana\Premium-URL-Shortener
+ * @author Xsantana (https://piliruma.co.id) 
+ * @license https://piliruma.co.id/licenses
+ * @link https://piliruma.co.id  
  */
 
 use Core\Request;
@@ -25,7 +25,7 @@ class Setup {
     /**
      * Current version
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.2
      */
     private $version = '6.3.1';
@@ -33,7 +33,7 @@ class Setup {
     /**
      * Error
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      */
     private $error = false;
@@ -42,7 +42,7 @@ class Setup {
     /**
      * Check if install is required
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -57,7 +57,7 @@ class Setup {
     /**
      * Upgrade
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -77,7 +77,7 @@ class Setup {
     /**
      * Step 1
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      * @param Request $request
      * @return void
@@ -162,7 +162,7 @@ class Setup {
     /**
      * Validate
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -178,7 +178,7 @@ class Setup {
             
             $code = trim($request->code);
 
-            $http = \Core\Http::url('https://cdn.gempixel.com.com/verify/')->withHeaders([
+            $http = \Core\Http::url('https://cdn.Xsantana.com/verify/')->withHeaders([
                     "X-Authorization" => "TOKEN {$code}",
                     "X-Script" => "Premium URL Shortener",
                     "X-Version" => _VERSION
@@ -206,7 +206,7 @@ class Setup {
     /**
      * Dump Database
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -292,7 +292,7 @@ class Setup {
     /**
      * Setup user
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      * @param \Core\Request $request
      * @return void
@@ -395,7 +395,7 @@ class Setup {
     /**
      * Final Step
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -424,7 +424,7 @@ class Setup {
     /**
      * Verify
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      * @param [type] $module
      * @return void
@@ -515,7 +515,7 @@ class Setup {
     /**
      * Generate Config File
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      * @param [type] $request
      * @return void
@@ -541,7 +541,7 @@ class Setup {
     /**
      * Dump Database
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -865,7 +865,7 @@ class Setup {
     /**
      * Faqs
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -920,7 +920,7 @@ class Setup {
     /**
      * Header
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -946,10 +946,10 @@ class Setup {
                     <li>Installation Complete</li>
                 </ol>
                 <p>
-                    <a href="https://gempixel.com/" target="_blank">Home</a> | 
-                    <a href="https://gempixel.com/products" target="_blank">Products</a> | 
-                    <a href="https://support.gempixel.com.com/" target="_blank">Support</a>
-                    <p>2012-'.date("Y").' &copy; <a href="https://gempixel.com" target="_blank">gempixel.com</a><br>All Rights Reserved.</p>
+                    <a href="https://piliruma.co.id/" target="_blank">Home</a> | 
+                    <a href="https://piliruma.co.id/products" target="_blank">Products</a> | 
+                    <a href="https://support.Xsantana.com/" target="_blank">Support</a>
+                    <p>2012-'.date("Y").' &copy; <a href="https://piliruma.co.id" target="_blank">Xsantana</a><br>All Rights Reserved.</p>
                 </p>
             </div>
             <div class="right">';        
@@ -957,7 +957,7 @@ class Setup {
     /**
      * Footer
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */

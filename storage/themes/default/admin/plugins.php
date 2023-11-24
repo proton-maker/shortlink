@@ -76,7 +76,7 @@
       </div>
       <div class="modal-body">
         <p><?php ee('To learn more about plugins or to learn how to create your own plugin, please check our plugin documentation.') ?></p>
-        <a href="https://gempixel.com/docs/premium-url-shortener/plugins" target="_blank" class="btn btn-primary">Plugin Documentation</a>
+        <a href="https://piliruma.co.id/docs/premium-url-shortener/plugins" target="_blank" class="btn btn-primary">Plugin Documentation</a>
       </div>
     </div>
   </div>

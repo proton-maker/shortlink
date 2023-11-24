@@ -1,19 +1,19 @@
 <?php
 /**
  * =======================================================================================
- *                           GemFramework (c) gempixel.com                                     
+ *                           GemFramework (c) Xsantana                                     
  * ---------------------------------------------------------------------------------------
  *  This software is packaged with an exclusive framework as such distribution
  *  or modification of this framework is not allowed before prior consent from
- *  gempixel.com. If you find that this framework is packaged in a software not distributed 
- *  by gempixel.com or authorized parties, you must not use this software and contact gempixel.com
- *  at https://gempixel.com/contact to inform them of this misuse.
+ *  Xsantana. If you find that this framework is packaged in a software not distributed 
+ *  by Xsantana or authorized parties, you must not use this software and contact Xsantana
+ *  at https://piliruma.co.id/contact to inform them of this misuse.
  * =======================================================================================
  *
- * @package gempixel.com\Premium-URL-Shortener
- * @author Xsantana 
- * @license https://gempixel.com/licenses
- * @link https://gempixel.com  
+ * @package Xsantana\Premium-URL-Shortener
+ * @author Xsantana (https://piliruma.co.id) 
+ * @license https://piliruma.co.id/licenses
+ * @link https://piliruma.co.id  
  */
 
 namespace Helpers;
@@ -37,7 +37,7 @@ final class GoogleAuth {
     /**
      * Connect OAuth
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      */
     public function __construct($client_id, $client_secret, $redirect_uri){
@@ -56,7 +56,7 @@ final class GoogleAuth {
     /**
      * Generate Redirect URI
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      * @param \Core\Request $request
      * @return void
@@ -80,7 +80,7 @@ final class GoogleAuth {
     /**
      * Get Access Token
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      * @param \Core\Request $request
      * @return void
@@ -115,7 +115,7 @@ final class GoogleAuth {
     /**
      * Get User
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */

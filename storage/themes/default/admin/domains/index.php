@@ -70,7 +70,7 @@
             </div>
             <div class="card-body">
                 <p> <?php echo ee('Customers can add their own domain name and use it to shorten URLs. This will require some setup. Your customers can add their own domain name via the Custom Domain page. They will need to either add an A record or a CNAME record. On your side, you will require some changes before your server can accept their domains. If you are using cPanel, add the following the domain and make sure the directory is the same as current script directory. If you are on a VPS, please see the documentation via the link below.') ?></p>
-                <a href="https://gempixel.com/docs/premium-url-shortener?utm_source=AppAdmin#cd" class="btn btn-primary" target="_blank"><?php ee('Get Help') ?></a>
+                <a href="https://piliruma.co.id/docs/premium-url-shortener?utm_source=AppAdmin#cd" class="btn btn-primary" target="_blank"><?php ee('Get Help') ?></a>
             </div>
         </div>
     </div>

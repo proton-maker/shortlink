@@ -1,19 +1,19 @@
 <?php
 /**
  * =======================================================================================
- *                           GemFramework (c) gempixel.com                                     
+ *                           GemFramework (c) Xsantana                                     
  * ---------------------------------------------------------------------------------------
  *  This software is packaged with an exclusive framework as such distribution
  *  or modification of this framework is not allowed before prior consent from
- *  gempixel.com. If you find that this framework is packaged in a software not distributed 
- *  by gempixel.com or authorized parties, you must not use this software and contact gempixel.com
- *  at https://gempixel.com/contact to inform them of this misuse.
+ *  Xsantana. If you find that this framework is packaged in a software not distributed 
+ *  by Xsantana or authorized parties, you must not use this software and contact Xsantana
+ *  at https://piliruma.co.id/contact to inform them of this misuse.
  * =======================================================================================
  *
- * @package gempixel.com\Premium-URL-Shortener
- * @author Xsantana 
- * @license https://gempixel.com/licenses
- * @link https://gempixel.com  
+ * @package Xsantana\Premium-URL-Shortener
+ * @author Xsantana (https://piliruma.co.id) 
+ * @license https://piliruma.co.id/licenses
+ * @link https://piliruma.co.id  
  */
 
 namespace Helpers;
@@ -44,7 +44,7 @@ class Slack {
 	const slackURI = "https://slack.com/api";
 	/**
 	 * Constructor
-	 * @author KBRmedia <https://gempixel.com>
+	 * @author KBRmedia <https://piliruma.co.id>
 	 * @version 1.0
 	 */
 	public function __construct($clientID, $clientSecret, $redirectURI){
@@ -56,7 +56,7 @@ class Slack {
 	}
 	/**
 	 * [process description]
-	 * @author KBRmedia <https://gempixel.com>
+	 * @author KBRmedia <https://piliruma.co.id>
 	 * @version 1.0
 	 * @return  [type] [description]
 	 */
@@ -70,7 +70,7 @@ class Slack {
 	}
 	/**
 	 * [validate description]
-	 * @author KBRmedia <https://gempixel.com>
+	 * @author KBRmedia <https://piliruma.co.id>
 	 * @version 1.0
 	 * @param   [type] $signing_secret [description]
 	 * @return  [type]                 [description]
@@ -94,7 +94,7 @@ class Slack {
 	}
 	/**
 	 * [error description]
-	 * @author KBRmedia <https://gempixel.com>
+	 * @author KBRmedia <https://piliruma.co.id>
 	 * @version 1.0
 	 * @return  [type] [description]
 	 */
@@ -111,7 +111,7 @@ class Slack {
 	}
 	/**
 	 * [redirect description]
-	 * @author KBRmedia <https://gempixel.com>
+	 * @author KBRmedia <https://piliruma.co.id>
 	 * @version 1.0
 	 * @return  [type] [description]
 	 */
@@ -121,7 +121,7 @@ class Slack {
 	}
 	/**
 	 * Generate Authentication Button
-	 * @author KBRmedia <https://gempixel.com>
+	 * @author KBRmedia <https://piliruma.co.id>
 	 * @version 1.0
 	 * @return  [type] [description]
 	 */
@@ -131,7 +131,7 @@ class Slack {
 	/**
 	 * Download Manifest
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.1.8
 	 * @return void
 	 */
@@ -180,7 +180,7 @@ class Slack {
 	}
 	/**
 	 * [http description]
-	 * @author KBRmedia <https://gempixel.com>
+	 * @author KBRmedia <https://piliruma.co.id>
 	 * @version 1.0
 	 * @param   array  $data [description]
 	 * @return  [type]       [description]

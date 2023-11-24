@@ -1,7 +1,7 @@
 
 
 <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-<link data-optimized="2" rel="stylesheet" href="https://gempixel.com/wp-content/litespeed/css/17b970ea00d1b897710a07a18a8f046b.css?ver=41f02">
+<link data-optimized="2" rel="stylesheet" href="https://piliruma.co.id/wp-content/litespeed/css/17b970ea00d1b897710a07a18a8f046b.css?ver=41f02">
 <br />
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9941818527091748"
      crossorigin="anonymous"></script>

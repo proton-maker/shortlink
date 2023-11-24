@@ -1,21 +1,21 @@
 <?php 
 /**
  * ====================================================================================
- *                           GemFramework (c) gempixel.com
+ *                           GemFramework (c) Xsantana
  * ----------------------------------------------------------------------------------
- *  This software is packaged with an exclusive framework owned by gempixel.com Inc as such
+ *  This software is packaged with an exclusive framework owned by Xsantana Inc as such
  *  distribution or modification of this framework is not allowed before prior consent
- *  from gempixel.com administrators. If you find that this framework is packaged in a 
- *  software not distributed by gempixel.com or authorized parties, you must not use this
- *  software and contact gempixel.com at https://gempixel.com/contact to inform them of this
+ *  from Xsantana administrators. If you find that this framework is packaged in a 
+ *  software not distributed by Xsantana or authorized parties, you must not use this
+ *  software and contact Xsantana at https://piliruma.co.id/contact to inform them of this
  *  misuse otherwise you risk of being prosecuted in courts.
  * ====================================================================================
  *
  * @package Core\Plugin
- * @author gempixel.com (http://gempixel.com.com)
- * @copyright 2020 gempixel.com
- * @license http://gempixel.com.com/license
- * @link http://gempixel.com.com  
+ * @author Xsantana (http://Xsantana.com)
+ * @copyright 2020 Xsantana
+ * @license http://Xsantana.com/license
+ * @link http://Xsantana.com  
  * @since 1.0
  */
 namespace Core;
@@ -30,7 +30,7 @@ final class Plugin {
 	/**
 	 * Preload Plugin
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @return void
 	 */
@@ -60,7 +60,7 @@ final class Plugin {
 
 	/**
 	* Dispatch Event
-	* @author gempixel.com
+	* @author Xsantana
 	* @since  1.0
 	* @param  string $area  Area to plugin function
 	* @param  array  $param Parameters sent by the function
@@ -83,7 +83,7 @@ final class Plugin {
 	}
 	/**
 	* Static Plug-in Function
-	* @author gempixel.com
+	* @author Xsantana
 	* @since  1.0
 	* @param  string $area  Area to plugin function
 	* @param  array  $param Parameters sent by the function
@@ -99,7 +99,7 @@ final class Plugin {
 	}    
 	/**
 	* Register Event
-	* @author Xsantana
+	* @author Xsantana <https://piliruma.co.id>
 	* @version 1.0
 	* @param   [type] $area  [description]
 	* @param   [type] $fn    [description]
@@ -129,7 +129,7 @@ final class Plugin {
 	/**
 	 * Return list of plugins
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @param [type] $area
 	 * @return void

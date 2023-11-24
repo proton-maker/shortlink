@@ -65,7 +65,7 @@
                         <strong><?php ee('Last Update Released') ?>:</strong> <?php echo $changes ? $changes[0]->date : 'na' ?>
                     </div>
                     <div class="ms-auto">
-                        <a href="https://gempixel.com/changelog/premium-url-shortener" class="badge bg-primary text-white" target="_blank"><?php ee('View Changelog') ?></a>
+                        <a href="https://piliruma.co.id/changelog/premium-url-shortener" class="badge bg-primary text-white" target="_blank"><?php ee('View Changelog') ?></a>
                     </div>
                 </div>
                 <p><strong><?php ee('Envato Purchase Code') ?>: </strong> <?php echo config('purchasecode') ?></p>
@@ -93,7 +93,7 @@
             <div class="card-body">
                 <p>Follow us on social media and be the first to benefit from news related to this product, new plugins and releases.</p>
                 <span class="text-primary mb-2 d-block"><i data-feather="twitter"></i> <a href="https://twitter.com/kbrmedia" target="_blank">Follow us on Twitter</a></span>
-                <span class="text-success mb-2 d-block"><i data-feather="mail"></i> <a href="https://gempixel.com/subscribe" target="_blank" class="text-success">Join our newsletter</a></span>
+                <span class="text-success mb-2 d-block"><i data-feather="mail"></i> <a href="https://piliruma.co.id/subscribe" target="_blank" class="text-success">Join our newsletter</a></span>
             </div>
         </div>
     </div>  

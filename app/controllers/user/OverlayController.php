@@ -1,19 +1,19 @@
 <?php
 /**
  * =======================================================================================
- *                           GemFramework (c) gempixel.com                                     
+ *                           GemFramework (c) Xsantana                                     
  * ---------------------------------------------------------------------------------------
  *  This software is packaged with an exclusive framework as such distribution
  *  or modification of this framework is not allowed before prior consent from
- *  gempixel.com. If you find that this framework is packaged in a software not distributed 
- *  by gempixel.com or authorized parties, you must not use this software and contact gempixel.com
- *  at https://gempixel.com/contact to inform them of this misuse.
+ *  Xsantana. If you find that this framework is packaged in a software not distributed 
+ *  by Xsantana or authorized parties, you must not use this software and contact Xsantana
+ *  at https://piliruma.co.id/contact to inform them of this misuse.
  * =======================================================================================
  *
- * @package gempixel.com\Premium-URL-Shortener
- * @author Xsantana 
- * @license https://gempixel.com/licenses
- * @link https://gempixel.com  
+ * @package Xsantana\Premium-URL-Shortener
+ * @author Xsantana (https://piliruma.co.id) 
+ * @license https://piliruma.co.id/licenses
+ * @link https://piliruma.co.id  
  */
 
 namespace User;
@@ -32,7 +32,7 @@ class Overlay {
 	/**
 	 * Verify Permission
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.0
 	 */
 	public function __construct(){
@@ -44,7 +44,7 @@ class Overlay {
 	/**
 	 * List Overlay Page
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @return void
 	 */
@@ -68,7 +68,7 @@ class Overlay {
 	/**
 	 * Create Overlay Page
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @return void
 	 */
@@ -98,7 +98,7 @@ class Overlay {
 	/**
 	 * Save Overlay Page
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @param \Core\Request $request
 	 * @return void
@@ -125,7 +125,7 @@ class Overlay {
 	/**
 	 * Edit Overlay
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @param integer $id
 	 * @return void
@@ -152,7 +152,7 @@ class Overlay {
 	/**
 	 * Update Existing Overlay
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @param \Core\Request $request
 	 * @param integer $id
@@ -181,7 +181,7 @@ class Overlay {
 	/**
 	 * Create Contact Form
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @return void
 	 */
@@ -276,7 +276,7 @@ class Overlay {
 	/**
 	 * Save Contact Form
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @param \Core\Request $request
 	 * @return void
@@ -336,7 +336,7 @@ class Overlay {
 	/**
 	 * Edit Contact Form
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @param object $overlay
 	 * @return void
@@ -435,7 +435,7 @@ class Overlay {
 	/**
 	 * Update Contact
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @param \Core\Request $request
 	 * @param object $overlay
@@ -492,7 +492,7 @@ class Overlay {
 	/**
 	 * Create Poll Form
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @return void
 	 */
@@ -570,7 +570,7 @@ class Overlay {
 	/**
 	 * Save Poll Form
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @param \Core\Request $request
 	 * @return void
@@ -626,7 +626,7 @@ class Overlay {
 	/**
 	 * Edit Poll Form
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @param object $overlay
 	 * @return void
@@ -712,7 +712,7 @@ class Overlay {
 	/**
 	 * Update Poll
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @param \Core\Request $request
 	 * @param object $overlay
@@ -763,7 +763,7 @@ class Overlay {
 	/**
 	 * Create Message Form
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @return void
 	 */
@@ -861,7 +861,7 @@ class Overlay {
 	/**
 	 * Save Message Form
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @param \Core\Request $request
 	 * @return void
@@ -927,7 +927,7 @@ class Overlay {
 	/**
 	 * Edit Message Form
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @param object $overlay
 	 * @return void
@@ -1028,7 +1028,7 @@ class Overlay {
 	/**
 	 * Update Message
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @param \Core\Request $request
 	 * @param object $overlay
@@ -1094,7 +1094,7 @@ class Overlay {
 	/**
 	 * Create Image
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @return void
 	 */
@@ -1153,7 +1153,7 @@ class Overlay {
 	/**
 	 * Save Image
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @param \Core\Request $request
 	 * @return void
@@ -1226,7 +1226,7 @@ class Overlay {
 	/**
 	 * Edit Image
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @param object $overlay
 	 * @return void
@@ -1288,7 +1288,7 @@ class Overlay {
 	/**
 	 * Update Image
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @param \Core\Request $request
 	 * @param object $overlay
@@ -1365,7 +1365,7 @@ class Overlay {
 	/**
 	 * Create Newsletter
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @return void
 	 */
@@ -1437,7 +1437,7 @@ class Overlay {
 	/**
 	 * Save Newsletter
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @param \Core\Request $request
 	 * @return void
@@ -1482,7 +1482,7 @@ class Overlay {
 	/**
 	 * Edit Newsletter
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @param object $overlay
 	 * @return void
@@ -1570,7 +1570,7 @@ class Overlay {
 	/**
 	 * Update Newsletter
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @param \Core\Request $request
 	 * @param object $overlay
@@ -1612,7 +1612,7 @@ class Overlay {
 	/**
 	 * Delete Overlay
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @param integer $id
 	 * @return void
@@ -1649,7 +1649,7 @@ class Overlay {
 	/**
 	 * Create Coupon Popup
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.2
 	 * @return void
 	 */
@@ -1718,7 +1718,7 @@ class Overlay {
 	/**
 	 * Save Coupon
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.2
 	 * @param \Core\Request $request
 	 * @return void
@@ -1764,7 +1764,7 @@ class Overlay {
 	/**
 	 * Edit Coupon
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.2
 	 * @param object $overlay
 	 * @return void
@@ -1836,7 +1836,7 @@ class Overlay {
 	/**
 	 * Update Coupon
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.2
 	 * @param \Core\Request $request
 	 * @param object $overlay

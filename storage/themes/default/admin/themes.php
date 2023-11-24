@@ -53,7 +53,7 @@
       <div class="modal-body">
         <p><?php ee('We have introduced the ability to make child themes. Child Themes allow to you change only the part of the website you need to change without having to copy all theme files. They are easy to make and more importantly they are safe from all automated updates.') ?></p>
 
-        <a href="https://gempixel.com/docs/premium-url-shortener#tct" class="btn btn-primary" target="_blank"><?php ee('Learn how to make a child theme') ?></a>
+        <a href="https://piliruma.co.id/docs/premium-url-shortener#tct" class="btn btn-primary" target="_blank"><?php ee('Learn how to make a child theme') ?></a>
       </div>
     </div>
   </div>

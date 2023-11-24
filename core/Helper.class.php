@@ -1,21 +1,21 @@
 <?php 
 /**
  * ====================================================================================
- *                           GemFramework (c) gempixel.com
+ *                           GemFramework (c) Xsantana
  * ----------------------------------------------------------------------------------
- *  This software is packaged with an exclusive framework owned by gempixel.com Inc as such
+ *  This software is packaged with an exclusive framework owned by Xsantana Inc as such
  *  distribution or modification of this framework is not allowed before prior consent
- *  from gempixel.com administrators. If you find that this framework is packaged in a 
- *  software not distributed by gempixel.com or authorized parties, you must not use this
- *  sofware and contact gempixel.com at https://gempixel.com/contact to inform them of this
+ *  from Xsantana administrators. If you find that this framework is packaged in a 
+ *  software not distributed by Xsantana or authorized parties, you must not use this
+ *  sofware and contact Xsantana at https://piliruma.co.id/contact to inform them of this
  *  misuse otherwise you risk of being prosecuted in courts.
  * ====================================================================================
  *
  * @package Helper
- * @author gempixel.com (http://gempixel.com.com)
- * @copyright 2018 gempixel.com
- * @license http://gempixel.com.com/license
- * @link http://gempixel.com.com  
+ * @author Xsantana (http://Xsantana.com)
+ * @copyright 2018 Xsantana
+ * @license http://Xsantana.com/license
+ * @link http://Xsantana.com  
  * @since 1.0
  */
 namespace Core;
@@ -66,7 +66,7 @@ final class Helper {
 
   /**
    * Constructor
-   * @author Xsantana
+   * @author Xsantana <https://piliruma.co.id>
    * @version 1.0
    */
   public function __construct(){
@@ -75,7 +75,7 @@ final class Helper {
 
   /**
    * Set value
-   * @author Xsantana
+   * @author Xsantana <https://piliruma.co.id>
    * @version 1.0
    * @param   $var
    * @param   $val
@@ -85,7 +85,7 @@ final class Helper {
   }
   /**
    * Redirect to
-   * @author Xsantana
+   * @author Xsantana <https://piliruma.co.id>
    * @version 1.0
    * @param   string|null $route
    * @return      mixed
@@ -113,7 +113,7 @@ final class Helper {
   }
   /**
    * Redirect Back
-   * @author Xsantana
+   * @author Xsantana <https://piliruma.co.id>
    * @version 1.0
    * @return 
    */
@@ -125,7 +125,7 @@ final class Helper {
   }
   /**
    * Redirect to URL
-   * @author Xsantana
+   * @author Xsantana <https://piliruma.co.id>
    * @version 1.0
    * @param   string $url
    * @return  void
@@ -136,7 +136,7 @@ final class Helper {
   }
   /**
    * With Message
-   * @author Xsantana
+   * @author Xsantana <https://piliruma.co.id>
    * @version 1.0
    * @param   string $error  
    * @param   string $message
@@ -150,7 +150,7 @@ final class Helper {
   /**
    * Set message
    *
-   * @author Xsantana 
+   * @author Xsantana <https://piliruma.co.id> 
    * @version 6.0
    * @param string $error
    * @param string $message
@@ -162,7 +162,7 @@ final class Helper {
 
   /**
    * Notification Function
-   * @author gempixel.com <http://gempixel.com.com>
+   * @author Xsantana <http://Xsantana.com>
    * @version 1.0
    * @param   string $style
    * @return   mixed
@@ -185,7 +185,7 @@ final class Helper {
 
  /**
   * Clean a string
-  * @author  gempixel.com <http://gempixel.com.com>
+  * @author  Xsantana <http://Xsantana.com>
   * @version 1.0
   * @param    $string
   * @param   $level cleaning level (1=lowest, 2, 3=highest)
@@ -226,7 +226,7 @@ final class Helper {
   }
   /**
    * [Sanitize description]
-   * @author Xsantana
+   * @author Xsantana <https://piliruma.co.id>
    * @version 1.0
    * @param   $type
    */
@@ -236,7 +236,7 @@ final class Helper {
 
   /**
    * Clean Requests
-   * @author  gempixel.com <http://gempixel.com.com>
+   * @author  Xsantana <http://Xsantana.com>
    * @version 1.0
    * @see     Main::clean
    * @param   $string
@@ -246,7 +246,7 @@ final class Helper {
   }    
   /**
    * Generate custom slug
-   * @author gempixel.com <http://gempixel.com.com>
+   * @author Xsantana <http://Xsantana.com>
    * @version 1.0
    * @param   $text     
    * @param   array  $replace  
@@ -321,7 +321,7 @@ final class Helper {
     }  
   /**
   * Convert a timestap into timeago format
-  * @author  gempixel.com <http://gempixel.com.com>
+  * @author  Xsantana <http://Xsantana.com>
   * @version 1.0
   * @param time
   * @return timeago
@@ -342,7 +342,7 @@ final class Helper {
        
   /**
    * Generate NOW date time
-   * @author Xsantana
+   * @author Xsantana <https://piliruma.co.id>
    * @version 1.0
    * @return 
    */
@@ -371,7 +371,7 @@ final class Helper {
   }   
   /**
    * Counts the time it takes to read the post
-   * @author gempixel.com <http://gempixel.com.com>
+   * @author Xsantana <http://Xsantana.com>
    * @version 1.0
    * @param   string $text
    * @return  mixed
@@ -386,7 +386,7 @@ final class Helper {
 
   /**
    * Readmore
-   * @author gempixel.com <http://gempixel.com.com>
+   * @author Xsantana <http://Xsantana.com>
    * @version 1.0
    * @param   object $post
    * @return  mixed
@@ -401,7 +401,7 @@ final class Helper {
   /**
    * Paginate
    *
-   * @author Xsantana 
+   * @author Xsantana <https://piliruma.co.id> 
    * @version 6.0
    * @param $total
    * @param $perpage
@@ -465,7 +465,7 @@ final class Helper {
   }
   /**
    * Simple Pagination
-   * @author gempixel.com <http://gempixel.com.com>
+   * @author Xsantana <http://Xsantana.com>
    * @version 1.0
    * @param   $total 
    * @param   $format
@@ -532,7 +532,7 @@ final class Helper {
   /**
    * Validate URL
    *
-   * @author Xsantana 
+   * @author Xsantana <https://piliruma.co.id> 
    * @version 6.0
    * @param $url
    * @return boolean
@@ -546,7 +546,7 @@ final class Helper {
   /**
    * Validate username
    *
-   * @author Xsantana 
+   * @author Xsantana <https://piliruma.co.id> 
    * @version 6.0
    * @param $user
    * @return void
@@ -559,7 +559,7 @@ final class Helper {
   }
   /**
    * Output Countries
-   * @author Xsantana
+   * @author Xsantana <https://piliruma.co.id>
    * @version 1.0
    * @param   string $code
    */
@@ -594,7 +594,7 @@ final class Helper {
   /**
    * List of devices
    *
-   * @author Xsantana 
+   * @author Xsantana <https://piliruma.co.id> 
    * @version 6.0
    * @return void
    */
@@ -618,7 +618,7 @@ final class Helper {
   }
   /**
    * Generate Random
-   * @author Xsantana
+   * @author Xsantana <https://piliruma.co.id>
    * @version 1.0
    * @param   integer $length
    * @param   string  $api   
@@ -634,7 +634,7 @@ final class Helper {
   }  
   /**
    * Return extension of a file
-   * @author Xsantana
+   * @author Xsantana <https://piliruma.co.id>
    * @version 1.0
    * @param   string $input
    * @return  string extenstion of the input
@@ -646,7 +646,7 @@ final class Helper {
   }
   /**
    * Return Cache Instance
-   * @author Xsantana
+   * @author Xsantana <https://piliruma.co.id>
    * @version 1.0
    * @return 
    */
@@ -655,7 +655,7 @@ final class Helper {
   }
   /**
    * Cache Configuration
-   * @author Xsantana
+   * @author Xsantana <https://piliruma.co.id>
    * @version 1.0
    * @param   string|null $path
    * @return       mixed
@@ -671,7 +671,7 @@ final class Helper {
   }
   /**
    * Get Cache
-   * @author Xsantana
+   * @author Xsantana <https://piliruma.co.id>
    * @version 1.0
    * @param   string $key
    * @return  void
@@ -688,7 +688,7 @@ final class Helper {
   }
   /**
    * Set Cache
-   * @author Xsantana
+   * @author Xsantana <https://piliruma.co.id>
    * @version 1.0
    * @param   string $key 
    * @param   $data
@@ -707,7 +707,7 @@ final class Helper {
   /**
    * Update cache without changing expiration
    *
-   * @author Xsantana 
+   * @author Xsantana <https://piliruma.co.id> 
    * @version 6.0
    * @param string $key
    * @param $data
@@ -729,7 +729,7 @@ final class Helper {
   /**
    * Get cache expiry
    *
-   * @author Xsantana 
+   * @author Xsantana <https://piliruma.co.id> 
    * @version 6.2
    * @param $key
    * @return boolean
@@ -746,7 +746,7 @@ final class Helper {
   }
   /**
    * [cacheDelete description]
-   * @author Xsantana
+   * @author Xsantana <https://piliruma.co.id>
    * @version 1.0
    * @param   string $key
    * @return  void
@@ -758,7 +758,7 @@ final class Helper {
   }
   /**
    * Clear all cache
-   * @author Xsantana
+   * @author Xsantana <https://piliruma.co.id>
    * @version 1.0
    * @return 
    */
@@ -769,7 +769,7 @@ final class Helper {
   /**
    * Encrypt Data
    *
-   * @author Xsantana 
+   * @author Xsantana <https://piliruma.co.id> 
    * @version 1.0
    * @param $data
    * @return void
@@ -786,7 +786,7 @@ final class Helper {
   /**
    * Decrypt Data
    *
-   * @author Xsantana 
+   * @author Xsantana <https://piliruma.co.id> 
    * @version 1.0
    * @param $data
    * @return void
@@ -803,7 +803,7 @@ final class Helper {
   /**
    * If empty
    *
-   * @author Xsantana 
+   * @author Xsantana <https://piliruma.co.id> 
    * @version 6.0
    * @param $variable
    * @param $default
@@ -815,7 +815,7 @@ final class Helper {
   /**
    * Create a unique Nonce Token
    *
-   * @author Xsantana 
+   * @author Xsantana <https://piliruma.co.id> 
    * @version 6.0
    * @param string $action
    * @param string $key
@@ -829,7 +829,7 @@ final class Helper {
   /**
    * Validate Nonce
    *
-   * @author Xsantana 
+   * @author Xsantana <https://piliruma.co.id> 
    * @version 6.0
    * @param string $action
    * @param string $key
@@ -844,7 +844,7 @@ final class Helper {
   /**
    * Parse URL
    *
-   * @author Xsantana 
+   * @author Xsantana <https://piliruma.co.id> 
    * @version 6.0
    * @param string $url
    * @param $selector

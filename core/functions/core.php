@@ -1,19 +1,19 @@
 <?php
 /**
  * ====================================================================================
- *                           GemFramework (c) gempixel.com
+ *                           GemFramework (c) Xsantana
  * ----------------------------------------------------------------------------------
- *  This software is packaged with an exclusive framework owned by gempixel.com Inc as such
+ *  This software is packaged with an exclusive framework owned by Xsantana Inc as such
  *  distribution or modification of this framework is not allowed before prior consent
- *  from gempixel.com administrators. If you find that this framework is packaged in a 
- *  software not distributed by gempixel.com or authorized parties, you must not use this
- *  sofware and contact gempixel.com at https://gempixel.com/contact to inform them of this
+ *  from Xsantana administrators. If you find that this framework is packaged in a 
+ *  software not distributed by Xsantana or authorized parties, you must not use this
+ *  sofware and contact Xsantana at https://piliruma.co.id/contact to inform them of this
  *  misuse otherwise you risk of being prosecuted in courts.
  * ====================================================================================
  *
  * @package Functions 
- * @author gempixel.com (http://gempixel.com.com) @license http://gempixel.com.com/license
- * @link http://gempixel.com.com  
+ * @author Xsantana (http://Xsantana.com) @license http://Xsantana.com/license
+ * @link http://Xsantana.com  
  * @since 1.0
  */
   
@@ -22,7 +22,7 @@ use Core\View;
 
 /**
  * Autoload Core files
- * @author Xsantana
+ * @author Xsantana <https://piliruma.co.id>
  * @version 1.0
  * @param   [type] $class [description]
  * @return  [type]        [description]
@@ -61,7 +61,7 @@ spl_autoload_register("autoloadCore");
 
 /**
  * Autoload Controllers
- * @author Xsantana
+ * @author Xsantana <https://piliruma.co.id>
  * @version 1.0
  * @param   [type] $class [description]
  * @return  [type]        [description]
@@ -95,7 +95,7 @@ spl_autoload_register("autoloadController");
 
 /**
  * Custom Error Handler
- * @author gempixel.com <http://gempixel.com.com>
+ * @author Xsantana <http://Xsantana.com>
  * @version 1.0
  * @param   string $errno  
  * @param   string $errstr 
@@ -110,7 +110,7 @@ set_error_handler("GemError", E_ALL);
 
 /**
  * Capture Fatal Error
- * @author Xsantana
+ * @author Xsantana <https://piliruma.co.id>
  * @version 1.0
  */
 function FatalError() {
@@ -121,7 +121,7 @@ register_shutdown_function("FatalError");
 
 /**
  * Parse JSON
- * @author Xsantana
+ * @author Xsantana <https://piliruma.co.id>
  * @version 1.0
  * @param   string $string
  * @return  string        
@@ -136,7 +136,7 @@ function parseIfJSON($string){
 }
 /**
  * Current Page
- * @author gempixel.com <http://gempixel.com.com>
+ * @author Xsantana <http://Xsantana.com>
  * @version 1.0
  */
 function currentPage(){
@@ -149,7 +149,7 @@ function currentPage(){
 /**
  * Clean String
  *
- * @author Xsantana 
+ * @author Xsantana <https://piliruma.co.id> 
  * @version 6.0
  * @param [type] $string
  * @return void
@@ -160,7 +160,7 @@ function clean($string){
 
 /**
  * Get Configuration
- * @author Xsantana
+ * @author Xsantana <https://piliruma.co.id>
  * @version 1.0
  * @param   string|null $config [description]
  * @return  [type]              [description]
@@ -175,7 +175,7 @@ function config(?string $config = NULL){
 }
 /**
  * Get App Config in /config
- * @author Xsantana
+ * @author Xsantana <https://piliruma.co.id>
  * @version 1.0
  * @param   string $path [description]
  * @return  [type]       [description]
@@ -194,7 +194,7 @@ function appConfig(string $path){
 /**
  * Return User
  *
- * @author Xsantana 
+ * @author Xsantana <https://piliruma.co.id> 
  * @version 1.0
  * @return void
  */

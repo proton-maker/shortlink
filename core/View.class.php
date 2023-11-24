@@ -1,21 +1,21 @@
 <?php 
 /**
  * ====================================================================================
- *                           GemFramework (c) gempixel.com
+ *                           GemFramework (c) Xsantana
  * ----------------------------------------------------------------------------------
- *  This software is packaged with an exclusive framework owned by gempixel.com Inc as such
+ *  This software is packaged with an exclusive framework owned by Xsantana Inc as such
  *  distribution or modification of this framework is not allowed before prior consent
- *  from gempixel.com administrators. If you find that this framework is packaged in a 
- *  software not distributed by gempixel.com or authorized parties, you must not use this
- *  software and contact gempixel.com at https://gempixel.com/contact to inform them of this
+ *  from Xsantana administrators. If you find that this framework is packaged in a 
+ *  software not distributed by Xsantana or authorized parties, you must not use this
+ *  software and contact Xsantana at https://piliruma.co.id/contact to inform them of this
  *  misuse otherwise you risk of being prosecuted in courts.
  * ====================================================================================
  *
  * @package Core\View
- * @author gempixel.com (http://gempixel.com.com)
+ * @author Xsantana (http://Xsantana.com)
  * @copyright 2018 KBRmedia
- * @license http://gempixel.com.com/license
- * @link http://gempixel.com.com  
+ * @license http://Xsantana.com/license
+ * @link http://Xsantana.com  
  * @since 1.0
  */
 
@@ -52,13 +52,13 @@ final class View extends Gem {
 
   /**
    * View Constructor
-   * @author Xsantana
+   * @author Xsantana <https://piliruma.co.id>
    * @version 1.0
    */
   public function __construct(){}
   /**
    * Static Instance
-   * @author Xsantana
+   * @author Xsantana <https://piliruma.co.id>
    * @version 1.0
    * @return  [type] [description]
    */
@@ -69,7 +69,7 @@ final class View extends Gem {
 
 	/**
 	 * Generate meta title
-	 * @author gempixel.com <http://gempixel.com.com>
+	 * @author Xsantana <http://Xsantana.com>
 	 * @version 1.0
 	 * @param   string $separator
 	 * @return  string           
@@ -164,7 +164,7 @@ final class View extends Gem {
   }       
   /**
    * Generate Meta tags
-   * @author gempixel.com <http://gempixel.com.com>
+   * @author Xsantana <http://Xsantana.com>
    * @version 1.0
    * @return  [type] [description]
    */
@@ -191,7 +191,7 @@ final class View extends Gem {
     }
 
     if(self::type() == "article"){        
-      echo "<meta property=\"article:publisher\" content=\"http://facebook.com/gempixel.com\" />\n\t";
+      echo "<meta property=\"article:publisher\" content=\"http://facebook.com/Xsantana\" />\n\t";
       echo "<meta property=\"article:section\" content=\"".ucfirst(self::$metaData["section"])."\" />\n\t";
       echo "<meta property=\"article:published_time\" content=\"".date(DATE_ATOM, strtotime(self::$metaData["date"]))."\" />\n\t";
       echo "<meta property=\"article:modified_time\" content=\"".date(DATE_ATOM, strtotime(self::$metaData["lastmod"]))."\" />\n\t";
@@ -221,7 +221,7 @@ final class View extends Gem {
   }   
   /**
    * Static resource
-   * @author gempixel.com <http://gempixel.com.com>
+   * @author Xsantana <http://Xsantana.com>
    * @version 1.0
    * @param   [type] $file [description]
    * @return  [type]       [description]
@@ -234,7 +234,7 @@ final class View extends Gem {
   }
   /**
    * Upload resource
-   * @author gempixel.com <http://gempixel.com.com>
+   * @author Xsantana <http://Xsantana.com>
    * @version 1.0
    * @param   [type] $file [description]
    * @return  [type]       [description]
@@ -253,7 +253,7 @@ final class View extends Gem {
   /**
    * Return Storage File
    *
-   * @author Xsantana 
+   * @author Xsantana <https://piliruma.co.id> 
    * @version 6.0
    * @param [type] $name
    * @param [type] $file
@@ -268,7 +268,7 @@ final class View extends Gem {
    * Compile JS and CSS. CSS will be automatically added to header and js to footer 
    * unless you set the 3rd param to true. In that case, the method will return the link
    * 
-   * @author Xsantana
+   * @author Xsantana <https://piliruma.co.id>
    * @version 1.0
    * @param   array $source     
    * @param   NULL  $destination
@@ -324,7 +324,7 @@ final class View extends Gem {
   }
   /**
    * Create a file
-   * @author Xsantana
+   * @author Xsantana <https://piliruma.co.id>
    * @version 1.0
    * @param   [type] $content     [description]
    * @param   [type] $destination [description]
@@ -343,7 +343,7 @@ final class View extends Gem {
   }
   /**
    * Template Header
-   * @author gempixel.com <http://gempixel.com.com>
+   * @author Xsantana <http://Xsantana.com>
    * @version 1.0
    */
   protected static function header($data = []){  
@@ -352,7 +352,7 @@ final class View extends Gem {
   }
   /**
    * Template Footer
-   * @author gempixel.com <http://gempixel.com.com>
+   * @author Xsantana <http://Xsantana.com>
    * @version 1.0
    */
   protected static function footer($data = []){ 
@@ -361,7 +361,7 @@ final class View extends Gem {
   }   
   /**
    * Get Template
-   * @author gempixel.com <http://gempixel.com.com>
+   * @author Xsantana <http://Xsantana.com>
    * @version 6.1.8
    * @param string $template
    */
@@ -382,7 +382,7 @@ final class View extends Gem {
   }   
   /**
    * Render Template
-   * @author Xsantana
+   * @author Xsantana <https://piliruma.co.id>
    * @version 1.0
    * @param   [type] $name [description]
    * @param   array  $data [description]
@@ -396,7 +396,7 @@ final class View extends Gem {
   }
   /**
    * Render only template without header
-   * @author Xsantana
+   * @author Xsantana <https://piliruma.co.id>
    * @version 1.0
    * @param   [type] $name [description]
    * @param   array  $data [description]
@@ -407,7 +407,7 @@ final class View extends Gem {
   }
   /**
    * Render Error Template
-   * @author Xsantana
+   * @author Xsantana <https://piliruma.co.id>
    * @version 1.0
    * @param   [type] $code [description]
    * @return  [type]       [description]
@@ -423,7 +423,7 @@ final class View extends Gem {
 
   /**
    * Creates block to dynamically push data
-   * @author gempixel.com <http://gempixel.com.com>
+   * @author Xsantana <http://Xsantana.com>
    * @version 1.0
    * @param   string $type [description]
    * @return  [type]        [description]
@@ -442,7 +442,7 @@ final class View extends Gem {
   }  
   /**
    * Push to header
-   * @author gempixel.com <http://gempixel.com.com>
+   * @author Xsantana <http://Xsantana.com>
    * @version 1.0
    * @param   string  $content    [description]
    * @param   string  $type   [description]
@@ -465,7 +465,7 @@ final class View extends Gem {
   }  
   /**
    * Push to Header
-   * @author Xsantana
+   * @author Xsantana <https://piliruma.co.id>
    * @version 1.0
    * @return  [type] [description]
    */
@@ -474,7 +474,7 @@ final class View extends Gem {
   }
   /**
    * Push to Footer
-   * @author gempixel.com <http://gempixel.com.com>
+   * @author Xsantana <http://Xsantana.com>
    * @version 1.0
    * @param   [type] $url  [description]
    * @param   string $type [description]
@@ -484,7 +484,7 @@ final class View extends Gem {
   }   
   /**
    * Push to Custom Block
-   * @author Xsantana
+   * @author Xsantana <https://piliruma.co.id>
    * @version 1.0
    * @param   string $name [description]
    * @return  [type]       [description]
@@ -499,7 +499,7 @@ final class View extends Gem {
   /**
    * Extend Template
    *
-   * @author Xsantana 
+   * @author Xsantana <https://piliruma.co.id> 
    * @version 1.0
    * @param [type] $template
    * @return void
@@ -512,7 +512,7 @@ final class View extends Gem {
   /**
    * Attach to Layout
    *
-   * @author Xsantana 
+   * @author Xsantana <https://piliruma.co.id> 
    * @version 1.0
    * @param [type] $layout
    * @return void
@@ -524,7 +524,7 @@ final class View extends Gem {
   /**
    * Output extendable
    *
-   * @author Xsantana 
+   * @author Xsantana <https://piliruma.co.id> 
    * @version 1.0
    * @return void
    */
@@ -539,7 +539,7 @@ final class View extends Gem {
   /**
    * Theme Settings
    *
-   * @author Xsantana 
+   * @author Xsantana <https://piliruma.co.id> 
    * @version 6.0
    * @param [type] $var
    * @return void

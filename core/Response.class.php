@@ -1,21 +1,21 @@
 <?php 
 /**
  * ====================================================================================
- *                           GemFramework (c) gempixel.com
+ *                           GemFramework (c) Xsantana
  * ----------------------------------------------------------------------------------
- *  This software is packaged with an exclusive framework owned by gempixel.com Inc as such
+ *  This software is packaged with an exclusive framework owned by Xsantana Inc as such
  *  distribution or modification of this framework is not allowed before prior consent
- *  from gempixel.com administrators. If you find that this framework is packaged in a 
- *  software not distributed by gempixel.com or authorized parties, you must not use this
- *  software and contact gempixel.com at https://gempixel.com/contact to inform them of this
+ *  from Xsantana administrators. If you find that this framework is packaged in a 
+ *  software not distributed by Xsantana or authorized parties, you must not use this
+ *  software and contact Xsantana at https://piliruma.co.id/contact to inform them of this
  *  misuse otherwise you risk of being prosecuted in courts.
  * ====================================================================================
  *
  * @package Core\Response
- * @author gempixel.com (http://gempixel.com.com)
- * @copyright 2020 gempixel.com
- * @license http://gempixel.com.com/license
- * @link http://gempixel.com.com  
+ * @author Xsantana (http://Xsantana.com)
+ * @copyright 2020 Xsantana
+ * @license http://Xsantana.com/license
+ * @link http://Xsantana.com  
  * @since 1.0
  */
 namespace Core;
@@ -57,7 +57,7 @@ final class Response {
 	/**
 	 * Response Constructor
 	 * 
-	 * @author Xsantana
+	 * @author Xsantana <https://piliruma.co.id>
 	 * @version 1.0
 	 * @param   mixed     $response
 	 * @param   int|integer $code    
@@ -73,7 +73,7 @@ final class Response {
 	/**
 	 * Call Statically
 	 *
-	 * @author Xsantana 
+	 * @author Xsantana <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @param [type] $response
 	 * @param integer $code
@@ -85,7 +85,7 @@ final class Response {
 	}
 	/**
 	 * Print Results
-	 * @author Xsantana
+	 * @author Xsantana <https://piliruma.co.id>
 	 * @version 1.0
 	 * @return  string [description]
 	 */
@@ -108,7 +108,7 @@ final class Response {
 	/**
 	 * Set Headers 
 	 *
-	 * @author Xsantana
+	 * @author Xsantana <https://piliruma.co.id>
 	 * @version 1.0
 	 * @param   array $headers
 	 */
@@ -129,7 +129,7 @@ final class Response {
 	}
 	/**
 	 * [json description]
-	 * @author Xsantana
+	 * @author Xsantana <https://piliruma.co.id>
 	 * @version 1.0
 	 * @return  [type] [description]
 	 */
@@ -141,7 +141,7 @@ final class Response {
 	/**
 	 * Set Single Header
 	 *
-	 * @author Xsantana
+	 * @author Xsantana <https://piliruma.co.id>
 	 * @version 1.0
 	 * @param   array $header
 	 */
@@ -159,7 +159,7 @@ final class Response {
 	/**
 	 * Set Charset
 	 *
-	 * @author Xsantana
+	 * @author Xsantana <https://piliruma.co.id>
 	 * @version 1.0
 	 * @param   string $charset
 	 */
@@ -171,7 +171,7 @@ final class Response {
 	/**
 	 * Set Status Code
 	 *
-	 * @author Xsantana
+	 * @author Xsantana <https://piliruma.co.id>
 	 * @version 1.0
 	 * @param   int $code
 	 */
@@ -187,7 +187,7 @@ final class Response {
 	/**
 	 * Set Response
 	 *
-	 * @author Xsantana
+	 * @author Xsantana <https://piliruma.co.id>
 	 * @version 1.0
 	 * @param   [type] $response
 	 */
@@ -203,7 +203,7 @@ final class Response {
 	}
 	/**
 	 * Convert to array
-	 * @author Xsantana
+	 * @author Xsantana <https://piliruma.co.id>
 	 * @version 1.0
 	 * @param   [type] $data [description]
 	 * @return  [type]       [description]

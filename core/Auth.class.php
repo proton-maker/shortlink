@@ -1,21 +1,21 @@
 <?php 
 /**
  * ====================================================================================
- *                           GemFramework (c) gempixel.com
+ *                           GemFramework (c) Xsantana
  * ----------------------------------------------------------------------------------
- *  This software is packaged with an exclusive framework owned by gempixel.com Inc as such
+ *  This software is packaged with an exclusive framework owned by Xsantana Inc as such
  *  distribution or modification of this framework is not allowed before prior consent
- *  from gempixel.com administrators. If you find that this framework is packaged in a 
- *  software not distributed by gempixel.com or authorized parties, you must not use this
- *  sofware and contact gempixel.com at https://gempixel.com/contact to inform them of this
+ *  from Xsantana administrators. If you find that this framework is packaged in a 
+ *  software not distributed by Xsantana or authorized parties, you must not use this
+ *  sofware and contact Xsantana at https://piliruma.co.id/contact to inform them of this
  *  misuse otherwise you risk of being prosecuted in courts.
  * ====================================================================================
  *
  * @package Gem\Core\Auth
- * @author gempixel.com (http://gempixel.com.com)
- * @copyright 2020 gempixel.com
- * @license http://gempixel.com.com/license
- * @link http://gempixel.com.com  
+ * @author Xsantana (http://Xsantana.com)
+ * @copyright 2020 Xsantana
+ * @license http://Xsantana.com/license
+ * @link http://Xsantana.com  
  * @since 1.0
  */
 namespace Core;
@@ -43,7 +43,7 @@ final class Auth extends Gem {
   const COOKIE = "logged_in";
 	/**
 	 * __construct
-	 * @author gempixel.com <http://gempixel.com.com>
+	 * @author Xsantana <http://Xsantana.com>
 	 * @version 1.0
 	 */
 	public function __construct(){				
@@ -51,7 +51,7 @@ final class Auth extends Gem {
 	}
 	/**
 	 * Read user cookie and extract user info
-	 * @author Xsantana
+	 * @author Xsantana <https://piliruma.co.id>
 	 * @version 1.0
 	 * @return  [type] [description]
 	 */
@@ -76,7 +76,7 @@ final class Auth extends Gem {
 
   /**
    * Login user
-   * @author Xsantana
+   * @author Xsantana <https://piliruma.co.id>
    * @version 1.0
    * @return  [type] [description]
    */
@@ -90,7 +90,7 @@ final class Auth extends Gem {
   }
   /**
    * Current User
-   * @author Xsantana
+   * @author Xsantana <https://piliruma.co.id>
    * @version 1.0
    * @return  [type] [description]
    */
@@ -99,7 +99,7 @@ final class Auth extends Gem {
   }
   /**
    * Return User ID
-   * @author Xsantana
+   * @author Xsantana <https://piliruma.co.id>
    * @version 1.0
    */
   public static function id():int {
@@ -107,7 +107,7 @@ final class Auth extends Gem {
   }
   /**
    * Login User
-   * @author Xsantana
+   * @author Xsantana <https://piliruma.co.id>
    * @version 1.0
    * @param   string|null $username   [description]
    * @param   string|null $password   [description]
@@ -145,7 +145,7 @@ final class Auth extends Gem {
   /**
    * Login using ID
    *
-   * @author Xsantana 
+   * @author Xsantana <https://piliruma.co.id> 
    * @version 6.0
    * @param integer $id
    * @return void
@@ -167,7 +167,7 @@ final class Auth extends Gem {
   }
   /**
    * Auth user via API
-   * @author Xsantana 
+   * @author Xsantana <https://piliruma.co.id> 
    * @version 6.0
    * @param string|null $key
    * @return void
@@ -185,7 +185,7 @@ final class Auth extends Gem {
   /**
    * Validate Login
    *
-   * @author Xsantana 
+   * @author Xsantana <https://piliruma.co.id> 
    * @version 1.0
    * @param string $username
    * @param string $password
@@ -200,7 +200,7 @@ final class Auth extends Gem {
   }
   /**
    * Log User Level
-   * @author Xsantana
+   * @author Xsantana <https://piliruma.co.id>
    * @version 1.0
    * @param   [type] $role [description]
    * @return  [type]        [description]
@@ -217,7 +217,7 @@ final class Auth extends Gem {
   }  
   /**
    * Redirect after login
-   * @author Xsantana
+   * @author Xsantana <https://piliruma.co.id>
    * @version 1.0
    * @param   [type] $path [description]
    * @return  [type]       [description]
@@ -229,7 +229,7 @@ final class Auth extends Gem {
 
   /**
    * [logout description]
-   * @author Xsantana
+   * @author Xsantana <https://piliruma.co.id>
    * @version 1.0
    * @return  [type] [description]
    */

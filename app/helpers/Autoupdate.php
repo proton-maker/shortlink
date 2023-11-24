@@ -1,19 +1,19 @@
 <?php  
 /**
  * =======================================================================================
- *                           GemFramework (c) gempixel.com                                     
+ *                           GemFramework (c) Xsantana                                     
  * ---------------------------------------------------------------------------------------
  *  This software is packaged with an exclusive framework as such distribution
  *  or modification of this framework is not allowed before prior consent from
- *  gempixel.com. If you find that this framework is packaged in a software not distributed 
- *  by gempixel.com or authorized parties, you must not use this software and contact gempixel.com
- *  at https://gempixel.com/contact to inform them of this misuse.
+ *  Xsantana. If you find that this framework is packaged in a software not distributed 
+ *  by Xsantana or authorized parties, you must not use this software and contact Xsantana
+ *  at https://piliruma.co.id/contact to inform them of this misuse.
  * =======================================================================================
  *
- * @package gempixel.com\Premium-URL-Shortener
- * @author Xsantana 
- * @license https://gempixel.com/licenses
- * @link https://gempixel.com  
+ * @package Xsantana\Premium-URL-Shortener
+ * @author Xsantana (https://piliruma.co.id) 
+ * @license https://piliruma.co.id/licenses
+ * @link https://piliruma.co.id  
  */
 
 namespace Helpers;
@@ -24,7 +24,7 @@ class AutoUpdate {
 	 * Constant
 	 */
 	const latestVersion = "1.0";
-	const serverURL = "https://cdn.gempixel.com.com/updater";
+	const serverURL = "https://cdn.Xsantana.com/updater";
 	/**
 	 * Private
 	 * @var null
@@ -35,7 +35,7 @@ class AutoUpdate {
 
 	/**
 	 * [__construct description]
-	 * @author KBRmedia <https://gempixel.com>
+	 * @author KBRmedia <https://piliruma.co.id>
 	 * @version 1.0
 	 */
 	
@@ -44,7 +44,7 @@ class AutoUpdate {
 	}
 	/**
 	 * [install description]
-	 * @author KBRmedia <https://gempixel.com>
+	 * @author KBRmedia <https://piliruma.co.id>
 	 * @version 1.0
 	 * @return  [type] [description]
 	 */
@@ -62,7 +62,7 @@ class AutoUpdate {
 	}
 	/**
 	 * [check description]
-	 * @author KBRmedia <https://gempixel.com>
+	 * @author KBRmedia <https://piliruma.co.id>
 	 * @version 1.0
 	 * @return  [type] [description]
 	 */
@@ -97,7 +97,7 @@ class AutoUpdate {
 	}
 	/**
 	 * [getMessage description]
-	 * @author KBRmedia <https://gempixel.com>
+	 * @author KBRmedia <https://piliruma.co.id>
 	 * @version 1.0
 	 * @return  [type] [description]
 	 */
@@ -106,7 +106,7 @@ class AutoUpdate {
 	}
 	/**
 	 * [verify description]
-	 * @author KBRmedia <https://gempixel.com>
+	 * @author KBRmedia <https://piliruma.co.id>
 	 * @version 1.0
 	 * @return  [type] [description]
 	 */
@@ -129,7 +129,7 @@ class AutoUpdate {
 
 	/**
 	 * [download description]
-	 * @author KBRmedia <https://gempixel.com>
+	 * @author KBRmedia <https://piliruma.co.id>
 	 * @version 1.0
 	 * @return  [type] [description]
 	 */
@@ -149,7 +149,7 @@ class AutoUpdate {
 
 	/**
 	 * [extract description]
-	 * @author KBRmedia <https://gempixel.com>
+	 * @author KBRmedia <https://piliruma.co.id>
 	 * @version 1.0
 	 * @return  [type] [description]
 	 */
@@ -178,7 +178,7 @@ class AutoUpdate {
 	}
 	/**
 	 * [update description]
-	 * @author KBRmedia <https://gempixel.com>
+	 * @author KBRmedia <https://piliruma.co.id>
 	 * @version 1.0
 	 * @return  [type] [description]
 	 */
@@ -190,7 +190,7 @@ class AutoUpdate {
 
 	/**
 	 * [clean description]
-	 * @author KBRmedia <https://gempixel.com>
+	 * @author KBRmedia <https://piliruma.co.id>
 	 * @version 1.0
 	 * @return  [type] [description]
 	 */
@@ -202,7 +202,7 @@ class AutoUpdate {
 	}
 	/**
 	 * [http description]
-	 * @author KBRmedia <https://gempixel.com>
+	 * @author KBRmedia <https://piliruma.co.id>
 	 * @version 1.0
 	 * @param   [type] $url    [description]
 	 * @param   array  $option [description]

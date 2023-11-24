@@ -26,7 +26,7 @@
                     </form>
                 <?php endforeach ?>
                 <div class="card card-body">
-                    <p><?php ee('Want to add your own payment module? It is now possible and very easy to do. Check our plugin documentation at <a href="https://gempixel.com/docs/premium-url-shortener/plugins" target="_blank">https://gempixel.com/docs/premium-url-shortener/plugin</a>') ?></p>
+                    <p><?php ee('Want to add your own payment module? It is now possible and very easy to do. Check our plugin documentation at <a href="https://piliruma.co.id/docs/premium-url-shortener/plugins" target="_blank">https://piliruma.co.id/docs/premium-url-shortener/plugin</a>') ?></p>
                 </div>
             <?php else: ?>
                 <div class="card">

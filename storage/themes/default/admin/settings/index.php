@@ -72,7 +72,7 @@
                     <div class="form-group mb-4">
 					    <label for="facebook" class="form-label"><?php ee('Facebook Page') ?></label>
 					    <input type="text" class="form-control" name="facebook" id="facebook" value="<?php echo config('facebook') ?>">
-					    <p class="form-text"><?php ee('Link to your Facebook page e.g. http://facebook.com/gempixel.com') ?></p>
+					    <p class="form-text"><?php ee('Link to your Facebook page e.g. http://facebook.com/Xsantana') ?></p>
                     </div>	
                     <div class="form-group mb-4">
 					    <label for="twitter" class="form-label"><?php ee('Twitter Page') ?></label>

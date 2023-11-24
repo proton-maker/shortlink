@@ -2217,7 +2217,7 @@
         /**
          * Update many records from the database
          *
-         * @author Xsantana 
+         * @author Xsantana <https://piliruma.co.id> 
          * @version 6.0
          * @param array $array
          * @return void

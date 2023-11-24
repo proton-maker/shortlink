@@ -1,20 +1,20 @@
 <?php
 /**
  * =======================================================================================
- *                           GemFramework (c) gempixel.com                                     
+ *                           GemFramework (c) Xsantana                                     
  * ---------------------------------------------------------------------------------------
  *  This software is packaged with an exclusive framework as such distribution
  *  or modification of this framework is not allowed before prior consent from
- *  gempixel.com. If you find that this framework is packaged in a software not distributed 
- *  by gempixel.com or authorized parties, you must not use this sofware and contact gempixel.com
- *  at https://gempixel.com/contact to inform them of this misuse.
+ *  Xsantana. If you find that this framework is packaged in a software not distributed 
+ *  by Xsantana or authorized parties, you must not use this sofware and contact Xsantana
+ *  at https://piliruma.co.id/contact to inform them of this misuse.
  * =======================================================================================
  *
- * @package gempixel.com\Premium-URL-Shortener
- * @author Xsantana
- * @copyright 2020 gempixel.com
- * @license https://gempixel.com/license
- * @link https://gempixel.com  
+ * @package Xsantana\Premium-URL-Shortener
+ * @author Xsantana (https://piliruma.co.id)
+ * @copyright 2020 Xsantana
+ * @license https://piliruma.co.id/license
+ * @link https://piliruma.co.id  
  */
 use Core\DB;
 use Core\Email;
@@ -37,7 +37,7 @@ class Gem {
     /**
      * Routing data
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      */
     static private $routing = [];
@@ -71,7 +71,7 @@ class Gem {
 
     /**
      * __construct
-     * @author gempixel.com <http://gempixel.com.com>
+     * @author Xsantana <http://Xsantana.com>
      * @version 1.0
      */
     public function __construct(){
@@ -79,7 +79,7 @@ class Gem {
     }
     /**
      * [getInstance description]
-     * @author Xsantana
+     * @author Xsantana <https://piliruma.co.id>
      * @version 1.0
      * @return  Gem
      */
@@ -92,7 +92,7 @@ class Gem {
     }
     /**
      * Start Application
-     * @author gempixel.com <http://gempixel.com.com>
+     * @author Xsantana <http://Xsantana.com>
      * @version 1.0
      */
     public static function preload(){
@@ -105,7 +105,7 @@ class Gem {
     }
     /**
      * Bootstrap Routes
-     * @author Xsantana
+     * @author Xsantana <https://piliruma.co.id>
      * @version 1.0
      */
     public static function Bootstrap(){
@@ -164,7 +164,7 @@ class Gem {
 
     /**
      * Dispatch manager
-     * @author gempixel.com <http://gempixel.com.com>
+     * @author Xsantana <http://Xsantana.com>
      * @version 1.0
      */
      public static function Dispatch(){			
@@ -279,7 +279,7 @@ class Gem {
     }
     /**
      * Group Routing
-     * @author Xsantana
+     * @author Xsantana <https://piliruma.co.id>
      * @version 1.0
      * @param   string   $prefix     Prefix name
      * @param   callable $function 	 Callback function
@@ -296,7 +296,7 @@ class Gem {
 
     /**
     * Object URI Generator
-    * @author Xsantana
+    * @author Xsantana <https://piliruma.co.id>
     * @version 1.0
     */
      public static function route(array $method, string $path, $handler, $name = NULL){
@@ -310,7 +310,7 @@ class Gem {
     }	
     /**
      * Append GET Data
-     * @author Xsantana
+     * @author Xsantana <https://piliruma.co.id>
      * @version 1.0
      * @param   string $path    URI path to match
      * @param   $handler Class callback
@@ -328,7 +328,7 @@ class Gem {
     }
     /**
      * Append POST Data
-     * @author Xsantana
+     * @author Xsantana <https://piliruma.co.id>
      * @version 1.0
      * @param   string $path    URI path to match
      * @param   $handler Class callback
@@ -348,7 +348,7 @@ class Gem {
     }
     /**
      * Append PUT Data
-     * @author Xsantana
+     * @author Xsantana <https://piliruma.co.id>
      * @version 1.0
      * @param   string $path    URI path to match
      * @param   $handler Class callback
@@ -366,7 +366,7 @@ class Gem {
     }
     /**
      * Append DELETE Data
-     * @author Xsantana
+     * @author Xsantana <https://piliruma.co.id>
      * @version 1.0
      * @param   string $path    URI path to match
      * @param   $handler Class callback
@@ -384,7 +384,7 @@ class Gem {
     }		
     /**
      * Set base URL
-     * @author gempixel.com <http://gempixel.com.com>
+     * @author Xsantana <http://Xsantana.com>
      * @version 1.0
      * @param   stringGem
      */
@@ -393,7 +393,7 @@ class Gem {
     }
     /**
      * Sanitize requests
-     * @author gempixel.com <http://gempixel.com.com>
+     * @author Xsantana <http://Xsantana.com>
      * @version 1.0
      */
     public static function Sanitize(){
@@ -402,7 +402,7 @@ class Gem {
     }	
      /**
       * [Controllers description]
-      * @author Xsantana
+      * @author Xsantana <https://piliruma.co.id>
       * @version 1.0
       */
      public static function Controllers(){
@@ -410,7 +410,7 @@ class Gem {
      }
      /**
       * Routing URI Generator
-      * @author Xsantana
+      * @author Xsantana <https://piliruma.co.id>
       * @version 1.0
       */
     public static function href($name, $param = NULL){
@@ -452,7 +452,7 @@ class Gem {
     }
     /**
     * Set Name
-    * @author Xsantana
+    * @author Xsantana <https://piliruma.co.id>
     * @version 1.0
     * @param   string $name [description]
     * @return  [type]       [description]
@@ -466,7 +466,7 @@ class Gem {
     }
     /**
      * [middleware description]
-     * @author Xsantana
+     * @author Xsantana <https://piliruma.co.id>
      * @version 1.0
      * @param   [type] $handler [description]
      */
@@ -476,7 +476,7 @@ class Gem {
     }
     /**
      * Set Middleware Statically
-     * @author Xsantana
+     * @author Xsantana <https://piliruma.co.id>
      * @version 1.0
      */
     public static function setMiddleware($handler){
@@ -492,7 +492,7 @@ class Gem {
     /**
      * Return Base Path
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 1.0
      * @return void
      */
@@ -503,7 +503,7 @@ class Gem {
     /**
      * Return Current Route
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -513,7 +513,7 @@ class Gem {
     /**
      * Get Current Route URL
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -522,7 +522,7 @@ class Gem {
     }
     /**
      * Add Middleware
-     * @author Xsantana
+     * @author Xsantana <https://piliruma.co.id>
      * @version 1.0
      * @param   [type] $middleware [description]
      */

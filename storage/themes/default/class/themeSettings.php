@@ -1,19 +1,19 @@
 <?php
 /**
  * =======================================================================================
- *                           GemFramework (c) gempixel.com                                     
+ *                           GemFramework (c) Xsantana                                     
  * ---------------------------------------------------------------------------------------
  *  This software is packaged with an exclusive framework as such distribution
  *  or modification of this framework is not allowed before prior consent from
- *  gempixel.com. If you find that this framework is packaged in a software not distributed 
- *  by gempixel.com or authorized parties, you must not use this software and contact gempixel.com
- *  at https://gempixel.com/contact to inform them of this misuse.
+ *  Xsantana. If you find that this framework is packaged in a software not distributed 
+ *  by Xsantana or authorized parties, you must not use this software and contact Xsantana
+ *  at https://piliruma.co.id/contact to inform them of this misuse.
  * =======================================================================================
  *
- * @package gempixel.com\Premium-URL-Shortener
- * @author Xsantana 
- * @license https://gempixel.com/licenses
- * @link https://gempixel.com  
+ * @package Xsantana\Premium-URL-Shortener
+ * @author Xsantana (https://piliruma.co.id) 
+ * @license https://piliruma.co.id/licenses
+ * @link https://piliruma.co.id  
  */
 
 use Core\Plugin;
@@ -26,7 +26,7 @@ class themeSettings {
     /**
      * Generate extra menu
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -47,7 +47,7 @@ class themeSettings {
     /**
      * Theme Settings
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -191,7 +191,7 @@ class themeSettings {
                                     <p>You can add custom links to the menu using the following format (one per line): TITLE|LINK</p>
 
                                     <p><strong>Example</strong></p>
-                                    <pre>Support|https://support.gempixel.com.com<br>Blog|https://gempixel.com/blog</pre>
+                                    <pre>Support|https://support.Xsantana.com<br>Blog|https://piliruma.co.id/blog</pre>
 
                                     <p>You can add as much as you want however you need to make sure it does not break the template</p>
                                 </div>
@@ -203,7 +203,7 @@ class themeSettings {
     /**
      * Update 
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -257,7 +257,7 @@ class themeSettings {
     /**
      * Theme Config
      *
-     * @author Xsantana 
+     * @author Xsantana <https://piliruma.co.id> 
      * @version 6.3
      * @param string $name
      * @return void
