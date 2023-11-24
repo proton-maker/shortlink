@@ -70,19 +70,21 @@ Gunakan `Link Shortener` untuk memulai.
 ## Getting Started
 
 Ini adalah contoh instruksi bagaimana Anda dapat untuk menyiapkan proyek Anda di localhost.
-file open souce bisa anda lihat di file repo tetapi akan error jika di clone langsung dari github,
-karena itu saya menggunakan cara lain dengan file drive.
+file open souce bisa anda lihat di file repo, situs web terkena malware jangan masukan dalam hosting!
 Untuk menyiapkan salinan lokal dan menjalankannya, ikuti contoh langkah sederhana berikut ini.
 
 ### Installation
 
 _Di bawah ini adalah contoh bagaimana Anda dapat untuk menginstal dan menyiapkan aplikasi Anda. Templat ini tidak bergantung pada dependensi atau layanan eksternal apa pun._
 
-1. Download menggunakan https://drive.google.com/file/d/1rJ0nPnricRgGlhjYfy_vX6vDGTLZqkVE/view dikarenakan file di github error jika di instal.
+1. Clone the Repo
+   ```sh
+   git clone https://github.com/proton-maker/shortlink.git
+   ```
 
-2. atau instal melalui link https://github.com/proton-maker/Shortener/archive/refs/heads/main.zip repo.
+2. atau instal melalui link https://github.com/proton-maker/shortlink/archive/refs/heads/main.zip repo.
 
-3. extract `Shortener-main.zip` pada main folder localhost `(htdocs)`.
+3. extract `shortlink-main.zip` pada main folder localhost `(htdocs)` ubah folder shortlink-main menjadi `Shortener-main`.
 
 4. File default root adalah `Shortener-main` ubah dalam database jika anda ingin menggunakan format lain.
 
