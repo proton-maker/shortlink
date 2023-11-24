@@ -1,21 +1,21 @@
 <?php 
 /**
  * ====================================================================================
- *                           GemFramework (c) Xsantana
+ *                           GemFramework (c) gempixel
  * ----------------------------------------------------------------------------------
- *  This software is packaged with an exclusive framework owned by Xsantana Inc as such
+ *  This software is packaged with an exclusive framework owned by gempixel Inc as such
  *  distribution or modification of this framework is not allowed before prior consent
- *  from Xsantana administrators. If you find that this framework is packaged in a 
- *  software not distributed by Xsantana or authorized parties, you must not use this
- *  sofware and contact Xsantana at https://piliruma.co.id/contact to inform them of this
+ *  from gempixel administrators. If you find that this framework is packaged in a 
+ *  software not distributed by gempixel or authorized parties, you must not use this
+ *  sofware and contact gempixel at https://piliruma.co.id/contact to inform them of this
  *  misuse otherwise you risk of being prosecuted in courts.
  * ====================================================================================
  *
  * @package Core\File
- * @author Xsantana (http://Xsantana.com)
- * @copyright 2020 Xsantana
- * @license http://Xsantana.com/license
- * @link http://Xsantana.com  
+ * @author gempixel (http://gempixel.com)
+ * @copyright 2020 gempixel
+ * @license http://gempixel.com/license
+ * @link http://gempixel.com  
  * @since 1.0
  */
 namespace Core;
@@ -37,7 +37,7 @@ final class File extends SplFileObject {
 	private $currentdata = NULL;
 	/**
 	 * Construct a SFO 
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 * @param   [type] $file [description]
 	 */
@@ -47,7 +47,7 @@ final class File extends SplFileObject {
 	}
 	/**
 	 * Factory
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 * @param   mixed  $file   [description]
 	 * @param   string $engine [description]
@@ -74,7 +74,7 @@ final class File extends SplFileObject {
 	 * Force download a file
 	 *
 	 * @example  {$file}->download("newname");
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 * @param   string|null $newname [description]
 	 * @return  [type]               [description]
@@ -99,7 +99,7 @@ final class File extends SplFileObject {
 	 *
 	 * @example  File::contentDownload("pp.txt", function(){});
 	 * 
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 * @param   [type]  $name [description]
 	 * @param   Closure $fn   [description]
@@ -117,7 +117,7 @@ final class File extends SplFileObject {
 	}
 	/**
 	 * View Source
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 * @return  [type] [description]
 	 */
@@ -126,7 +126,7 @@ final class File extends SplFileObject {
 	}
 	/**
 	 * Get Storage Link
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 * @param   string $engine [description]
 	 * @return  [type]         [description]
@@ -138,7 +138,7 @@ final class File extends SplFileObject {
 	}
 	/**
 	 * Get Link
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 * @return  [type] [description]
 	 */
@@ -147,7 +147,7 @@ final class File extends SplFileObject {
 	}
 	/**
 	 * Get Path
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 * @return  [type] [description]
 	 */
@@ -157,7 +157,7 @@ final class File extends SplFileObject {
 	/**
 	 * Move File
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 1.0
 	 * @param [type] $directory
 	 * @return void
@@ -171,7 +171,7 @@ final class File extends SplFileObject {
 	/**
 	 * Copy File
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @return void
 	 */

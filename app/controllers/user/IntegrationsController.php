@@ -1,17 +1,17 @@
 <?php
 /**
  * =======================================================================================
- *                           GemFramework (c) Xsantana                                     
+ *                           GemFramework (c) gempixel                                     
  * ---------------------------------------------------------------------------------------
  *  This software is packaged with an exclusive framework as such distribution
  *  or modification of this framework is not allowed before prior consent from
- *  Xsantana. If you find that this framework is packaged in a software not distributed 
- *  by Xsantana or authorized parties, you must not use this software and contact Xsantana
+ *  gempixel. If you find that this framework is packaged in a software not distributed 
+ *  by gempixel or authorized parties, you must not use this software and contact gempixel
  *  at https://piliruma.co.id/contact to inform them of this misuse.
  * =======================================================================================
  *
- * @package Xsantana\Premium-URL-Shortener
- * @author Xsantana (https://piliruma.co.id) 
+ * @package gempixel\Premium-URL-Shortener
+ * @author Xsantana
  * @license https://piliruma.co.id/licenses
  * @link https://piliruma.co.id  
  */
@@ -29,7 +29,7 @@ class Integrations {
     /**
      * INtegrations
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.3
      * @return void
      */
@@ -44,7 +44,7 @@ class Integrations {
     /**
      * Integrations
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.3
      * @param [type] $name
      * @return void
@@ -72,7 +72,7 @@ class Integrations {
     /**
      * Slack Integration
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.3
      * @return void
      */
@@ -91,7 +91,7 @@ class Integrations {
     /**
      * Zapier Integration
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.3
      * @return void
      */
@@ -104,7 +104,7 @@ class Integrations {
     /**
      * WordPress Integration
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.3
      * @return void
      */
@@ -122,7 +122,7 @@ class Integrations {
     /**
      * Shortcuts Integration
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.3
      * @return void
      */
@@ -137,7 +137,7 @@ class Integrations {
     /**
      * WP Plugin
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.3
      * @return void
      */

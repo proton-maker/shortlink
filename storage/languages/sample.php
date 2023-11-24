@@ -9,7 +9,7 @@ return [
     "code" => "en",
     "region" => "en_US",
     "name" => "Sample",
-    "author" => "Xsantana",
+    "author" => "gempixel",
     "link" => "https://piliruma.co.id",
     "date" => "17/03/2021",
     "rtl" => false,

@@ -22,17 +22,17 @@
      var appurl=jQuery("#gem_bookmarklet").attr("data-url");
      var token=jQuery("#gem_bookmarklet").attr("data-token");
       // HTML Template
-      var html='<div id="Xsantana-bookmarklet" style="z-index:99999 !important;box-shadow:0 5px 10px rgba(0,0,0,0.1) !important;font-family:arial !important;font-size:13px !important;background:#fff !important;position:fixed !important;border-radius:5px !important;color:#000 !important; padding-bottom: 5px !important;"><h2 style="border-bottom:1px solid #eee !important;margin:0 !important ;padding:10px !important;font-size:14px !important;color:#000 !important;">URL Shortener<a style="color:#000 !important;font-size:11px !important;text-align:right !important;text-decoration:none !important;float:right !important;margin-top:2px !important;" id="close" href="#close">(Close)</a></h2><form style="padding:10px !important;"><label for="gem-url">Short URL</label><input style="border-radius:3px !important;margin-top:10px !important;background:#fff !important;border:1px solid #32a0ee !important;width:250px !important;display:block !important;padding:5px 8px !important;" type="text" name="url" id="gem-url" value=""></form></div>';
+      var html='<div id="gempixel-bookmarklet" style="z-index:99999 !important;box-shadow:0 5px 10px rgba(0,0,0,0.1) !important;font-family:arial !important;font-size:13px !important;background:#fff !important;position:fixed !important;border-radius:5px !important;color:#000 !important; padding-bottom: 5px !important;"><h2 style="border-bottom:1px solid #eee !important;margin:0 !important ;padding:10px !important;font-size:14px !important;color:#000 !important;">URL Shortener<a style="color:#000 !important;font-size:11px !important;text-align:right !important;text-decoration:none !important;float:right !important;margin-top:2px !important;" id="close" href="#close">(Close)</a></h2><form style="padding:10px !important;"><label for="gem-url">Short URL</label><input style="border-radius:3px !important;margin-top:10px !important;background:#fff !important;border:1px solid #32a0ee !important;width:250px !important;display:block !important;padding:5px 8px !important;" type="text" name="url" id="gem-url" value=""></form></div>';
       //Append HTML
       jQuery("body").append(html);
       //Adjust CSS
-      jQuery("#Xsantana-bookmarklet").css({top:'20px',left:((jQuery(document).width() - jQuery("#Xsantana-bookmarklet").width())*0.5)});
+      jQuery("#gempixel-bookmarklet").css({top:'20px',left:((jQuery(document).width() - jQuery("#gempixel-bookmarklet").width())*0.5)});
       //Show Box
-      jQuery("#Xsantana-bookmarklet").slideDown('slow');
+      jQuery("#gempixel-bookmarklet").slideDown('slow');
       //Close and Remove Box
-      jQuery("#Xsantana-bookmarklet #close").click(function(e){
+      jQuery("#gempixel-bookmarklet #close").click(function(e){
         e.preventDefault();
-        jQuery("#Xsantana-bookmarklet").remove();
+        jQuery("#gempixel-bookmarklet").remove();
       });
       jQuery.getJSON(appurl+"/?bookmark=true&callback=?",
       {
@@ -41,9 +41,9 @@
       },
       function(r) {
        if(r.error=='0'){
-        jQuery("#Xsantana-bookmarklet #gem-url").val(r.short).select();
+        jQuery("#gempixel-bookmarklet #gem-url").val(r.short).select();
        }else{
-        jQuery("#Xsantana-bookmarklet #gem-url").val(r.msg);
+        jQuery("#gempixel-bookmarklet #gem-url").val(r.msg);
        }      
       });  
     })();

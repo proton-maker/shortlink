@@ -1,19 +1,19 @@
 <?php
 /**
  * ====================================================================================
- *                           GemFramework (c) Xsantana
+ *                           GemFramework (c) gempixel
  * ----------------------------------------------------------------------------------
- *  This software is packaged with an exclusive framework owned by Xsantana Inc as such
+ *  This software is packaged with an exclusive framework owned by gempixel Inc as such
  *  distribution or modification of this framework is not allowed before prior consent
- *  from Xsantana administrators. If you find that this framework is packaged in a 
- *  software not distributed by Xsantana or authorized parties, you must not use this
- *  sofware and contact Xsantana at https://piliruma.co.id/contact to inform them of this
+ *  from gempixel administrators. If you find that this framework is packaged in a 
+ *  software not distributed by gempixel or authorized parties, you must not use this
+ *  sofware and contact gempixel at https://piliruma.co.id/contact to inform them of this
  *  misuse otherwise you risk of being prosecuted in courts.
  * ====================================================================================
  *
  * @package Functions 
- * @author Xsantana (http://Xsantana.com) @license http://Xsantana.com/license
- * @link http://Xsantana.com  
+ * @author gempixel (http://gempixel.com) @license http://gempixel.com/license
+ * @link http://gempixel.com  
  * @since 1.0
  */
   
@@ -22,7 +22,7 @@ use Core\View;
 
 /**
   * Generate url
-  * @author Xsantana <https://piliruma.co.id>
+  * @author gempixel <https://piliruma.co.id>
   * @version 1.0
   * @param   [type] $path [description]
   * @return  [type]       [description]
@@ -35,7 +35,7 @@ if(!function_exists('url')){
   
 /**
   * Generate a link from route
-  * @author Xsantana <https://piliruma.co.id>
+  * @author gempixel <https://piliruma.co.id>
   * @version 1.0
   * @param   string $name 
   * @param   string $param
@@ -47,7 +47,7 @@ if(!function_exists('route')){
 }
 /**
   * Shorthand to Helper::CSRF()
-  * @author Xsantana <https://piliruma.co.id>
+  * @author gempixel <https://piliruma.co.id>
   * @version 1.0
   */
 if(!function_exists('csrf')){
@@ -57,7 +57,7 @@ if(!function_exists('csrf')){
 }
 /**
   * Shorthand to Helper::CSRF(false)
-  * @author Xsantana <https://piliruma.co.id>
+  * @author gempixel <https://piliruma.co.id>
   * @version 1.0
   */
 if(!function_exists('csrf_token')){
@@ -67,7 +67,7 @@ if(!function_exists('csrf_token')){
 }
 /**
   * Shorthand to View::meta()
-  * @author Xsantana <https://piliruma.co.id>
+  * @author gempixel <https://piliruma.co.id>
   * @version 1.0
   */
 if(!function_exists('meta')){
@@ -77,7 +77,7 @@ if(!function_exists('meta')){
 }
 /**
   * Shorthand to View::block()
-  * @author Xsantana <https://piliruma.co.id>
+  * @author gempixel <https://piliruma.co.id>
   * @version 1.0
   * @param   string $type
   */
@@ -88,7 +88,7 @@ if(!function_exists('block')){
 }
 /**
   * Push content to blocks
-  * @author Xsantana <https://piliruma.co.id>
+  * @author gempixel <https://piliruma.co.id>
   * @version 1.0
   * @param   string $content
   * @param   string $type        
@@ -100,7 +100,7 @@ if(!function_exists('push')){
 }
 /**
   * Shorthand to render
-  * @author Xsantana <https://piliruma.co.id>
+  * @author gempixel <https://piliruma.co.id>
   * @version 1.0
   * @param   string $name
   * @param   array  $data
@@ -113,7 +113,7 @@ if(!function_exists('render')){
 /**
   * DryRender
   *
-  * @author Xsantana <https://piliruma.co.id> 
+  * @author gempixel <https://piliruma.co.id> 
   * @version 6.0
   * @param string $name
   * @param array $data
@@ -127,7 +127,7 @@ if(!function_exists('view')){
 /**
   * View Extended Content
   *
-  * @author Xsantana <https://piliruma.co.id> 
+  * @author gempixel <https://piliruma.co.id> 
   * @version 6.0
   * @return void
   */
@@ -138,7 +138,7 @@ if(!function_exists('section')){
 }
 /**
   * Return Body Class
-  * @author Xsantana <https://piliruma.co.id>
+  * @author gempixel <https://piliruma.co.id>
   * @version 1.0
   * @return  [type] [description]
   */
@@ -149,7 +149,7 @@ if(!function_exists('bodyClass')){
 }
 /**
   * Assets shorthand
-  * @author Xsantana <https://piliruma.co.id>
+  * @author gempixel <https://piliruma.co.id>
   * @version 1.0
   * @param   [type] $name [description]
   * @return  [type]       [description]
@@ -161,7 +161,7 @@ if(!function_exists('assets')){
 }
 /**
   * Uploads shorthand
-  * @author Xsantana <https://piliruma.co.id>
+  * @author gempixel <https://piliruma.co.id>
   * @version 1.0
   * @param   [type] $name [description]
   * @return  [type]       [description]
@@ -174,7 +174,7 @@ if(!function_exists('uploads')){
 /**
  * Redirect back
  *
- * @author Xsantana <https://piliruma.co.id> 
+ * @author gempixel <https://piliruma.co.id> 
  * @version 6.0
  * @return void
  */
@@ -185,7 +185,7 @@ if(!function_exists('back')){
 }
 /**
   * Plugin
-  * @author Xsantana <https://piliruma.co.id>
+  * @author gempixel <https://piliruma.co.id>
   * @version 1.0
   * @param   [type] $name [description]
   * @return  [type]       [description]
@@ -197,7 +197,7 @@ if(!function_exists('plug')){
 }
 /**
   * Return timeago
-  * @author Xsantana <https://piliruma.co.id>
+  * @author gempixel <https://piliruma.co.id>
   * @version 1.0
   * @param   [type] $time [description]
   * @return  [type]       [description]
@@ -209,7 +209,7 @@ if(!function_exists('timeago')){
 }
 /**
   * Full Pagination
-  * @author Xsantana <https://piliruma.co.id>
+  * @author gempixel <https://piliruma.co.id>
   * @version 1.0
   * @param   string $class [description]
   * @return  [type]        [description]
@@ -221,7 +221,7 @@ if(!function_exists('pagination')){
 }
 /**
   * Return Simple Pagination
-  * @author Xsantana <https://piliruma.co.id>
+  * @author gempixel <https://piliruma.co.id>
   * @version 1.0
   * @return  [type] [description]
   */
@@ -232,7 +232,7 @@ if(!function_exists('simplePagination')){
 }
 /**
   * Stop Execution
-  * @author Xsantana <https://piliruma.co.id>
+  * @author gempixel <https://piliruma.co.id>
   * @version 1.0
   * @param   int    $code [description]
   * @return  [type]       [description]
@@ -245,7 +245,7 @@ if(!function_exists('stop')){
 }
 /**
   * Activate Middleware
-  * @author Xsantana <https://piliruma.co.id>
+  * @author gempixel <https://piliruma.co.id>
   * @version 1.0
   * @param   [type] $middleware [description]
   * @return  [type]             [description]
@@ -258,7 +258,7 @@ if(!function_exists('middleware')){
 /**
   * Return message
   *
-  * @author Xsantana <https://piliruma.co.id> 
+  * @author gempixel <https://piliruma.co.id> 
   * @version 6.0
   * @return void
   */
@@ -269,7 +269,7 @@ if(!function_exists('message')){
 }
 /**
   * Translation text
-  * @author Xsantana <http://Xsantana.com>
+  * @author gempixel <http://gempixel.com>
   * @version 1.0
   * @param   string $string
   */
@@ -281,7 +281,7 @@ if(!function_exists('e')){
 /**
   * Echo e()
   *
-  * @author Xsantana <https://piliruma.co.id> 
+  * @author gempixel <https://piliruma.co.id> 
   * @version 1.0
   * @param [type] $string
   * @param [type] $count
@@ -296,7 +296,7 @@ if(!function_exists('ee')){
 /**
  * Request Helper
  *
- * @author Xsantana <https://piliruma.co.id> 
+ * @author gempixel <https://piliruma.co.id> 
  * @version 6.0
  * @return void
  */
@@ -308,7 +308,7 @@ if(!function_exists('request')){
 /**
   * Get Session
   *
-  * @author Xsantana <https://piliruma.co.id> 
+  * @author gempixel <https://piliruma.co.id> 
   * @version 1.0
   * @return void
   */
@@ -320,7 +320,7 @@ if(!function_exists('old')){
 /**
  * Custom var Dump
  *
- * @author Xsantana <https://piliruma.co.id> 
+ * @author gempixel <https://piliruma.co.id> 
  * @version 6.0
  * @return void
  */
@@ -365,7 +365,7 @@ if(!function_exists('adminmenu')){
 /**
  * Append Query
  *
- * @author Xsantana <https://piliruma.co.id> 
+ * @author gempixel <https://piliruma.co.id> 
  * @version 6.0
  * @param array $query
  * @return void

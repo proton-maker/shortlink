@@ -1,17 +1,17 @@
 <?php
 /**
  * =======================================================================================
- *                           GemFramework (c) Xsantana                                     
+ *                           GemFramework (c) gempixel                                     
  * ---------------------------------------------------------------------------------------
  *  This software is packaged with an exclusive framework as such distribution
  *  or modification of this framework is not allowed before prior consent from
- *  Xsantana. If you find that this framework is packaged in a software not distributed 
- *  by Xsantana or authorized parties, you must not use this software and contact Xsantana
+ *  gempixel. If you find that this framework is packaged in a software not distributed 
+ *  by gempixel or authorized parties, you must not use this software and contact gempixel
  *  at https://piliruma.co.id/contact to inform them of this misuse.
  * =======================================================================================
  *
- * @package Xsantana\Premium-URL-Shortener
- * @author Xsantana (https://piliruma.co.id) 
+ * @package gempixel\Premium-URL-Shortener
+ * @author Xsantana
  * @license https://piliruma.co.id/licenses
  * @link https://piliruma.co.id  
  */
@@ -22,28 +22,28 @@ class QR {
     /**
      * Instance of the writer
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      */
     private $writer = null;
     /**
      * Add Logo
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      */
     private $logo = null;
     /**
      * Get Extension
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      */
     private $extension = null;    
     /**
      * Instance of the QR
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      */
     private $QR = null;    
@@ -51,7 +51,7 @@ class QR {
     /**
      * Generate QR Code
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      */
     public static function factory($request, $size = 200, $margin = 0){
@@ -85,7 +85,7 @@ class QR {
     /**
      * Check if can use Imagick
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @return boolean
      */
@@ -95,7 +95,7 @@ class QR {
     /**
      * Check if Type Exists
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param string $type
      * @return void
@@ -106,7 +106,7 @@ class QR {
     /**
      * Generate String
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param string $data
      * @return string
@@ -118,7 +118,7 @@ class QR {
     /**
      * Get Link
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param string $data
      * @return void
@@ -130,7 +130,7 @@ class QR {
     /**
      * Generate Email QR Codes
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param [type] $data
      * @return string
@@ -158,7 +158,7 @@ class QR {
     /**
      * Call Phone
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param [type] $data
      * @return string
@@ -172,7 +172,7 @@ class QR {
     /**
      * Generate SMS with Message
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.2
      * @param mixed $data
      * @return string
@@ -188,7 +188,7 @@ class QR {
     /**
      * SMS Only 
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.2
      * @param mixed $data
      * @return void
@@ -204,7 +204,7 @@ class QR {
     /**
      * Generate Whatsapp Link
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.2
      * @param mixed $data
      * @return void
@@ -220,7 +220,7 @@ class QR {
     /**
      * Generate Vcard
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param mixed $data
      * @return string
@@ -286,7 +286,7 @@ class QR {
     /**
      * Generate OAuth
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param [type] $data
      * @return void
@@ -307,7 +307,7 @@ class QR {
     /**
      * Generate Wifi string
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param [type] $data
      * @return string WIFI:S:<SSID>;T:<WPA|WEP|>;P:<password>;;
@@ -337,7 +337,7 @@ class QR {
     /**
      * Generate Geodata
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param [type] $data
      * @return string geo:LAT,LONG
@@ -352,7 +352,7 @@ class QR {
     /**
      * Crypto
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.2
      * @param mixed $data
      * @return void
@@ -389,7 +389,7 @@ class QR {
     /**
      * Validate File Upload
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.3
      * @return void
      */
@@ -409,7 +409,7 @@ class QR {
     /**
      * Upload File
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.3
      * @param [type] $data
      * @return void

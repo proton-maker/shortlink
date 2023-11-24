@@ -37,7 +37,7 @@ class Users {
     /**
      * Validate Login
      *
-     * @author Xsantana <https://piliruma.co.id>
+     * @author gempixel <https://piliruma.co.id>
      * @version 6.0
      * @param \Core\Request $request
      * @return void
@@ -144,7 +144,7 @@ class Users {
     /**
      * Validate User 2FA
      *
-     * @author Xsantana <https://piliruma.co.id>
+     * @author gempixel <https://piliruma.co.id>
      * @version 6.0
      * @return void
      */
@@ -161,7 +161,7 @@ class Users {
     /**
      * Validate 2FA
      *
-     * @author Xsantana <https://piliruma.co.id>
+     * @author gempixel <https://piliruma.co.id>
      * @version 6.0
      * @param \Core\Request $request
      * @return void
@@ -208,7 +208,7 @@ class Users {
     /**
      * Register page
      *
-     * @author Xsantana <https://piliruma.co.id>
+     * @author gempixel <https://piliruma.co.id>
      * @version 6.0
      * @return void
      */
@@ -227,7 +227,7 @@ class Users {
     /**
      * Validate Register
      *
-     * @author Xsantana <https://piliruma.co.id>
+     * @author gempixel <https://piliruma.co.id>
      * @version 6.0
      * @param \Core\Request $request
      * @return void
@@ -305,7 +305,7 @@ class Users {
     /**
      * Forgot Password page
      *
-     * @author Xsantana <https://piliruma.co.id>
+     * @author gempixel <https://piliruma.co.id>
      * @version 6.0
      * @return void
      */
@@ -320,7 +320,7 @@ class Users {
     /**
      * Validate and send new password link
      *
-     * @author Xsantana <https://piliruma.co.id>
+     * @author gempixel <https://piliruma.co.id>
      * @version 6.0
      * @param \Core\Request $request
      * @return void
@@ -343,7 +343,7 @@ class Users {
     /**
      * Reset Password
      *
-     * @author Xsantana <https://piliruma.co.id>
+     * @author gempixel <https://piliruma.co.id>
      * @version 6.0
      * @param string $token
      * @return void
@@ -373,7 +373,7 @@ class Users {
    /**
     * Change Password
     *
-    * @author Xsantana <https://piliruma.co.id>
+    * @author gempixel <https://piliruma.co.id>
     * @version 6.0
     * @param \Core\Request $request
     * @param string $token
@@ -418,7 +418,7 @@ class Users {
    /**
     * Activate Account
     *
-    * @author Xsantana <https://piliruma.co.id>
+    * @author gempixel <https://piliruma.co.id>
     * @version 6.0
     * @param string $token
     * @return void
@@ -442,7 +442,7 @@ class Users {
      /**
      * Invited
      *
-     * @author Xsantana <https://piliruma.co.id>
+     * @author gempixel <https://piliruma.co.id>
      * @version 6.0
      * @param string $token
      * @return void
@@ -462,7 +462,7 @@ class Users {
     /**
      * Accept Invitation
      *
-     * @author Xsantana <https://piliruma.co.id>
+     * @author gempixel <https://piliruma.co.id>
      * @version 6.0
      * @param \Core\Request $request
      * @param string $token
@@ -501,7 +501,7 @@ class Users {
     /**
      * Logout User
      *
-     * @author Xsantana <https://piliruma.co.id>
+     * @author gempixel <https://piliruma.co.id>
      * @version 6.0
      * @return void
      */
@@ -513,7 +513,7 @@ class Users {
     /**
     * Login with Facebook
     *
-    * @author Xsantana <https://piliruma.co.id>
+    * @author gempixel <https://piliruma.co.id>
     * @version 6.0
     * @param \Core\Request $request
     * @return void
@@ -614,7 +614,7 @@ class Users {
     /**
      * Login with Twitter
      *
-     * @author Xsantana <https://piliruma.co.id>
+     * @author gempixel <https://piliruma.co.id>
      * @version 6.0
      * @param \Core\Request $request
      * @return void
@@ -727,7 +727,7 @@ class Users {
     /**
      * Login with Google
      *
-     * @author Xsantana <https://piliruma.co.id>
+     * @author gempixel <https://piliruma.co.id>
      * @version 6.0
      * @param \Core\Request $request
      * @return void
@@ -814,7 +814,7 @@ class Users {
     /**
      * SSO Login
      *
-     * @author Xsantana <https://piliruma.co.id>
+     * @author gempixel <https://piliruma.co.id>
      * @version 6.3
      * @param [type] $token
      * @return void

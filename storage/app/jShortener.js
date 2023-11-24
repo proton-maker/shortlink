@@ -46,7 +46,7 @@ if(error == 0){
       if(typeof domain !== 'undefined'){
         url = url +'&domain='+domain;
       }
-      Xsantana(url, function(response) {
+      gempixel(url, function(response) {
         if(response.error=='0'){
           el.setAttribute('href',response.short);
         }else{
@@ -56,7 +56,7 @@ if(error == 0){
     }
   });
 }
-function Xsantana(url, callback) {
+function gempixel(url, callback) {
   var callbackName = 'PUS_' + Math.round(100000 * Math.random());
   window[callbackName] = function(data) {
       delete window[callbackName];

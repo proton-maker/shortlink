@@ -1,21 +1,21 @@
 <?php 
 /**
  * ====================================================================================
- *                           GemFramework (c) Xsantana
+ *                           GemFramework (c) gempixel
  * ----------------------------------------------------------------------------------
- *  This software is packaged with an exclusive framework owned by Xsantana Inc as such
+ *  This software is packaged with an exclusive framework owned by gempixel Inc as such
  *  distribution or modification of this framework is not allowed before prior consent
- *  from Xsantana administrators. If you find that this framework is packaged in a 
- *  software not distributed by Xsantana or authorized parties, you must not use this
- *  sofware and contact Xsantana at https://piliruma.co.id/contact to inform them of this
+ *  from gempixel administrators. If you find that this framework is packaged in a 
+ *  software not distributed by gempixel or authorized parties, you must not use this
+ *  sofware and contact gempixel at https://piliruma.co.id/contact to inform them of this
  *  misuse otherwise you risk of being prosecuted in courts.
  * ====================================================================================
  *
  * @package Gem\Core\Request
- * @author Xsantana (http://Xsantana.com)
- * @copyright 2020 Xsantana
- * @license http://Xsantana.com/license
- * @link http://Xsantana.com  
+ * @author gempixel (http://gempixel.com)
+ * @copyright 2020 gempixel
+ * @license http://gempixel.com/license
+ * @link http://gempixel.com  
  * @since 1.0
  */
 namespace Core;
@@ -26,7 +26,7 @@ final class Request {
 	/**
 	 * Sessions
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 1.0
 	 */
 	private static $session = [];
@@ -105,7 +105,7 @@ final class Request {
 
 	/**
 	 * Capture Requests via HTTP Post or HTTP Get
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 */
 	public function __construct(){
@@ -131,7 +131,7 @@ final class Request {
 
 	/**
 	 * Output class
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 * @return  string [description]
 	 */
@@ -143,7 +143,7 @@ final class Request {
 	}
 	/**
 	 * Get variable magically
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 * @param   [type] $variable [description]
 	 * @return  [type]           [description]
@@ -155,7 +155,7 @@ final class Request {
 	/**
 	 * Get variable
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 1.0
 	 * @param [type] $variable
 	 * @return void
@@ -167,7 +167,7 @@ final class Request {
 	/**
 	 * Return All Variables
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 1.0
 	 * @return void
 	 */
@@ -176,7 +176,7 @@ final class Request {
 	}
 	/**
 	 * Catch and process file uploads
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0	 
 	 */
 	private function catchFile(){
@@ -205,7 +205,7 @@ final class Request {
 	}
 	/**
 	 * Return File Object
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @param  $input Filter an input name
 	 * @version 1.0
 	 * @return  object File object
@@ -223,7 +223,7 @@ final class Request {
 	}
 	/**
 	 * Move file to another directory
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 * @param   class $request   [description]
 	 * @param   [type]  $directory [description]
@@ -241,7 +241,7 @@ final class Request {
 	}
 	/**
 	 * Set allowed types
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 * @param   array $types
 	 */
@@ -257,7 +257,7 @@ final class Request {
 	}
 	/**
 	 * Type of HTTP Request
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 */
 	public function typeof(){
@@ -265,7 +265,7 @@ final class Request {
 	}
 	/**
 	 * Count number of parameters
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 */
 	public function count(){
@@ -273,7 +273,7 @@ final class Request {
 	}	
 	/**
 	 * Check if a method has been posted
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 */
 	public function isPost(){
@@ -281,7 +281,7 @@ final class Request {
 	}
 	/**
 	 * Get Request Body
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 */
 	public function getBody(){
@@ -289,7 +289,7 @@ final class Request {
 	}
 	/**
 	 * Get HTTP Code
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 */
 	public function httpCode($code = NULL){
@@ -300,7 +300,7 @@ final class Request {
 	}
 	/**
 	 * Get Body JSON
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 */
 	public function getJSON(){
@@ -308,7 +308,7 @@ final class Request {
 	}
 	/**
 	 * Get Server Information
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 * @param   string $name [description]
 	 * @return  [type]       [description]
@@ -324,7 +324,7 @@ final class Request {
 	}
 	/**
 	 * Full URI
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 */
 	public function uri($withquery = true){
@@ -334,7 +334,7 @@ final class Request {
 	}
 	/**
 	 * Get Host
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 * @return  [type] [description]
 	 */
@@ -343,7 +343,7 @@ final class Request {
 	}
 	/**
 	 * Grabs referer URI
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 */
 	public function referer(){
@@ -352,7 +352,7 @@ final class Request {
 	/**
 	 * Return path with or without query
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 1.0
 	 * @param boolean $withquery
 	 * @return void
@@ -368,7 +368,7 @@ final class Request {
 	/**
 	 * Parse and return queries
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 1.0
 	 * @param [type] $query
 	 * @return void
@@ -384,7 +384,7 @@ final class Request {
 	}
 	/**
 	 * Get URI Segment
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 * @param   int    $segment [description]
 	 * @return  [type]          [description]
@@ -399,7 +399,7 @@ final class Request {
 	}
 	/**
 	 * Return HTTP method
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 */
 	public function http(){
@@ -407,7 +407,7 @@ final class Request {
 	}
 	/**
 	 * Is Secure
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.2
 	 * @return  boolean [description]
 	 */
@@ -426,7 +426,7 @@ final class Request {
 	}
 	/**
 	 * Is Ajax
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 * @return  boolean [description]
 	 */
@@ -435,7 +435,7 @@ final class Request {
 	}
 	/**
 	 * Get Requester IP
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 6.2.1
 	 */
 	public function ip(){
@@ -462,7 +462,7 @@ final class Request {
 	}
 	/**
 	 * Current User Agent
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 */
 	public function userAgent(){
@@ -472,7 +472,7 @@ final class Request {
 	/**
 	 * Detect Device
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @return void
 	 */
@@ -516,7 +516,7 @@ final class Request {
 	/**
 	 * User's browser
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 6.2
 	 * @return void
 	 */
@@ -555,7 +555,7 @@ final class Request {
 	/**
 	 * Get geoip
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 1.0
 	 * @param [type] $ip
 	 * @return void
@@ -590,7 +590,7 @@ final class Request {
 	}
 	/**
    * Read/Write Cookie
-   * @author Xsantana <https://piliruma.co.id>
+   * @author gempixel <https://piliruma.co.id>
    * @version 1.0
    * @param   string  $name 
    * @param   string  $value
@@ -608,7 +608,7 @@ final class Request {
   }	
   /**
    * Read/Write Session
-   * @author Xsantana <https://piliruma.co.id>
+   * @author gempixel <https://piliruma.co.id>
    * @version 1.0
    * @param   string $name  [description]
    * @param   mixed $value [description]
@@ -627,7 +627,7 @@ final class Request {
   /**
    * Unset session
    *
-   * @author Xsantana <https://piliruma.co.id> 
+   * @author gempixel <https://piliruma.co.id> 
    * @version 1.0
    * @param string $name
    * @return void
@@ -642,7 +642,7 @@ final class Request {
    /**
    * Save temporary data
    *
-   * @author Xsantana <https://piliruma.co.id> 
+   * @author gempixel <https://piliruma.co.id> 
    * @version 1.0
    * @param [type] $name
    * @param [type] $value
@@ -656,7 +656,7 @@ final class Request {
   /**
    * Clear temporary data
    *
-   * @author Xsantana <https://piliruma.co.id> 
+   * @author gempixel <https://piliruma.co.id> 
    * @version 1.0
    * @return void
    */
@@ -667,7 +667,7 @@ final class Request {
   }
  	/**
  	 * Validate Input
- 	 * @author Xsantana <https://piliruma.co.id>
+ 	 * @author gempixel <https://piliruma.co.id>
  	 * @version 1.0
  	 * @param   string $input [description]
  	 * @param   mixed $rule  [description]

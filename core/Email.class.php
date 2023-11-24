@@ -1,21 +1,21 @@
 <?php 
 /**
  * ====================================================================================
- *                           GemFramework (c) Xsantana
+ *                           GemFramework (c) gempixel
  * ----------------------------------------------------------------------------------
- *  This software is packaged with an exclusive framework owned by Xsantana Inc as such
+ *  This software is packaged with an exclusive framework owned by gempixel Inc as such
  *  distribution or modification of this framework is not allowed before prior consent
- *  from Xsantana administrators. If you find that this framework is packaged in a 
- *  software not distributed by Xsantana or authorized parties, you must not use this
- *  sofware and contact Xsantana at https://piliruma.co.id/contact to inform them of this
+ *  from gempixel administrators. If you find that this framework is packaged in a 
+ *  software not distributed by gempixel or authorized parties, you must not use this
+ *  sofware and contact gempixel at https://piliruma.co.id/contact to inform them of this
  *  misuse otherwise you risk of being prosecuted in courts.
  * ====================================================================================
  *
  * @package Gem\Core\Email
- * @author Xsantana (http://Xsantana.com)
- * @copyright 2020 Xsantana
- * @license http://Xsantana.com/license
- * @link http://Xsantana.com  
+ * @author gempixel (http://gempixel.com)
+ * @copyright 2020 gempixel
+ * @license http://gempixel.com/license
+ * @link http://gempixel.com  
  * @since 1.0
  */
 namespace Core;
@@ -58,7 +58,7 @@ final class Email {
 	/**
 	 * Array of data
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 1.0
 	 */
 	private $data = [];
@@ -71,7 +71,7 @@ final class Email {
 	 * @example send email via smtp + template Email::factory('smtp', config)->to([email, name])->from([email, name])->template(path)->send(array)
 	 * @example send email via sendmail		Email:factory('sendmail')->to([email, name])->from([email, name])->send(array)
 	 * @example send email via mailgun API		Email:factory('mailgun')->to([email, name])->from([email, name])->send(array)
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 * @param  string $transport
 	 * @param  mixed $config 
@@ -110,7 +110,7 @@ final class Email {
 	}	
 	/**
 	 * Set SMTP Configuration
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 * @param   [type] $config [description]
 	 */
@@ -139,7 +139,7 @@ final class Email {
 	}
 	/**
 	 * Set mailer mode
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 * @param   [type] $mode [description]
 	 * @return  [type]       [description]
@@ -181,7 +181,7 @@ final class Email {
 	/**
 	 * To user
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 1.0
 	 * @param mixed $user
 	 * @return void
@@ -200,7 +200,7 @@ final class Email {
 	/**
 	 * Sender information
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 1.0
 	 * @param mixed $sender
 	 * @return void
@@ -219,7 +219,7 @@ final class Email {
 	/**
 	 * Reply To
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 1.0
 	 * @param array $contact
 	 * @return void
@@ -236,7 +236,7 @@ final class Email {
 	 * Fetch Template - using this method requires a closure as $data["message"] using $this->template
 	 * Email::parse can be used to replace placeholders in templates
 	 *
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 * @param   [type] $name [description]
 	 * @return  [type]       [description]
@@ -251,7 +251,7 @@ final class Email {
 
 	/**
 	 * Send Email
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 * @param   array  $data [description]
 	 * @return  [type]       [description]
@@ -292,7 +292,7 @@ final class Email {
 	}
 	/**
 	 * Fallback using php mail()
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 * @param   array  $data [description]
 	 * @return  [type]       [description]
@@ -319,7 +319,7 @@ final class Email {
 	/**
 	 * Parse template shortcodes: {{ shortcode }}
 	 * 
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 * @param   string $template
 	 * @param   array  $parseArray  

@@ -24,7 +24,7 @@ class User extends Model {
 	/**
 	 * User avatar
 	 *
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 6.0
 	 * @return void
 	 */
@@ -43,7 +43,7 @@ class User extends Model {
 	/**
 	 * Refresh Plans
 	 *
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 6.1.6
 	 * @return void
 	 */
@@ -54,7 +54,7 @@ class User extends Model {
 	/**
 	 * Get User Plan
 	 *
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 6.0
 	 * @return void
 	 */
@@ -78,7 +78,7 @@ class User extends Model {
 	/**
 	 * Check User Permission
 	 *
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 6.0
 	 * @param [type] $permission
 	 * @return boolean
@@ -103,7 +103,7 @@ class User extends Model {
 	/**
 	 * Count User Permission
 	 *
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 6.0
 	 * @param [type] $permission
 	 * @return boolean
@@ -128,7 +128,7 @@ class User extends Model {
 	/**
 	 * Check if user is in a team
 	 *
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 6.0
 	 * @return void
 	 */
@@ -138,7 +138,7 @@ class User extends Model {
 	/**
 	 * View team permission
 	 *
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 6.0
 	 * @param string $permission
 	 * @return void
@@ -158,7 +158,7 @@ class User extends Model {
 	/**
 	 * Get user pixels list
 	 *
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 6.0
 	 * @return void
 	 */
@@ -175,7 +175,7 @@ class User extends Model {
 	/**
 	 * Check if user is pro
 	 *
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 * @return void
 	 */

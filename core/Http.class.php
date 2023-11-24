@@ -1,21 +1,21 @@
 <?php 
 /**
  * ====================================================================================
- *                           GemFramework (c) Xsantana
+ *                           GemFramework (c) gempixel
  * ----------------------------------------------------------------------------------
- *  This software is packaged with an exclusive framework owned by Xsantana Inc as such
+ *  This software is packaged with an exclusive framework owned by gempixel Inc as such
  *  distribution or modification of this framework is not allowed before prior consent
- *  from Xsantana administrators. If you find that this framework is packaged in a 
- *  software not distributed by Xsantana or authorized parties, you must not use this
- *  sofware and contact Xsantana at https://piliruma.co.id/contact to inform them of this
+ *  from gempixel administrators. If you find that this framework is packaged in a 
+ *  software not distributed by gempixel or authorized parties, you must not use this
+ *  sofware and contact gempixel at https://piliruma.co.id/contact to inform them of this
  *  misuse otherwise you risk of being prosecuted in courts.
  * ====================================================================================
  *
  * @package Gem\Core\Http
- * @author Xsantana (http://Xsantana.com)
- * @copyright 2020 Xsantana
- * @license http://Xsantana.com/license
- * @link http://Xsantana.com  
+ * @author gempixel (http://gempixel.com)
+ * @copyright 2020 gempixel
+ * @license http://gempixel.com/license
+ * @link http://gempixel.com  
  * @since 1.0
  * @example Http::url("http://site.com")->withHeaders(["authorization" => "Token 123456"])->post();
  */
@@ -44,13 +44,13 @@ final class Http {
 	/**
 	 * CURL SSL
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 6.0
 	 */
 	private $_HTTPCURLSSL = true;
 	/**
 	 * Build Http Request
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 * @param   string|null $url [description]
 	 */
@@ -62,7 +62,7 @@ final class Http {
 	}
 	/**
 	 * Return Body
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 * @return  string [description]
 	 */
@@ -71,7 +71,7 @@ final class Http {
 	}
 	/**
 	 * Call Statistically
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 * @param   string|null $url [description]
 	 * @return  [type]           [description]
@@ -81,7 +81,7 @@ final class Http {
 	}
 	/**
 	 * Get Request Body
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 * @return  [type] [description]
 	 */
@@ -91,7 +91,7 @@ final class Http {
 	}
   /**
    * Get Body as Object
-   * @author Xsantana <https://piliruma.co.id>
+   * @author gempixel <https://piliruma.co.id>
    * @version 1.0
    * @return  [type] [description]
    */
@@ -101,7 +101,7 @@ final class Http {
   }
 	/**
 	 * Get HTTP Code
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 */
 	public function httpCode($code = NULL){
@@ -110,7 +110,7 @@ final class Http {
 	}	
   /**
    * Set Headers
-   * @author Xsantana <https://piliruma.co.id>
+   * @author gempixel <https://piliruma.co.id>
    * @version 1.0
    * @param   [type] $name   [description]
    * @param   [type] $content [description]   
@@ -122,7 +122,7 @@ final class Http {
   }
   /**
    * Set headers with Array
-   * @author Xsantana <https://piliruma.co.id>
+   * @author gempixel <https://piliruma.co.id>
    * @version 1.0
    * @param   array  $headers [description]
    * @return  [type]          [description]
@@ -135,7 +135,7 @@ final class Http {
   }
  /**
    * Request Auth
-   * @author Xsantana <https://piliruma.co.id>
+   * @author gempixel <https://piliruma.co.id>
    * @version 1.0
    * @param   [type] $username [description]
    * @param   [type] $password [description]
@@ -147,7 +147,7 @@ final class Http {
   }
   /**
    * Request Body
-   * @author Xsantana <https://piliruma.co.id>
+   * @author gempixel <https://piliruma.co.id>
    * @version 1.0
    * @param   [type] $content [description]
    */
@@ -162,7 +162,7 @@ final class Http {
   }
   /**
    * Send a get request
-   * @author Xsantana <https://piliruma.co.id>
+   * @author gempixel <https://piliruma.co.id>
    * @version 1.0
    * @param   array  $options [description]
    * @return  [type]          [description]
@@ -217,7 +217,7 @@ final class Http {
   }
 	/**
    * Send a POST request
-   * @author Xsantana <https://piliruma.co.id>
+   * @author gempixel <https://piliruma.co.id>
    * @version 1.0
    * @param   array  $options [description]
    * @return  [type]          [description]
@@ -274,7 +274,7 @@ final class Http {
   }  
   /**
    * Delete Request
-   * @author Xsantana <https://piliruma.co.id>
+   * @author gempixel <https://piliruma.co.id>
    * @version 1.0
    * @param   array  $options [description]
    * @return  [type]          [description]
@@ -284,7 +284,7 @@ final class Http {
   }  
   /**
    * Put Request
-   * @author Xsantana <https://piliruma.co.id>
+   * @author gempixel <https://piliruma.co.id>
    * @version 1.0
    * @param   array  $options [description]
    * @return  [type]          [description]
@@ -294,7 +294,7 @@ final class Http {
   }  
   /**
    * Patch Request
-   * @author Xsantana <https://piliruma.co.id>
+   * @author gempixel <https://piliruma.co.id>
    * @version 1.0
    * @param   array  $options [description]
    * @return  [type]          [description]
@@ -304,7 +304,7 @@ final class Http {
   }  
   /**
    * Request Response
-   * @author Xsantana <https://piliruma.co.id>
+   * @author gempixel <https://piliruma.co.id>
    * @version 1.0
    * @return  [type] [description]
    */

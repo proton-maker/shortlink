@@ -1,17 +1,17 @@
 <?php
 /**
  * =======================================================================================
- *                           GemFramework (c) Xsantana                                     
+ *                           GemFramework (c) gempixel                                     
  * ---------------------------------------------------------------------------------------
  *  This software is packaged with an exclusive framework as such distribution
  *  or modification of this framework is not allowed before prior consent from
- *  Xsantana. If you find that this framework is packaged in a software not distributed 
- *  by Xsantana or authorized parties, you must not use this software and contact Xsantana
+ *  gempixel. If you find that this framework is packaged in a software not distributed 
+ *  by gempixel or authorized parties, you must not use this software and contact gempixel
  *  at https://piliruma.co.id/contact to inform them of this misuse.
  * =======================================================================================
  *
- * @package Xsantana\Premium-URL-Shortener
- * @author Xsantana (https://piliruma.co.id) 
+ * @package gempixel\Premium-URL-Shortener
+ * @author Xsantana
  * @license https://piliruma.co.id/licenses
  * @link https://piliruma.co.id  
  */
@@ -30,7 +30,7 @@ class Gate {
     /**
      * Inactive Link
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -45,7 +45,7 @@ class Gate {
     /**
      * Disabled Page
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -60,7 +60,7 @@ class Gate {
     /**
      * Expired Page
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -71,7 +71,7 @@ class Gate {
     /**
      * Password protected page
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param object $url
      * @return void
@@ -95,7 +95,7 @@ class Gate {
     /**
      * Direct method
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param object $url
      * @param object $user
@@ -139,7 +139,7 @@ class Gate {
     /**
      * Frame method
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param object $url
      * @return void
@@ -159,7 +159,7 @@ class Gate {
     /**
      * Splash method
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param object $url
      * @return void
@@ -198,7 +198,7 @@ class Gate {
     /**
      * Custom Overlay
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param [type] $url
      * @param [type] $user
@@ -229,7 +229,7 @@ class Gate {
     /**
      * Overlay
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param [type] $url
      * @param [type] $user
@@ -268,7 +268,7 @@ class Gate {
     /**
      * Embed Media
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param array $data
      * @category extendable
@@ -300,7 +300,7 @@ class Gate {
     /**
      * Media Gateway
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 1.0
      * @param [type] $url
      * @param [type] $media
@@ -334,7 +334,7 @@ class Gate {
     /**
      * Profile
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -473,7 +473,7 @@ class Gate {
     /**
      * Bundle
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param [type] $profile
      * @return void
@@ -496,7 +496,7 @@ class Gate {
     /**
      * Inject Pixel
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param string $pixels
      * @param object $user

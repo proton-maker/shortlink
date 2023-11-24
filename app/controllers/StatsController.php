@@ -1,17 +1,17 @@
 <?php
 /**
  * =======================================================================================
- *                           GemFramework (c) Xsantana                                     
+ *                           GemFramework (c) gempixel                                     
  * ---------------------------------------------------------------------------------------
  *  This software is packaged with an exclusive framework as such distribution
  *  or modification of this framework is not allowed before prior consent from
- *  Xsantana. If you find that this framework is packaged in a software not distributed 
- *  by Xsantana or authorized parties, you must not use this software and contact Xsantana
+ *  gempixel. If you find that this framework is packaged in a software not distributed 
+ *  by gempixel or authorized parties, you must not use this software and contact gempixel
  *  at https://piliruma.co.id/contact to inform them of this misuse.
  * =======================================================================================
  *
- * @package Xsantana\Premium-URL-Shortener
- * @author Xsantana (https://piliruma.co.id) 
+ * @package gempixel\Premium-URL-Shortener
+ * @author Xsantana
  * @license https://piliruma.co.id/licenses
  * @link https://piliruma.co.id  
  */
@@ -30,7 +30,7 @@ class Stats {
     /**
      * Simple Redirect
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -47,7 +47,7 @@ class Stats {
     /**
      * Generate Statistics
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 1.0
      * @param int $id
      * @return void
@@ -142,7 +142,7 @@ class Stats {
    /**
     * Get Chart Data
     *
-    * @author Xsantana <https://piliruma.co.id> 
+    * @author gempixel <https://piliruma.co.id> 
     * @version 6.0
     * @param integer $id
     * @return void
@@ -227,7 +227,7 @@ class Stats {
     /**
      * Generate Country Stats
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param integer $id
      * @return void
@@ -319,7 +319,7 @@ class Stats {
      /**
      * Get Clicks Map
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -395,7 +395,7 @@ class Stats {
     /**
      * Get City Data
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param \Core\Request $request
      * @return void
@@ -457,7 +457,7 @@ class Stats {
     /**
      * Get Platform Data
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -545,7 +545,7 @@ class Stats {
     /**
      * Get Platform Data
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param integer $id
      * @return void
@@ -614,7 +614,7 @@ class Stats {
     /**
      * Get Browser Data
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -702,7 +702,7 @@ class Stats {
     /**
      * Get Browsers Data
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param integer $id
      * @return void
@@ -769,7 +769,7 @@ class Stats {
     /**
      * Get Language Data
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -857,7 +857,7 @@ class Stats {
     /**
      * Get Language Data
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param integer $id
      * @return void
@@ -924,7 +924,7 @@ class Stats {
     /**
      * Referrers Page
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param integer $id
      * @return void

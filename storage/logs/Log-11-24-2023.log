@@ -1,0 +1,74 @@
+[2023-11-24T14:43:11.993667+01:00] system.ERROR: Return type of Core\Support\ORM::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice occurred in C:\xampp\htdocs\Shortener-main\core\support\ORM.class.php:2257 -> http://localhost/Shortener-main/  
+
+[2023-11-24T14:43:11.994090+01:00] system.ERROR: Return type of Core\Support\ORM::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice occurred in C:\xampp\htdocs\Shortener-main\core\support\ORM.class.php:2261 -> http://localhost/Shortener-main/  
+
+[2023-11-24T14:43:11.994313+01:00] system.ERROR: Return type of Core\Support\ORM::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice occurred in C:\xampp\htdocs\Shortener-main\core\support\ORM.class.php:2265 -> http://localhost/Shortener-main/  
+
+[2023-11-24T14:43:11.994418+01:00] system.ERROR: Return type of Core\Support\ORM::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice occurred in C:\xampp\htdocs\Shortener-main\core\support\ORM.class.php:2272 -> http://localhost/Shortener-main/  
+
+[2023-11-24T14:43:11.994522+01:00] system.ERROR: Return type of Core\Support\IdiormResultSet::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice occurred in C:\xampp\htdocs\Shortener-main\core\support\ORM.class.php:2493 -> http://localhost/Shortener-main/  
+
+[2023-11-24T14:43:11.994621+01:00] system.ERROR: Return type of Core\Support\IdiormResultSet::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice occurred in C:\xampp\htdocs\Shortener-main\core\support\ORM.class.php:2502 -> http://localhost/Shortener-main/  
+
+[2023-11-24T14:43:11.994719+01:00] system.ERROR: Return type of Core\Support\IdiormResultSet::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice occurred in C:\xampp\htdocs\Shortener-main\core\support\ORM.class.php:2511 -> http://localhost/Shortener-main/  
+
+[2023-11-24T14:43:11.994814+01:00] system.ERROR: Return type of Core\Support\IdiormResultSet::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice occurred in C:\xampp\htdocs\Shortener-main\core\support\ORM.class.php:2520 -> http://localhost/Shortener-main/  
+
+[2023-11-24T14:43:11.994910+01:00] system.ERROR: Return type of Core\Support\IdiormResultSet::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice occurred in C:\xampp\htdocs\Shortener-main\core\support\ORM.class.php:2529 -> http://localhost/Shortener-main/  
+
+[2023-11-24T14:43:11.995008+01:00] system.ERROR: Return type of Core\Support\IdiormResultSet::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice occurred in C:\xampp\htdocs\Shortener-main\core\support\ORM.class.php:2537 -> http://localhost/Shortener-main/  
+
+[2023-11-24T14:43:11.995102+01:00] system.ERROR: Core\Support\IdiormResultSet implements the Serializable interface, which is deprecated. Implement __serialize() and __unserialize() instead (or in addition, if support for old PHP versions is necessary) occurred in C:\xampp\htdocs\Shortener-main\core\support\ORM.class.php:2450 -> http://localhost/Shortener-main/  
+
+[2023-11-24T14:43:11.996292+01:00] system.ERROR: str_replace(): Passing null to parameter #1 ($search) of type array|string is deprecated occurred in C:\xampp\htdocs\Shortener-main\core\support\ORM.class.php:1849 -> http://localhost/Shortener-main/  
+
+[2023-11-24T20:43:12.001410+07:00] system.ERROR: Return type of Phpfastcache\Util\ArrayObject::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice occurred in C:\xampp\htdocs\Shortener-main\vendor\phpfastcache\phpfastcache\lib\Phpfastcache\Util\ArrayObject.php:52 -> http://localhost/Shortener-main/  
+
+[2023-11-24T20:43:12.017315+07:00] system.ERROR: preg_replace(): Passing null to parameter #2 ($replacement) of type array|string is deprecated occurred in C:\xampp\htdocs\Shortener-main\core\Gem.class.php:446 -> http://localhost/Shortener-main/  
+
+[2023-11-24T20:43:12.017495+07:00] system.ERROR: preg_replace(): Passing null to parameter #2 ($replacement) of type array|string is deprecated occurred in C:\xampp\htdocs\Shortener-main\core\Gem.class.php:446 -> http://localhost/Shortener-main/  
+
+[2023-11-24T20:43:12.017904+07:00] system.ERROR: preg_replace(): Passing null to parameter #2 ($replacement) of type array|string is deprecated occurred in C:\xampp\htdocs\Shortener-main\core\Gem.class.php:446 -> http://localhost/Shortener-main/  
+
+[2023-11-24T20:43:12.018025+07:00] system.ERROR: preg_replace(): Passing null to parameter #2 ($replacement) of type array|string is deprecated occurred in C:\xampp\htdocs\Shortener-main\core\Gem.class.php:446 -> http://localhost/Shortener-main/  
+
+[2023-11-24T20:43:12.018136+07:00] system.ERROR: preg_replace(): Passing null to parameter #2 ($replacement) of type array|string is deprecated occurred in C:\xampp\htdocs\Shortener-main\core\Gem.class.php:446 -> http://localhost/Shortener-main/  
+
+[2023-11-24T20:43:12.018243+07:00] system.ERROR: preg_replace(): Passing null to parameter #2 ($replacement) of type array|string is deprecated occurred in C:\xampp\htdocs\Shortener-main\core\Gem.class.php:446 -> http://localhost/Shortener-main/  
+
+[2023-11-24T20:43:12.018346+07:00] system.ERROR: preg_replace(): Passing null to parameter #2 ($replacement) of type array|string is deprecated occurred in C:\xampp\htdocs\Shortener-main\core\Gem.class.php:446 -> http://localhost/Shortener-main/  
+
+[2023-11-24T20:43:12.022548+07:00] system.ERROR: preg_replace(): Passing null to parameter #2 ($replacement) of type array|string is deprecated occurred in C:\xampp\htdocs\Shortener-main\core\Gem.class.php:446 -> http://localhost/Shortener-main/  
+
+[2023-11-24T20:43:12.022678+07:00] system.ERROR: preg_replace(): Passing null to parameter #2 ($replacement) of type array|string is deprecated occurred in C:\xampp\htdocs\Shortener-main\core\Gem.class.php:446 -> http://localhost/Shortener-main/  
+
+[2023-11-24T20:43:12.022800+07:00] system.ERROR: preg_replace(): Passing null to parameter #2 ($replacement) of type array|string is deprecated occurred in C:\xampp\htdocs\Shortener-main\core\Gem.class.php:446 -> http://localhost/Shortener-main/  
+
+[2023-11-24T20:43:12.022909+07:00] system.ERROR: preg_replace(): Passing null to parameter #2 ($replacement) of type array|string is deprecated occurred in C:\xampp\htdocs\Shortener-main\core\Gem.class.php:446 -> http://localhost/Shortener-main/  
+
+[2023-11-24T20:43:12.023011+07:00] system.ERROR: preg_replace(): Passing null to parameter #2 ($replacement) of type array|string is deprecated occurred in C:\xampp\htdocs\Shortener-main\core\Gem.class.php:446 -> http://localhost/Shortener-main/  
+
+[2023-11-24T20:43:12.023717+07:00] system.ERROR: preg_replace(): Passing null to parameter #2 ($replacement) of type array|string is deprecated occurred in C:\xampp\htdocs\Shortener-main\core\Gem.class.php:446 -> http://localhost/Shortener-main/  
+
+[2023-11-24T20:43:12.024327+07:00] system.ERROR: preg_replace(): Passing null to parameter #2 ($replacement) of type array|string is deprecated occurred in C:\xampp\htdocs\Shortener-main\core\Gem.class.php:446 -> http://localhost/Shortener-main/  
+
+[2023-11-24T20:43:12.024767+07:00] system.ERROR: preg_replace(): Passing null to parameter #2 ($replacement) of type array|string is deprecated occurred in C:\xampp\htdocs\Shortener-main\core\Gem.class.php:446 -> http://localhost/Shortener-main/  
+
+[2023-11-24T20:43:12.024903+07:00] system.ERROR: preg_replace(): Passing null to parameter #2 ($replacement) of type array|string is deprecated occurred in C:\xampp\htdocs\Shortener-main\core\Gem.class.php:446 -> http://localhost/Shortener-main/  
+
+[2023-11-24T20:43:12.025022+07:00] system.ERROR: preg_replace(): Passing null to parameter #2 ($replacement) of type array|string is deprecated occurred in C:\xampp\htdocs\Shortener-main\core\Gem.class.php:446 -> http://localhost/Shortener-main/  
+
+[2023-11-24T20:43:12.025131+07:00] system.ERROR: preg_replace(): Passing null to parameter #2 ($replacement) of type array|string is deprecated occurred in C:\xampp\htdocs\Shortener-main\core\Gem.class.php:446 -> http://localhost/Shortener-main/  
+
+[2023-11-24T20:43:12.025507+07:00] system.ERROR: preg_replace(): Passing null to parameter #2 ($replacement) of type array|string is deprecated occurred in C:\xampp\htdocs\Shortener-main\core\Gem.class.php:446 -> http://localhost/Shortener-main/  
+
+[2023-11-24T20:43:12.025624+07:00] system.ERROR: preg_replace(): Passing null to parameter #2 ($replacement) of type array|string is deprecated occurred in C:\xampp\htdocs\Shortener-main\core\Gem.class.php:446 -> http://localhost/Shortener-main/  
+
+[2023-11-24T20:43:12.025730+07:00] system.ERROR: preg_replace(): Passing null to parameter #2 ($replacement) of type array|string is deprecated occurred in C:\xampp\htdocs\Shortener-main\core\Gem.class.php:446 -> http://localhost/Shortener-main/  
+
+[2023-11-24T20:43:12.026208+07:00] system.ERROR: preg_replace(): Passing null to parameter #2 ($replacement) of type array|string is deprecated occurred in C:\xampp\htdocs\Shortener-main\core\Gem.class.php:446 -> http://localhost/Shortener-main/  
+
+[2023-11-24T20:43:12.026333+07:00] system.ERROR: preg_replace(): Passing null to parameter #2 ($replacement) of type array|string is deprecated occurred in C:\xampp\htdocs\Shortener-main\core\Gem.class.php:446 -> http://localhost/Shortener-main/  
+
+[2023-11-24T20:43:12.026768+07:00] system.ERROR: preg_replace(): Passing null to parameter #2 ($replacement) of type array|string is deprecated occurred in C:\xampp\htdocs\Shortener-main\core\Gem.class.php:446 -> http://localhost/Shortener-main/  
+

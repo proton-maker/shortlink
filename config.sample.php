@@ -12,7 +12,7 @@
  * =======================================================================================
  *
  * @package gempixel.com\Premium_URL_Shortener
- * @author Xsantana
+ * @author gempixel
  * @copyright 2020 gempixel.com
  * @license https://gempixel.com/license
  * @link https://gempixel.com  

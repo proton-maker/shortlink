@@ -1,17 +1,17 @@
 <?php
 /**
  * =======================================================================================
- *                           GemFramework (c) Xsantana                                     
+ *                           GemFramework (c) gempixel                                     
  * ---------------------------------------------------------------------------------------
  *  This software is packaged with an exclusive framework as such distribution
  *  or modification of this framework is not allowed before prior consent from
- *  Xsantana. If you find that this framework is packaged in a software not distributed 
- *  by Xsantana or authorized parties, you must not use this software and contact Xsantana
+ *  gempixel. If you find that this framework is packaged in a software not distributed 
+ *  by gempixel or authorized parties, you must not use this software and contact gempixel
  *  at https://piliruma.co.id/contact to inform them of this misuse.
  * =======================================================================================
  *
- * @package Xsantana\Premium-URL-Shortener
- * @author Xsantana (https://piliruma.co.id) 
+ * @package gempixel\Premium-URL-Shortener
+ * @author Xsantana
  * @license https://piliruma.co.id/licenses
  * @link https://piliruma.co.id  
  */
@@ -38,7 +38,7 @@ class Link {
 	/**
 	 * Add Url
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @param \Core\Request $request
 	 * @return void
@@ -90,7 +90,7 @@ class Link {
     /**
      * Redirect Link
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param string $alias
      * @return void
@@ -301,7 +301,7 @@ class Link {
     /**
      * Capture Screenshot
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param string $alias
      * @return void
@@ -338,7 +338,7 @@ class Link {
     /**
      * Generate Favicon
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param string $alias
      * @return void
@@ -373,7 +373,7 @@ class Link {
     /**
      * Generate QR Code
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param string $alias
      * @return void
@@ -395,7 +395,7 @@ class Link {
 	/**
 	 * Download QR
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @param \Core\Request $request
 	 * @param string $alias
@@ -424,7 +424,7 @@ class Link {
 	/**
 	 * Delete Link
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @param integer $id
 	 * @param string $nonce
@@ -449,7 +449,7 @@ class Link {
 	/**
 	 * Delete Many
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @param \Core\Request $request
 	 * @return void
@@ -473,7 +473,7 @@ class Link {
 	/**
 	 * Archive Selected
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @return void
 	 */
@@ -501,7 +501,7 @@ class Link {
 	/**
 	 * UnArchive Selected
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @param \Core\Request $request
 	 * @return void
@@ -529,7 +529,7 @@ class Link {
 	/**
 	 * Public Selected
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @return void
 	 */
@@ -557,7 +557,7 @@ class Link {
 	/**
 	 * Private Selected
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @param \Core\Request $request
 	 * @return void
@@ -585,7 +585,7 @@ class Link {
 	 /**
      * Edit Link
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param integer $id
      * @return void
@@ -627,7 +627,7 @@ class Link {
     /**
      * Update Link
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param \Core\Request $request
      * @param integer $id
@@ -657,7 +657,7 @@ class Link {
 	/**
 	 * Add to campaign
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @param \Core\Request $request
 	 * @return void
@@ -686,7 +686,7 @@ class Link {
 	/**
 	 * Bookmark
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @param \Core\Request $request
 	 * @return void
@@ -710,7 +710,7 @@ class Link {
 	/**
 	 * Script Js
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @param \Core\Request $request
 	 * @return void
@@ -732,7 +732,7 @@ class Link {
 	/**
      * Full Page Script
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param \Core\Request $request
      * @return void
@@ -755,7 +755,7 @@ class Link {
 	/**
 	 * Quick Shortening
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @param \Core\Request $request
 	 * @return void
@@ -779,7 +779,7 @@ class Link {
 	/**
 	 * Not Found
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @param \Core\Request $request
 	 * @return void
@@ -805,7 +805,7 @@ class Link {
 	/**
 	 * Redirect Rotator
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @return void
 	 */
@@ -828,7 +828,7 @@ class Link {
 	/**
 	 * Campaign List
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @param string $username
 	 * @param string $alias
@@ -861,7 +861,7 @@ class Link {
 	/**
 	 * User Profile
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 6.1.6
 	 * @param \Core\Request $request
 	 * @param string $username
@@ -894,7 +894,7 @@ class Link {
 	/**
 	 * Reset Stats
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 6.1.6
 	 * @param integer $id
 	 * @param string $nonce

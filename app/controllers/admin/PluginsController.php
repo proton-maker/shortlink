@@ -1,17 +1,17 @@
 <?php
 /**
  * =======================================================================================
- *                           GemFramework (c) Xsantana                                     
+ *                           GemFramework (c) gempixel                                     
  * ---------------------------------------------------------------------------------------
  *  This software is packaged with an exclusive framework as such distribution
  *  or modification of this framework is not allowed before prior consent from
- *  Xsantana. If you find that this framework is packaged in a software not distributed 
- *  by Xsantana or authorized parties, you must not use this software and contact Xsantana
+ *  gempixel. If you find that this framework is packaged in a software not distributed 
+ *  by gempixel or authorized parties, you must not use this software and contact gempixel
  *  at https://piliruma.co.id/contact to inform them of this misuse.
  * =======================================================================================
  *
- * @package Xsantana\Premium-URL-Shortener
- * @author Xsantana (https://piliruma.co.id) 
+ * @package gempixel\Premium-URL-Shortener
+ * @author Xsantana
  * @license https://piliruma.co.id/licenses
  * @link https://piliruma.co.id  
  */
@@ -29,7 +29,7 @@ class Plugins {
     /**
      * Plugins Home
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -69,7 +69,7 @@ class Plugins {
     /**
      * Activate
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param [type] $id
      * @return void
@@ -98,7 +98,7 @@ class Plugins {
      /**
      * Disable
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param [type] $id
      * @return void
@@ -125,7 +125,7 @@ class Plugins {
     /**
      * Upload Plugin
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param \Core\Request $request
      * @return void
@@ -180,7 +180,7 @@ class Plugins {
     /**
      * Plugin Directory
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.2
      * @param \Core\Request $request
      * @return void
@@ -196,17 +196,17 @@ class Plugins {
         }
 
         if($request->q){
-            $http = \Core\Http::url('https://cdn.Xsantana.com/plugins/new.php')
+            $http = \Core\Http::url('https://cdn.gempixel.com/plugins/new.php')
                                 ->with('X-Authorization', 'TOKEN '.config('purchasecode'))
                                 ->body(clean($request->q))
                                 ->post();
                                 
         } elseif($request->category){
-            $http = \Core\Http::url('https://cdn.Xsantana.com/plugins/new.php?category='.$request->category)
+            $http = \Core\Http::url('https://cdn.gempixel.com/plugins/new.php?category='.$request->category)
                                 ->with('X-Authorization', 'TOKEN '.config('purchasecode'))
                                 ->post();
         } else {
-            $http = \Core\Http::url('https://cdn.Xsantana.com/plugins/new.php')
+            $http = \Core\Http::url('https://cdn.gempixel.com/plugins/new.php')
                                 ->with('X-Authorization', 'TOKEN '.config('purchasecode'))
                                 ->post();
         }
@@ -241,7 +241,7 @@ class Plugins {
     /**
      * Install Plugin
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.2
      * @param [type] $request
      * @return void
@@ -254,11 +254,11 @@ class Plugins {
  
         $exists = file_exists(PLUGIN.'/'.$name);
 
-        $content = \Core\Http::url('https://cdn.Xsantana.com/plugins/new.php?index='.clean($name))
+        $content = \Core\Http::url('https://cdn.gempixel.com/plugins/new.php?index='.clean($name))
                                 ->with('X-Authorization', 'TOKEN '.config('purchasecode'))
                                 ->post();
 
-        if(!copy('https://cdn.Xsantana.com/plugins/'.$name.'.zip', PLUGIN."/{$name}.zip")){
+        if(!copy('https://cdn.gempixel.com/plugins/'.$name.'.zip', PLUGIN."/{$name}.zip")){
             return Helper::redirect()->to(route('admin.plugins'))->with('danger', e('An error ocurred. Plugin was not downloaded.')); 
         }
 

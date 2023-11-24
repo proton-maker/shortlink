@@ -1,21 +1,21 @@
 <?php 
 /**
  * ====================================================================================
- *                           GemFramework (c) Xsantana
+ *                           GemFramework (c) gempixel
  * ----------------------------------------------------------------------------------
- *  This software is packaged with an exclusive framework owned by Xsantana Inc as such
+ *  This software is packaged with an exclusive framework owned by gempixel Inc as such
  *  distribution or modification of this framework is not allowed before prior consent
- *  from Xsantana administrators. If you find that this framework is packaged in a 
- *  software not distributed by Xsantana or authorized parties, you must not use this
- *  sofware and contact Xsantana at https://piliruma.co.id/contact to inform them of this
+ *  from gempixel administrators. If you find that this framework is packaged in a 
+ *  software not distributed by gempixel or authorized parties, you must not use this
+ *  sofware and contact gempixel at https://piliruma.co.id/contact to inform them of this
  *  misuse otherwise you risk of being prosecuted in courts.
  * ====================================================================================
  *
  * @package Gem\Error
- * @author Xsantana (http://Xsantana.com)
- * @copyright 2020 Xsantana
- * @license http://Xsantana.com/license
- * @link http://Xsantana.com  
+ * @author gempixel (http://gempixel.com)
+ * @copyright 2020 gempixel
+ * @license http://gempixel.com/license
+ * @link http://gempixel.com  
  * @since 1.0
  */
 
@@ -33,14 +33,14 @@ class GemError {
 
 	/**
 	 * [__construct description]
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 */
 	public function __construct(){
 	}
 	/**
 	 * Enable Logger
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 * @return  [type] [description]
 	 */
@@ -58,7 +58,7 @@ class GemError {
 	}
 	/**
 	 * Log Error
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 * @param   [type] $error [description]
 	 * @param   array  $data  [description]
@@ -78,7 +78,7 @@ class GemError {
 
 	/**
 	 * System error handler
-	 * @author Xsantana <http://Xsantana.com>
+	 * @author gempixel <http://gempixel.com>
 	 * @version 1.0
 	 */
 	public static function exception(int $code, string $message, string $file, int $line){
@@ -90,7 +90,7 @@ class GemError {
 	}
 	/**
 	 * Fatal Error
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 */
 	public static function fatal($message){
@@ -99,7 +99,7 @@ class GemError {
 	}
 	/**
 	 * Channel
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 * @param   [type] $name [description]
 	 * @param   [type] $path [description]
@@ -119,7 +119,7 @@ class GemError {
 	}
 	/**
 	 * Log to channel
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 * @param   [type] $name  [description]
 	 * @param   [type] $error [description]
@@ -132,7 +132,7 @@ class GemError {
 	}
 	/**
 	 * Custom Error
-	 * @author Xsantana <http://Xsantana.com>
+	 * @author gempixel <http://gempixel.com>
 	 * @version 1.0
 	 */
 	public static function trigger($code, $error = "", $uri = null){
@@ -155,7 +155,7 @@ class GemError {
 	}
 	/**
 	 * Error Template
-	 * @author Xsantana <http://Xsantana.com>
+	 * @author gempixel <http://gempixel.com>
 	 * @version 1.0
 	 */
 	public static function template($title, $error){
@@ -197,7 +197,7 @@ class GemError {
 	}
 	/**
 	 *  formattedTemplate description]
-	 * @author Xsantana <http://Xsantana.com>
+	 * @author gempixel <http://gempixel.com>
 	 * @version 1.0
 	 * @param   [type] $title [description]
 	 * @param   [type] $error [description]

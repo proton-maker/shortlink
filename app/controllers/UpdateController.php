@@ -1,17 +1,17 @@
 <?php
 /**
  * =======================================================================================
- *                           GemFramework (c) Xsantana                                     
+ *                           GemFramework (c) gempixel                                     
  * ---------------------------------------------------------------------------------------
  *  This software is packaged with an exclusive framework as such distribution
  *  or modification of this framework is not allowed before prior consent from
- *  Xsantana. If you find that this framework is packaged in a software not distributed 
- *  by Xsantana or authorized parties, you must not use this software and contact Xsantana
+ *  gempixel. If you find that this framework is packaged in a software not distributed 
+ *  by gempixel or authorized parties, you must not use this software and contact gempixel
  *  at https://piliruma.co.id/contact to inform them of this misuse.
  * =======================================================================================
  *
- * @package Xsantana\Premium-URL-Shortener
- * @author Xsantana (https://piliruma.co.id) 
+ * @package gempixel\Premium-URL-Shortener
+ * @author Xsantana
  * @license https://piliruma.co.id/licenses
  * @link https://piliruma.co.id  
  */
@@ -25,7 +25,7 @@ class Update {
     /**
      * Latest Version
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.3
      */
     private $latest = "6.3.1";
@@ -33,7 +33,7 @@ class Update {
     /**
      * Constructor
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      */
     public function __construct(){
@@ -61,7 +61,7 @@ class Update {
     /**
      * Run Updater
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -77,7 +77,7 @@ class Update {
             You are about to upgrade this software from version <strong>".config('version')."</strong> to version <strong>{$this->latest}</strong>. Please note that this will only update your database only. It is strongly recommended that you first backup your database so you can rollback in case you have issues with the current version. 
         </p>
         <p>
-            If your current version is the same as the latest version and you are experiencing issues, you can still run this update to make sure changes are applied correctly. If this does not fix your issue, please contact us by <a href=\"https://support.Xsantana.com/\" target=\"_blank\">opening a ticket</a> and provide us all the necessary information.
+            If your current version is the same as the latest version and you are experiencing issues, you can still run this update to make sure changes are applied correctly. If this does not fix your issue, please contact us by <a href=\"https://support.gempixel.com/\" target=\"_blank\">opening a ticket</a> and provide us all the necessary information.
         </p>        
         
         <p><a href=\"?update=true\" class=\"button\">Upgrade</a></p>";
@@ -87,7 +87,7 @@ class Update {
     /**
      * Header
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -112,8 +112,8 @@ class Update {
                 <p>
                     <a href="https://piliruma.co.id/" target="_blank">Home</a> | 
                     <a href="https://piliruma.co.id/products" target="_blank">Products</a> | 
-                    <a href="https://support.Xsantana.com/" target="_blank">Support</a>
-                    <p>2012-'.date("Y").' &copy; <a href="https://piliruma.co.id" target="_blank">Xsantana</a><br>All Rights Reserved.</p>
+                    <a href="https://support.gempixel.com/" target="_blank">Support</a>
+                    <p>2012-'.date("Y").' &copy; <a href="https://piliruma.co.id" target="_blank">gempixel</a><br>All Rights Reserved.</p>
                 </p>
             </div>
             <div class="right">';        
@@ -121,7 +121,7 @@ class Update {
     /**
      * Footer
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -134,7 +134,7 @@ class Update {
     /**
      * Process Update
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 1.0
      * @return void
      */
@@ -162,7 +162,7 @@ class Update {
     /**
      * Update to 6.3
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.3
      * @return void
      */
@@ -187,7 +187,7 @@ class Update {
     /**
      * Update to 6.X
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 1.0
      * @return void
      */
@@ -372,7 +372,7 @@ class Update {
     /**
      * Update Version to Latest
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -393,7 +393,7 @@ class Update {
     /**
      * FAQs
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -464,7 +464,7 @@ class Update {
     /**
      * Migrate Pixels
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */

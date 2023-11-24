@@ -1,21 +1,21 @@
 <?php 
 /**
  * ====================================================================================
- *                           GemFramework (c) Xsantana
+ *                           GemFramework (c) gempixel
  * ----------------------------------------------------------------------------------
- *  This software is packaged with an exclusive framework owned by Xsantana Inc as such
+ *  This software is packaged with an exclusive framework owned by gempixel Inc as such
  *  distribution or modification of this framework is not allowed before prior consent
- *  from Xsantana administrators. If you find that this framework is packaged in a 
- *  software not distributed by Xsantana or authorized parties, you must not use this
- *  sofware and contact Xsantana at https://piliruma.co.id/contact to inform them of this
+ *  from gempixel administrators. If you find that this framework is packaged in a 
+ *  software not distributed by gempixel or authorized parties, you must not use this
+ *  sofware and contact gempixel at https://piliruma.co.id/contact to inform them of this
  *  misuse otherwise you risk of being prosecuted in courts.
  * ====================================================================================
  *
  * @package Core\DB
- * @author Xsantana (http://Xsantana.com)
- * @copyright 2020 Xsantana
- * @license http://Xsantana.com/license
- * @link http://Xsantana.com  
+ * @author gempixel (http://gempixel.com)
+ * @copyright 2020 gempixel
+ * @license http://gempixel.com/license
+ * @link http://gempixel.com  
  * @since 1.0
  */
 namespace Core;
@@ -49,21 +49,21 @@ final class DB extends ORM {
 	/**
 	 * Has increment
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 1.0
 	 */
 	private $hasincrement = false;
 	/**
 	 * Query mode
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 1.0
 	 */
 	private static $mode = 'insert';
 	/**
 	 * DB class constructor
 	 * 
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 */
 	public function __construct($name = null, $connection_name = null){
@@ -75,7 +75,7 @@ final class DB extends ORM {
 	 * Magic Method to fetch tables
 	 *
 	 * @example  DB::__TABLENAME__()->
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 */
 	public static function __callStatic($name, $connection_name = parent::DEFAULT_CONNECTION){
@@ -87,7 +87,7 @@ final class DB extends ORM {
 	/**
 	 * Boot ORM
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 1.0
 	 * @param array $credential
 	 * @return void
@@ -116,7 +116,7 @@ final class DB extends ORM {
 	/**
 	 * Static method to override __callStatic
 	 * 
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 * @param   [type] $name [description]
 	 */
@@ -128,7 +128,7 @@ final class DB extends ORM {
 	}
 	/**
 	 * Get First Element
-	 * @author Xsantana <https://piliruma.co.id>
+	 * @author gempixel <https://piliruma.co.id>
 	 * @version 1.0
 	 * @param   [type] $id [description]
 	 * @return  [type]     [description]
@@ -138,7 +138,7 @@ final class DB extends ORM {
   }	
   /**
    * FindMany Alias
-   * @author Xsantana <https://piliruma.co.id>
+   * @author gempixel <https://piliruma.co.id>
    * @version 1.0
    * @return  [type]     [description]
    */
@@ -147,7 +147,7 @@ final class DB extends ORM {
   }   
   /**
    * Fetch and Map Data
-   * @author Xsantana <https://piliruma.co.id>
+   * @author gempixel <https://piliruma.co.id>
    * @version 1.0
    * @param   Closure $fn [description]
    * @return  [type]      [description]
@@ -162,7 +162,7 @@ final class DB extends ORM {
   /**
    * Paginate
    *
-   * @author Xsantana <https://piliruma.co.id> 
+   * @author gempixel <https://piliruma.co.id> 
    * @version 1.0
    * @param integer $count
    * @return void
@@ -196,7 +196,7 @@ final class DB extends ORM {
    *   $table->enum("type", ["a", "b", "c"]);
    * });
 	 *	
-   * @author Xsantana <https://piliruma.co.id>
+   * @author gempixel <https://piliruma.co.id>
    * @version 1.0
    * @param   [type]  $table  [description]
    * @param   Closure $scheme [description]
@@ -223,7 +223,7 @@ final class DB extends ORM {
 	} 
   /**
    * DB Engine
-   * @author Xsantana <https://piliruma.co.id>
+   * @author gempixel <https://piliruma.co.id>
    * @version 1.0
    * @param   string $engine [description]
    * @return  [type]         [description]
@@ -233,7 +233,7 @@ final class DB extends ORM {
 	}
   /**
    * Set Charset
-   * @author Xsantana <https://piliruma.co.id>
+   * @author gempixel <https://piliruma.co.id>
    * @version 1.0
    * @param   string $charset [description]
    * @return  [type]          [description]
@@ -243,7 +243,7 @@ final class DB extends ORM {
 	}
   /**
    * Create an increment
-   * @author Xsantana <https://piliruma.co.id>
+   * @author gempixel <https://piliruma.co.id>
    * @version 1.0
    * @param   [type] $name [description]
    * @return  [type]       [description]
@@ -258,7 +258,7 @@ final class DB extends ORM {
 	/**
 	 * Tiny Int
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 1.0
 	 * @param [type] $name
 	 * @param [type] $length
@@ -277,7 +277,7 @@ final class DB extends ORM {
 	/**
 	 * Create Integer
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 1.0
 	 * @param [type] $name
 	 * @param integer $length
@@ -295,7 +295,7 @@ final class DB extends ORM {
 	/**
 	 * Big Int
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 1.0
 	 * @param [type] $name
 	 * @param [type] $length
@@ -314,7 +314,7 @@ final class DB extends ORM {
 	/**
 	 * Create Double
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 1.0
 	 * @param [type] $name
 	 * @param [type] $length
@@ -332,7 +332,7 @@ final class DB extends ORM {
 	}
   /**
    * Create a timestamp
-   * @author Xsantana <https://piliruma.co.id>
+   * @author gempixel <https://piliruma.co.id>
    * @version 1.0
    * @param   [type] $name [description]
    * @return  [type]       [description]
@@ -349,7 +349,7 @@ final class DB extends ORM {
 	/**
 	 * Date Time
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 6.3
 	 * @param string $name
 	 * @param string $default
@@ -366,7 +366,7 @@ final class DB extends ORM {
 	}
   /**
    * Create a string
-   * @author Xsantana <https://piliruma.co.id>
+   * @author gempixel <https://piliruma.co.id>
    * @version 1.0
    * @param   [type]  $name   [description]
    * @param   integer $length [description]
@@ -384,7 +384,7 @@ final class DB extends ORM {
 	}
   /**
    * Create a text
-   * @author Xsantana <https://piliruma.co.id>
+   * @author gempixel <https://piliruma.co.id>
    * @version 1.0
    * @param   [type] $name [description]
    * @return  [type]       [description]
@@ -400,7 +400,7 @@ final class DB extends ORM {
 	}
   /**
    * Generate Enum
-   * @author Xsantana <https://piliruma.co.id>
+   * @author gempixel <https://piliruma.co.id>
    * @version 1.0
    * @param   [type] $name  [description]
    * @param   array  $array [description]
@@ -414,7 +414,7 @@ final class DB extends ORM {
 	}
   /**
    * Create a JSON table
-   * @author Xsantana <https://piliruma.co.id>
+   * @author gempixel <https://piliruma.co.id>
    * @version 1.0
    * @param   [type] $name [description]
    * @return  [type]       [description]
@@ -427,7 +427,7 @@ final class DB extends ORM {
 	/**
 	 * Primary Key
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 1.0
 	 * @return void
 	 */
@@ -436,7 +436,7 @@ final class DB extends ORM {
 	}
   /**
    * Create a unique key
-   * @author Xsantana <https://piliruma.co.id>
+   * @author gempixel <https://piliruma.co.id>
    * @version 1.0
    * @return  [type] [description]
    */
@@ -446,7 +446,7 @@ final class DB extends ORM {
   	}
   /**
    * Create an index
-   * @author Xsantana <https://piliruma.co.id>
+   * @author gempixel <https://piliruma.co.id>
    * @version 1.0
    * @return  [type] [description]
    */
@@ -457,7 +457,7 @@ final class DB extends ORM {
 	/**
 	 * Add Multiple index
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 6.2
 	 * @param string $name
 	 * @param array $column
@@ -481,7 +481,7 @@ final class DB extends ORM {
    	*        $table->drop('column_name2');
     *   });
 	* 
-	* @author Xsantana <https://piliruma.co.id>
+	* @author gempixel <https://piliruma.co.id>
 	* @version 1.0
 	* @param   [type]   $table    [description]
 	* @param   \Closure $commands [description]
@@ -511,7 +511,7 @@ final class DB extends ORM {
   /**
    * Add Column
    *
-   * @author Xsantana <https://piliruma.co.id> 
+   * @author gempixel <https://piliruma.co.id> 
    * @version 1.0
    * @return void
    */
@@ -522,7 +522,7 @@ final class DB extends ORM {
 	/**
 	 * Drop Column
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 1.0
 	 * @return void
 	 */
@@ -533,7 +533,7 @@ final class DB extends ORM {
 	/**
 	 * Drop Index
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 6.2
 	 * @param [type] $name
 	 * @return void
@@ -545,7 +545,7 @@ final class DB extends ORM {
 	/**
 	 * Change Column
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 1.0
 	 * @param [type] $column
 	 * @return void
@@ -558,7 +558,7 @@ final class DB extends ORM {
 	/**
 	 * Destroy Table
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 1.0
 	 * @param [type] $table
 	 * @return void
@@ -580,7 +580,7 @@ final class DB extends ORM {
 	/**
 	 * Truncate Table
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 1.0
 	 * @param [type] $table
 	 * @return void
@@ -602,7 +602,7 @@ final class DB extends ORM {
 	/**
 	 * Check column exists
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 6.0
 	 * @param [type] $table
 	 * @param [type] $column
@@ -621,7 +621,7 @@ final class DB extends ORM {
 	/**
 	 * Has Index
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 6.2
 	 * @param [type] $table
 	 * @param [type] $column
@@ -639,7 +639,7 @@ final class DB extends ORM {
 	/**
 	 * Optimize Tables
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 6.2
 	 * @param [type] $table
 	 * @return void

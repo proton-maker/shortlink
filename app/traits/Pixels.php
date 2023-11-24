@@ -1,17 +1,17 @@
 <?php
 /**
  * =======================================================================================
- *                           GemFramework (c) Xsantana                                     
+ *                           GemFramework (c) gempixel                                     
  * ---------------------------------------------------------------------------------------
  *  This software is packaged with an exclusive framework as such distribution
  *  or modification of this framework is not allowed before prior consent from
- *  Xsantana. If you find that this framework is packaged in a software not distributed 
- *  by Xsantana or authorized parties, you must not use this software and contact Xsantana
+ *  gempixel. If you find that this framework is packaged in a software not distributed 
+ *  by gempixel or authorized parties, you must not use this software and contact gempixel
  *  at https://piliruma.co.id/contact to inform them of this misuse.
  * =======================================================================================
  *
- * @package Xsantana\Premium-URL-Shortener
- * @author Xsantana (https://piliruma.co.id) 
+ * @package gempixel\Premium-URL-Shortener
+ * @author Xsantana
  * @license https://piliruma.co.id/licenses
  * @link https://piliruma.co.id  
  */
@@ -27,7 +27,7 @@ trait Pixels {
     /**
      * Pixels
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.1.8
      * @param [type] $type
      * @param [type] $action
@@ -124,7 +124,7 @@ trait Pixels {
     /**
      * Rule for facebook pixel
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.1.8
      * @return void
      */
@@ -135,7 +135,7 @@ trait Pixels {
     /**
      * Rule for adwords pixel
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.1.8
      * @return void
      */
@@ -146,7 +146,7 @@ trait Pixels {
     /**
      * Rule for linkedin pixel
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.1.8
      * @return void
      */
@@ -157,7 +157,7 @@ trait Pixels {
     /**
      * Rule for twitter pixel
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.1.8
      * @return void
      */
@@ -168,7 +168,7 @@ trait Pixels {
     /**
      * Rule for adroll pixel
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.1.8
      * @return void
      */
@@ -179,7 +179,7 @@ trait Pixels {
     /**
      * Rule for quora pixel
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.1.8
      * @return void
      */
@@ -190,7 +190,7 @@ trait Pixels {
     /**
      * Rule for gtm pixel
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.1.8
      * @return void
      */
@@ -201,7 +201,7 @@ trait Pixels {
     /**
      * Rule for ga pixel
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.1.8
      * @return void
      */
@@ -212,7 +212,7 @@ trait Pixels {
     /**
      * Rule for snapchat pixel
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.1.8
      * @param [type] $tag
      * @return void
@@ -224,7 +224,7 @@ trait Pixels {
     /**
      * Pixel rule
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.1.8
      * @param [type] $tag
      * @return void
@@ -236,7 +236,7 @@ trait Pixels {
     /**
      * Pixel rule
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.1.8
      * @param [type] $tag
      * @return void
@@ -248,7 +248,7 @@ trait Pixels {
     /**
      * Pixel rule
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.1.8
      * @param [type] $tag
      * @return void
@@ -260,7 +260,7 @@ trait Pixels {
     /**
      * Validate Pixel
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.1.8
      * @param [type] $type
      * @param [type] $tag
@@ -279,7 +279,7 @@ trait Pixels {
     /**
      * Display Pixel Code
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.1.8
      * @param [type] $type
      * @param [type] $tag
@@ -296,7 +296,7 @@ trait Pixels {
 
     /**
 	 * Facebook Pixel
-	 * @author KBRmedia <http://Xsantana.com>
+	 * @author KBRmedia <http://gempixel.com>
 	 * @version 6.0
 	 * @param  string $id
 	 */
@@ -307,7 +307,7 @@ trait Pixels {
 	}
 	/**
 	 * Adwords Pixel
-	 * @author KBRmedia <http://Xsantana.com>
+	 * @author KBRmedia <http://gempixel.com>
 	 * @version 1.0
 	 * @param  string $id
 	 */
@@ -320,7 +320,7 @@ trait Pixels {
 	}	
 	/**
 	 * Lnkedin Pixel
-	 * @author KBRmedia <http://Xsantana.com>
+	 * @author KBRmedia <http://gempixel.com>
 	 * @version 6.0
 	 * @param  string $id
 	 */
@@ -331,7 +331,7 @@ trait Pixels {
 	}	
 	/**
 	 * Adroll Pixel
-	 * @author KBRmedia <http://Xsantana.com>
+	 * @author KBRmedia <http://gempixel.com>
 	 * @version 5.1
 	 * @param  string $id
 	 */
@@ -346,7 +346,7 @@ trait Pixels {
 	}
 	/**
 	 * Twitter Pixel
-	 * @author KBRmedia <http://Xsantana.com>
+	 * @author KBRmedia <http://gempixel.com>
 	 * @version 5.1
 	 * @param  string $id
 	 */
@@ -365,7 +365,7 @@ trait Pixels {
     /**
      * Google Tag Manager
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param string $id
      * @return void
@@ -376,7 +376,7 @@ trait Pixels {
     /**
      * Google Analytics
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param [type] $id
      * @return void
@@ -387,7 +387,7 @@ trait Pixels {
     /**
      * Pinterest Pixel
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param [type] $id
      * @return void
@@ -398,7 +398,7 @@ trait Pixels {
     /**
      * Snapchat pixels
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.1.6
      * @param [type] $id
      * @return void
@@ -409,7 +409,7 @@ trait Pixels {
     /**
      * Display pixel for reddit
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.1.8
      * @param [type] $id
      * @return void
@@ -422,7 +422,7 @@ trait Pixels {
     /**
      * Display pixel for bing
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.1.8
      * @param [type] $id
      * @return void

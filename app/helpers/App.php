@@ -1,17 +1,17 @@
 <?php
 /**
  * =======================================================================================
- *                           GemFramework (c) Xsantana                                     
+ *                           GemFramework (c) gempixel                                     
  * ---------------------------------------------------------------------------------------
  *  This software is packaged with an exclusive framework as such distribution
  *  or modification of this framework is not allowed before prior consent from
- *  Xsantana. If you find that this framework is packaged in a software not distributed 
- *  by Xsantana or authorized parties, you must not use this software and contact Xsantana
+ *  gempixel. If you find that this framework is packaged in a software not distributed 
+ *  by gempixel or authorized parties, you must not use this software and contact gempixel
  *  at https://piliruma.co.id/contact to inform them of this misuse.
  * =======================================================================================
  *
- * @package Xsantana\Premium-URL-Shortener
- * @author Xsantana (https://piliruma.co.id) 
+ * @package gempixel\Premium-URL-Shortener
+ * @author Xsantana
  * @license https://piliruma.co.id/licenses
  * @link https://piliruma.co.id  
  */
@@ -26,7 +26,7 @@ final class App {
     /**
      * Custom Pages Link
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -42,7 +42,7 @@ final class App {
     /**
      * Get pricing faqs
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -52,7 +52,7 @@ final class App {
     /**
      * Currency
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param string $code
      * @param string $amount
@@ -68,7 +68,7 @@ final class App {
     /**
      * Return Timezones
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -88,7 +88,7 @@ final class App {
     /**
      * Get List of Languages
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -110,7 +110,7 @@ final class App {
     /**
      * Check if user has an extended license 
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @return boolean
      */
@@ -127,7 +127,7 @@ final class App {
 
         if(!config('purchasecode')) return false;
 
-        $response = \Core\Http::url("https://cdn.Xsantana.com/validator/")
+        $response = \Core\Http::url("https://cdn.gempixel.com/validator/")
                                 ->with('X-Authorization', 'TOKEN '.md5(url()))
                                 ->body(['url' => url(), 'key' => config('purchasecode')])
                                 ->post()
@@ -146,7 +146,7 @@ final class App {
     /**
      * Ad Type
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param [type] $type
      * @param boolean $format
@@ -173,7 +173,7 @@ final class App {
     /**
      * Page Category
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -192,7 +192,7 @@ final class App {
     /**
      * Generate Short Link 
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param [type] $domain
      * @param [type] $alias
@@ -205,7 +205,7 @@ final class App {
     /**
      * Copy Folder
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param [type] $source
      * @param [type] $destination
@@ -229,7 +229,7 @@ final class App {
     /**
      * Delete Folder
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param [type] $target
      * @return void
@@ -252,7 +252,7 @@ final class App {
      */
     public static function newUpdate($version = false){
 
-        $request = \Core\Http::url("https://cdn.Xsantana.com/updater/index.php?p=".md5('shortener'))->get();
+        $request = \Core\Http::url("https://cdn.gempixel.com/updater/index.php?p=".md5('shortener'))->get();
     
         $data = $request->bodyObject();
 
@@ -270,7 +270,7 @@ final class App {
     /**
      * Get Changelog
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -280,7 +280,7 @@ final class App {
     /**
      * Default Plan for admin
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.2.2
      * @return void
      */
@@ -327,7 +327,7 @@ final class App {
     /**
      * Check DNS and make sure both domains have the same IP
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param string $d1
      * @param string $d2
@@ -345,7 +345,7 @@ final class App {
     /**
      * Notifications
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -379,7 +379,7 @@ final class App {
     /**
      * Display Ads
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param mixed $size
      * @return void
@@ -399,7 +399,7 @@ final class App {
     /**
      * Detect bots
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -413,7 +413,7 @@ final class App {
     /**
      * Flag SVG
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param [type] $country
      * @return void
@@ -426,7 +426,7 @@ final class App {
     /**
      * OS SVG
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param [type] $os
      * @return void
@@ -444,7 +444,7 @@ final class App {
     /**
      * Browser SVG
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param [type] $browser
      * @return void
@@ -462,7 +462,7 @@ final class App {
     /**
      * iFrame Policy
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param [type] $url
      * @return void
@@ -485,7 +485,7 @@ final class App {
     /**
      * Get metadata
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param [type] $url
      * @param boolean $checkHeader
@@ -543,7 +543,7 @@ final class App {
     /**
      * Share Buttons
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param [type] $url
      * @param [type] $title
@@ -574,7 +574,7 @@ final class App {
     /**
      * Format Pixel Name
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param [type] $name
      * @return void
@@ -591,7 +591,7 @@ final class App {
     /**
      * Theme Configuration Shortcut
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param [type] $key
      * @param [type] $value
@@ -610,7 +610,7 @@ final class App {
     /**
      * Method Color
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param [type] $method
      * @return void
@@ -628,7 +628,7 @@ final class App {
     /**
      * Get user history
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -649,7 +649,7 @@ final class App {
     /**
      * Langs
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -657,7 +657,7 @@ final class App {
     
         $langs = \Core\Localization::listInfo();
 
-        $langs[] = ['name' => 'English', 'author' => 'Xsantana', 'code' => 'en'];
+        $langs[] = ['name' => 'English', 'author' => 'gempixel', 'code' => 'en'];
 
         if(count($langs) == 1) return null;
 
@@ -668,7 +668,7 @@ final class App {
     /**
      * All available domains
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -699,7 +699,7 @@ final class App {
     /**
      * Redirect Types
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -736,7 +736,7 @@ final class App {
     /**
      * Get States
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @param string $name
      * @return void
@@ -759,7 +759,7 @@ final class App {
     /**
      * Check Encryption
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.0
      * @return void
      */
@@ -790,7 +790,7 @@ final class App {
     /**
      * Extract RSS
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.2
      * @param [type] $url
      * @return void
@@ -819,12 +819,12 @@ final class App {
     /**
      * Get License Information
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 6.2.1
      * @return void
      */
     public static function license(){
-        return \Core\Http::url("https://cdn.Xsantana.com/verify/?detailed=true")
+        return \Core\Http::url("https://cdn.gempixel.com/verify/?detailed=true")
                             ->with('X-Authorization', 'TOKEN '.trim(config('purchasecode')))
                             ->body(['url' => url(), 'key' => trim(config('purchasecode'))])
                             ->post()

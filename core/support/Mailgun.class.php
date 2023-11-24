@@ -1,21 +1,21 @@
 <?php 
 /**
  * ====================================================================================
- *                           GemFramework (c) Xsantana
+ *                           GemFramework (c) gempixel
  * ----------------------------------------------------------------------------------
- *  This software is packaged with an exclusive framework owned by Xsantana Inc as such
+ *  This software is packaged with an exclusive framework owned by gempixel Inc as such
  *  distribution or modification of this framework is not allowed before prior consent
- *  from Xsantana administrators. If you find that this framework is packaged in a 
- *  software not distributed by Xsantana or authorized parties, you must not use this
- *  software and contact Xsantana at https://piliruma.co.id/contact to inform them of this
+ *  from gempixel administrators. If you find that this framework is packaged in a 
+ *  software not distributed by gempixel or authorized parties, you must not use this
+ *  software and contact gempixel at https://piliruma.co.id/contact to inform them of this
  *  misuse otherwise you risk of being prosecuted in courts.
  * ====================================================================================
  *
  * @package Gem\Core\Email
- * @author Xsantana (http://Xsantana.com)
- * @copyright 2020 Xsantana
- * @license http://Xsantana.com/license
- * @link http://Xsantana.com  
+ * @author gempixel (http://gempixel.com)
+ * @copyright 2020 gempixel
+ * @license http://gempixel.com/license
+ * @link http://gempixel.com  
  * @since 1.0
  */
 namespace Core\Support;
@@ -29,14 +29,14 @@ final class Mailgun {
     /**
      * Sending Domain
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 1.0
      */
     private $domain = null;
     /**
      * Private Key
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 1.0
      */
     private $key = null;    
@@ -44,7 +44,7 @@ final class Mailgun {
     /**
      * Data
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 1.0
      */
     private $data = ['to' => '', 'from' => ''];
@@ -52,7 +52,7 @@ final class Mailgun {
     /**
      * Send as Mailgun
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id> 
      * @version 1.0
      * @param string $domain
      * @param string $key
@@ -76,7 +76,7 @@ final class Mailgun {
 	/**
 	 * To user
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 1.0
 	 * @param mixed $user
 	 * @return void
@@ -92,7 +92,7 @@ final class Mailgun {
 	/**
 	 * Sender information
 	 *
-	 * @author Xsantana <https://piliruma.co.id> 
+	 * @author gempixel <https://piliruma.co.id> 
 	 * @version 1.0
 	 * @param mixed $sender
 	 * @return void
@@ -108,7 +108,7 @@ final class Mailgun {
    /**
     * Send as Mailgun
     *
-    * @author Xsantana <https://piliruma.co.id> 
+    * @author gempixel <https://piliruma.co.id> 
     * @version 1.0
     * @param array $data
     * @return void

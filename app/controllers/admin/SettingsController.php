@@ -1,19 +1,19 @@
 <?php
 /**
  * =======================================================================================
- *                           GemFramework (c) Xsantana                                     
+ *                           GemFramework (c) gempixel
  * ---------------------------------------------------------------------------------------
  *  This software is packaged with an exclusive framework as such distribution
  *  or modification of this framework is not allowed before prior consent from
- *  Xsantana. If you find that this framework is packaged in a software not distributed 
- *  by Xsantana or authorized parties, you must not use this software and contact Xsantana
+ *  gempixel. If you find that this framework is packaged in a software not distributed
+ *  by gempixel or authorized parties, you must not use this software and contact gempixel
  *  at https://piliruma.co.id/contact to inform them of this misuse.
  * =======================================================================================
  *
- * @package Xsantana\Premium-URL-Shortener
- * @author Xsantana (https://piliruma.co.id) 
+ * @package gempixel\Premium-URL-Shortener
+ * @author gempixel (https://piliruma.co.id)
  * @license https://piliruma.co.id/licenses
- * @link https://piliruma.co.id  
+ * @link https://piliruma.co.id
  */
 
 namespace Admin;
@@ -25,26 +25,26 @@ use Core\Helper;
 use Helpers\App;
 
 class Settings {
-    
+
     use \Traits\Payments;
 
     /**
      * Settings Store
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id>
      * @version 6.0
      * @return void
      */
     public function index(){
         $timezones = App::timezone();
-        
+
         View::set('title', e('Settings').' - Admin');
 
         \Helpers\CDN::load('simpleeditor');
 
         View::push("<script>
                         CKEDITOR.replace('news');
-                    </script>", "custom")->toFooter();        
+                    </script>", "custom")->toFooter();
 
         return View::with('admin.settings.index', compact('timezones'))->extend('admin.layouts.main');
     }
@@ -52,7 +52,7 @@ class Settings {
     /**
      * Dynamic Settings
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id>
      * @version 6.0
      * @param string $config
      * @return void
@@ -69,7 +69,7 @@ class Settings {
 
         View::set('title', ucfirst($config).' '.e('Settings').' - Admin');
 
-        View::push(assets('frontend/libs/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js'), 'js')->toFooter();    
+        View::push(assets('frontend/libs/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js'), 'js')->toFooter();
 
         $paypal = null;
 
@@ -80,21 +80,21 @@ class Settings {
                 $processors[$id] = $processor;
             }
         }
-    
+
         return View::with('admin.settings.'.$config, compact('paypal', 'processors'))->extend('admin.layouts.main');
     }
     /**
      * Save Config
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id>
      * @version 6.0
      * @param Request $request
      * @return void
      */
     public function store(Request $request){
-        
+
         \Gem::addMiddleware('DemoProtect');
-        
+
         if(!is_null($request->root_domain) && $request->root_domain == "0" && !$request->domain_names){
             return Helper::redirect()->back()->with('danger', 'You cannot disable the root domain shortening if you don\'t have a secondary domain enabled.');
         }
@@ -134,7 +134,7 @@ class Settings {
                 $setting->var = is_array($value) ? json_encode($value) : trim($value);
                 $setting->save();
             }
-        }        
+        }
 
         foreach($this->processor() as $name => $processor){
             if(!$request->{$name} || !$request->{$name}['enabled'] || !$processor['save']) continue;
@@ -146,24 +146,24 @@ class Settings {
     /**
      * Verify License
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id>
      * @version 6.0
      * @param \Core\Request $request
      * @return void
      */
     public function verify(Request $request){
-    
+
         $key = clean($request->purchasecode);
 
-        $response = \Core\Http::url("https://cdn.Xsantana.com/validator/")
+        $response = \Core\Http::url("https://cdn.gempixel.com/validator/")
                             ->with('X-Authorization', 'TOKEN '.md5(url()))
                             ->body(['url' => url(), 'key' => $key])
                             ->post()
                             ->getBody();
 
         if(!$response || empty($response) || $response == "Failed"){
-            
-            return back()->with("danger", "This purchase code is not valid. It is either for another item or has been disabled."); 
+
+            return back()->with("danger", "This purchase code is not valid. It is either for another item or has been disabled.");
 
         }elseif($response == "TooMany"){
 
@@ -178,7 +178,7 @@ class Settings {
             return back()->with("danger", "This purchase code is for a standard license. Please use a Premium URL Shortener extended license purchase code.");
 
         } else {
-        
+
             $setting = DB::settings()->where('config', 'purchasecode')->first();
             $setting->var = $key;
             $setting->save();
@@ -189,7 +189,7 @@ class Settings {
     /**
      * Seelfdb:code
      *
-     * @author Xsantana <https://piliruma.co.id> 
+     * @author gempixel <https://piliruma.co.id>
      * @version 6.0
      * @return void
      */
@@ -203,7 +203,7 @@ class Settings {
             return Gem::trigger(500, 'Task failed.');
           }
         }
-        
+
         return back()->with('success', base64_decode('RXh0ZW5kZWQgdmVyc2lvbiBoYXMgYmVlbiBzdWNjZXNzZnVsbHkgdW5sb2NrZWQuIFlvdSBtYXkgbm93IHVzZSBwYXltZW50IG1vZHVsZXMgYW5kIHN1YnNjcmlwdGlvbnMu'));
     }
 }
