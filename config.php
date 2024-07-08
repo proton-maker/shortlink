@@ -20,9 +20,9 @@
   
   // Database Configuration
   define('DBhost', 'localhost');      // Your mySQL Host (usually Localhost)
-  define('DBname', 'shortener');         // The database name where the data will be stored
-  define('DBuser', 'root');         // Your mySQL username
-  define('DBpassword','');        //  Your mySQL Password 
+  define('DBname', 'pili1335_sholirti');         // The database name where the data will be stored
+  define('DBuser', 'pili1335_sholirti');         // Your mySQL username
+  define('DBpassword','=RdJrEu5a;pu');        //  Your mySQL Password 
   define('DBprefix', '');         // Prefix for your tables if you are using same db for multiple scripts
 
   define('DBport', 3306);
